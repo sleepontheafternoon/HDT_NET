@@ -1,0 +1,350 @@
+2023-02-24 15:36:37 ===> --------------------------------------This is all argsurations----------------------------------
+2023-02-24 15:36:37 ===> user=cyx
+2023-02-24 15:36:37 ===> experiment=My_Net_
+2023-02-24 15:36:37 ===> date=2023-02-24
+2023-02-24 15:36:37 ===> description=HDT_net,training on train.txt!
+2023-02-24 15:36:37 ===> root=/home/cyx/Datasets/BraData/
+2023-02-24 15:36:37 ===> train_dir=Train
+2023-02-24 15:36:37 ===> valid_dir=Train
+2023-02-24 15:36:37 ===> test_dir=Val
+2023-02-24 15:36:37 ===> mode=train
+2023-02-24 15:36:37 ===> train_file=IDH_train_1.txt
+2023-02-24 15:36:37 ===> valid_file=IDH_valid_1.txt
+2023-02-24 15:36:37 ===> test_file=IDH_test.txt
+2023-02-24 15:36:37 ===> dataset=brats_IDH
+2023-02-24 15:36:37 ===> model_name=HDT_Net
+2023-02-24 15:36:37 ===> input_C=4
+2023-02-24 15:36:37 ===> input_H=240
+2023-02-24 15:36:37 ===> input_W=240
+2023-02-24 15:36:37 ===> input_D=155
+2023-02-24 15:36:37 ===> crop_H=128
+2023-02-24 15:36:37 ===> crop_W=128
+2023-02-24 15:36:37 ===> crop_D=128
+2023-02-24 15:36:37 ===> output_D=155
+2023-02-24 15:36:37 ===> lr=0.0002
+2023-02-24 15:36:37 ===> weight_decay=1e-05
+2023-02-24 15:36:37 ===> amsgrad=True
+2023-02-24 15:36:37 ===> criterion=softmax_dice
+2023-02-24 15:36:37 ===> num_class=4
+2023-02-24 15:36:37 ===> seed=1234
+2023-02-24 15:36:37 ===> no_cuda=False
+2023-02-24 15:36:37 ===> gpu=1,2
+2023-02-24 15:36:37 ===> num_workers=8
+2023-02-24 15:36:37 ===> batch_size=4
+2023-02-24 15:36:37 ===> start_epoch=0
+2023-02-24 15:36:37 ===> end_epoch=400
+2023-02-24 15:36:37 ===> save_freq=200
+2023-02-24 15:36:37 ===> resume=
+2023-02-24 15:36:37 ===> load=True
+2023-02-24 15:36:37 ===> local_rank=0
+2023-02-24 15:36:37 ===> ----------------------------------------This is a halving line----------------------------------
+2023-02-24 15:36:37 ===> HDT_net,training on train.txt!
+2023-02-24 15:36:37 ===> Added key: store_based_barrier_key:1 to store for rank: 0
+2023-02-24 15:36:37 ===> Rank 0: Completed store-based barrier for key:store_based_barrier_key:1 with 2 nodes.
+2023-02-24 15:43:48 ===> --------------------------------------This is all argsurations----------------------------------
+2023-02-24 15:43:48 ===> user=cyx
+2023-02-24 15:43:48 ===> experiment=My_Net_
+2023-02-24 15:43:48 ===> date=2023-02-24
+2023-02-24 15:43:48 ===> description=HDT_net,training on train.txt!
+2023-02-24 15:43:48 ===> root=/home/cyx/Datasets/BraData/
+2023-02-24 15:43:48 ===> train_dir=Train
+2023-02-24 15:43:48 ===> valid_dir=Train
+2023-02-24 15:43:48 ===> test_dir=Val
+2023-02-24 15:43:48 ===> mode=train
+2023-02-24 15:43:48 ===> train_file=IDH_train_1.txt
+2023-02-24 15:43:48 ===> valid_file=IDH_valid_1.txt
+2023-02-24 15:43:48 ===> test_file=IDH_test.txt
+2023-02-24 15:43:48 ===> dataset=brats_IDH
+2023-02-24 15:43:48 ===> model_name=HDT_Net
+2023-02-24 15:43:48 ===> input_C=4
+2023-02-24 15:43:48 ===> input_H=240
+2023-02-24 15:43:48 ===> input_W=240
+2023-02-24 15:43:48 ===> input_D=155
+2023-02-24 15:43:48 ===> crop_H=128
+2023-02-24 15:43:48 ===> crop_W=128
+2023-02-24 15:43:48 ===> crop_D=128
+2023-02-24 15:43:48 ===> output_D=155
+2023-02-24 15:43:48 ===> lr=0.0002
+2023-02-24 15:43:48 ===> weight_decay=1e-05
+2023-02-24 15:43:48 ===> amsgrad=True
+2023-02-24 15:43:48 ===> criterion=softmax_dice
+2023-02-24 15:43:48 ===> num_class=4
+2023-02-24 15:43:48 ===> seed=1234
+2023-02-24 15:43:48 ===> no_cuda=False
+2023-02-24 15:43:48 ===> gpu=1,2
+2023-02-24 15:43:48 ===> num_workers=8
+2023-02-24 15:43:48 ===> batch_size=4
+2023-02-24 15:43:48 ===> start_epoch=0
+2023-02-24 15:43:48 ===> end_epoch=400
+2023-02-24 15:43:48 ===> save_freq=200
+2023-02-24 15:43:48 ===> resume=
+2023-02-24 15:43:48 ===> load=True
+2023-02-24 15:43:48 ===> local_rank=0
+2023-02-24 15:43:48 ===> ----------------------------------------This is a halving line----------------------------------
+2023-02-24 15:43:48 ===> HDT_net,training on train.txt!
+2023-02-24 15:43:48 ===> Added key: store_based_barrier_key:1 to store for rank: 0
+2023-02-24 15:43:48 ===> Rank 0: Completed store-based barrier for key:store_based_barrier_key:1 with 2 nodes.
+2023-02-24 15:53:14 ===> --------------------------------------This is all argsurations----------------------------------
+2023-02-24 15:53:14 ===> user=cyx
+2023-02-24 15:53:14 ===> experiment=My_Net_
+2023-02-24 15:53:14 ===> date=2023-02-24
+2023-02-24 15:53:14 ===> description=HDT_net,training on train.txt!
+2023-02-24 15:53:14 ===> root=/home/cyx/Datasets/BraData/
+2023-02-24 15:53:14 ===> train_dir=Train
+2023-02-24 15:53:14 ===> valid_dir=Train
+2023-02-24 15:53:14 ===> test_dir=Val
+2023-02-24 15:53:14 ===> mode=train
+2023-02-24 15:53:14 ===> train_file=IDH_train_1.txt
+2023-02-24 15:53:14 ===> valid_file=IDH_valid_1.txt
+2023-02-24 15:53:14 ===> test_file=IDH_test.txt
+2023-02-24 15:53:14 ===> dataset=brats_IDH
+2023-02-24 15:53:14 ===> model_name=HDT_Net
+2023-02-24 15:53:14 ===> input_C=4
+2023-02-24 15:53:14 ===> input_H=240
+2023-02-24 15:53:14 ===> input_W=240
+2023-02-24 15:53:14 ===> input_D=155
+2023-02-24 15:53:14 ===> crop_H=128
+2023-02-24 15:53:14 ===> crop_W=128
+2023-02-24 15:53:14 ===> crop_D=128
+2023-02-24 15:53:14 ===> output_D=155
+2023-02-24 15:53:14 ===> lr=0.0002
+2023-02-24 15:53:14 ===> weight_decay=1e-05
+2023-02-24 15:53:14 ===> amsgrad=True
+2023-02-24 15:53:14 ===> criterion=softmax_dice
+2023-02-24 15:53:14 ===> num_class=4
+2023-02-24 15:53:14 ===> seed=1234
+2023-02-24 15:53:14 ===> no_cuda=False
+2023-02-24 15:53:14 ===> gpu=1,2
+2023-02-24 15:53:14 ===> num_workers=8
+2023-02-24 15:53:14 ===> batch_size=4
+2023-02-24 15:53:14 ===> start_epoch=0
+2023-02-24 15:53:14 ===> end_epoch=400
+2023-02-24 15:53:14 ===> save_freq=200
+2023-02-24 15:53:14 ===> resume=
+2023-02-24 15:53:14 ===> load=True
+2023-02-24 15:53:14 ===> local_rank=0
+2023-02-24 15:53:14 ===> ----------------------------------------This is a halving line----------------------------------
+2023-02-24 15:53:14 ===> HDT_net,training on train.txt!
+2023-02-24 15:53:14 ===> Added key: store_based_barrier_key:1 to store for rank: 0
+2023-02-24 15:53:14 ===> Rank 0: Completed store-based barrier for key:store_based_barrier_key:1 with 2 nodes.
+2023-02-24 15:57:51 ===> --------------------------------------This is all argsurations----------------------------------
+2023-02-24 15:57:51 ===> user=cyx
+2023-02-24 15:57:51 ===> experiment=My_Net_
+2023-02-24 15:57:51 ===> date=2023-02-24
+2023-02-24 15:57:51 ===> description=HDT_net,training on train.txt!
+2023-02-24 15:57:51 ===> root=/home/cyx/Datasets/BraData/
+2023-02-24 15:57:51 ===> train_dir=Train
+2023-02-24 15:57:51 ===> valid_dir=Train
+2023-02-24 15:57:51 ===> test_dir=Val
+2023-02-24 15:57:51 ===> mode=train
+2023-02-24 15:57:51 ===> train_file=IDH_train_1.txt
+2023-02-24 15:57:51 ===> valid_file=IDH_valid_1.txt
+2023-02-24 15:57:51 ===> test_file=IDH_test.txt
+2023-02-24 15:57:51 ===> dataset=brats_IDH
+2023-02-24 15:57:51 ===> model_name=HDT_Net
+2023-02-24 15:57:51 ===> input_C=4
+2023-02-24 15:57:51 ===> input_H=240
+2023-02-24 15:57:51 ===> input_W=240
+2023-02-24 15:57:51 ===> input_D=155
+2023-02-24 15:57:51 ===> crop_H=128
+2023-02-24 15:57:51 ===> crop_W=128
+2023-02-24 15:57:51 ===> crop_D=128
+2023-02-24 15:57:51 ===> output_D=155
+2023-02-24 15:57:51 ===> lr=0.0002
+2023-02-24 15:57:51 ===> weight_decay=1e-05
+2023-02-24 15:57:51 ===> amsgrad=True
+2023-02-24 15:57:51 ===> criterion=softmax_dice
+2023-02-24 15:57:51 ===> num_class=4
+2023-02-24 15:57:51 ===> seed=1234
+2023-02-24 15:57:51 ===> no_cuda=False
+2023-02-24 15:57:51 ===> gpu=1,2
+2023-02-24 15:57:51 ===> num_workers=8
+2023-02-24 15:57:51 ===> batch_size=4
+2023-02-24 15:57:51 ===> start_epoch=0
+2023-02-24 15:57:51 ===> end_epoch=400
+2023-02-24 15:57:51 ===> save_freq=200
+2023-02-24 15:57:51 ===> resume=
+2023-02-24 15:57:51 ===> load=True
+2023-02-24 15:57:51 ===> local_rank=0
+2023-02-24 15:57:51 ===> ----------------------------------------This is a halving line----------------------------------
+2023-02-24 15:57:51 ===> HDT_net,training on train.txt!
+2023-02-24 15:57:51 ===> Added key: store_based_barrier_key:1 to store for rank: 0
+2023-02-24 15:57:51 ===> Rank 0: Completed store-based barrier for key:store_based_barrier_key:1 with 2 nodes.
+2023-02-24 16:01:01 ===> --------------------------------------This is all argsurations----------------------------------
+2023-02-24 16:01:01 ===> user=cyx
+2023-02-24 16:01:01 ===> experiment=My_Net_
+2023-02-24 16:01:01 ===> date=2023-02-24
+2023-02-24 16:01:01 ===> description=HDT_net,training on train.txt!
+2023-02-24 16:01:01 ===> root=/home/cyx/Datasets/BraData/
+2023-02-24 16:01:01 ===> train_dir=Train
+2023-02-24 16:01:01 ===> valid_dir=Train
+2023-02-24 16:01:01 ===> test_dir=Val
+2023-02-24 16:01:01 ===> mode=train
+2023-02-24 16:01:01 ===> train_file=IDH_train_1.txt
+2023-02-24 16:01:01 ===> valid_file=IDH_valid_1.txt
+2023-02-24 16:01:01 ===> test_file=IDH_test.txt
+2023-02-24 16:01:01 ===> dataset=brats_IDH
+2023-02-24 16:01:01 ===> model_name=HDT_Net
+2023-02-24 16:01:01 ===> input_C=4
+2023-02-24 16:01:01 ===> input_H=240
+2023-02-24 16:01:01 ===> input_W=240
+2023-02-24 16:01:01 ===> input_D=155
+2023-02-24 16:01:01 ===> crop_H=128
+2023-02-24 16:01:01 ===> crop_W=128
+2023-02-24 16:01:01 ===> crop_D=128
+2023-02-24 16:01:01 ===> output_D=155
+2023-02-24 16:01:01 ===> lr=0.0002
+2023-02-24 16:01:01 ===> weight_decay=1e-05
+2023-02-24 16:01:01 ===> amsgrad=True
+2023-02-24 16:01:01 ===> criterion=softmax_dice
+2023-02-24 16:01:01 ===> num_class=4
+2023-02-24 16:01:01 ===> seed=1234
+2023-02-24 16:01:01 ===> no_cuda=False
+2023-02-24 16:01:01 ===> gpu=1,2
+2023-02-24 16:01:01 ===> num_workers=8
+2023-02-24 16:01:01 ===> batch_size=4
+2023-02-24 16:01:01 ===> start_epoch=0
+2023-02-24 16:01:01 ===> end_epoch=400
+2023-02-24 16:01:01 ===> save_freq=200
+2023-02-24 16:01:01 ===> resume=
+2023-02-24 16:01:01 ===> load=True
+2023-02-24 16:01:01 ===> local_rank=0
+2023-02-24 16:01:01 ===> ----------------------------------------This is a halving line----------------------------------
+2023-02-24 16:01:01 ===> HDT_net,training on train.txt!
+2023-02-24 16:01:01 ===> Added key: store_based_barrier_key:1 to store for rank: 0
+2023-02-24 16:01:01 ===> Rank 0: Completed store-based barrier for key:store_based_barrier_key:1 with 2 nodes.
+2023-02-24 16:07:16 ===> --------------------------------------This is all argsurations----------------------------------
+2023-02-24 16:07:16 ===> user=cyx
+2023-02-24 16:07:16 ===> experiment=My_Net_
+2023-02-24 16:07:16 ===> date=2023-02-24
+2023-02-24 16:07:16 ===> description=HDT_net,training on train.txt!
+2023-02-24 16:07:16 ===> root=/home/cyx/Datasets/BraData/
+2023-02-24 16:07:16 ===> train_dir=Train
+2023-02-24 16:07:16 ===> valid_dir=Train
+2023-02-24 16:07:16 ===> test_dir=Val
+2023-02-24 16:07:16 ===> mode=train
+2023-02-24 16:07:16 ===> train_file=IDH_train_1.txt
+2023-02-24 16:07:16 ===> valid_file=IDH_valid_1.txt
+2023-02-24 16:07:16 ===> test_file=IDH_test.txt
+2023-02-24 16:07:16 ===> dataset=brats_IDH
+2023-02-24 16:07:16 ===> model_name=HDT_Net
+2023-02-24 16:07:16 ===> input_C=4
+2023-02-24 16:07:16 ===> input_H=240
+2023-02-24 16:07:16 ===> input_W=240
+2023-02-24 16:07:16 ===> input_D=155
+2023-02-24 16:07:16 ===> crop_H=128
+2023-02-24 16:07:16 ===> crop_W=128
+2023-02-24 16:07:16 ===> crop_D=128
+2023-02-24 16:07:16 ===> output_D=155
+2023-02-24 16:07:16 ===> lr=0.0002
+2023-02-24 16:07:16 ===> weight_decay=1e-05
+2023-02-24 16:07:16 ===> amsgrad=True
+2023-02-24 16:07:16 ===> criterion=softmax_dice
+2023-02-24 16:07:16 ===> num_class=4
+2023-02-24 16:07:16 ===> seed=1234
+2023-02-24 16:07:16 ===> no_cuda=False
+2023-02-24 16:07:16 ===> gpu=1,2
+2023-02-24 16:07:16 ===> num_workers=8
+2023-02-24 16:07:16 ===> batch_size=4
+2023-02-24 16:07:16 ===> start_epoch=0
+2023-02-24 16:07:16 ===> end_epoch=400
+2023-02-24 16:07:16 ===> save_freq=200
+2023-02-24 16:07:16 ===> resume=
+2023-02-24 16:07:16 ===> load=True
+2023-02-24 16:07:16 ===> local_rank=0
+2023-02-24 16:07:16 ===> ----------------------------------------This is a halving line----------------------------------
+2023-02-24 16:07:16 ===> HDT_net,training on train.txt!
+2023-02-24 16:07:16 ===> Added key: store_based_barrier_key:1 to store for rank: 0
+2023-02-24 16:07:16 ===> Rank 0: Completed store-based barrier for key:store_based_barrier_key:1 with 2 nodes.
+2023-02-24 21:24:33 ===> --------------------------------------This is all argsurations----------------------------------
+2023-02-24 21:24:33 ===> user=cyx
+2023-02-24 21:24:33 ===> experiment=My_Net_
+2023-02-24 21:24:33 ===> date=2023-02-24
+2023-02-24 21:24:33 ===> description=HDT_net,training on train.txt!
+2023-02-24 21:24:33 ===> root=/home/cyx/Datasets/BraData/
+2023-02-24 21:24:33 ===> train_dir=Train
+2023-02-24 21:24:33 ===> valid_dir=Train
+2023-02-24 21:24:33 ===> test_dir=Val
+2023-02-24 21:24:33 ===> mode=train
+2023-02-24 21:24:33 ===> train_file=IDH_train_1.txt
+2023-02-24 21:24:33 ===> valid_file=IDH_valid_1.txt
+2023-02-24 21:24:33 ===> test_file=IDH_test.txt
+2023-02-24 21:24:33 ===> dataset=brats_IDH
+2023-02-24 21:24:33 ===> model_name=HDT_Net
+2023-02-24 21:24:33 ===> input_C=4
+2023-02-24 21:24:33 ===> input_H=240
+2023-02-24 21:24:33 ===> input_W=240
+2023-02-24 21:24:33 ===> input_D=155
+2023-02-24 21:24:33 ===> crop_H=128
+2023-02-24 21:24:33 ===> crop_W=128
+2023-02-24 21:24:33 ===> crop_D=128
+2023-02-24 21:24:33 ===> output_D=155
+2023-02-24 21:24:33 ===> lr=0.0002
+2023-02-24 21:24:33 ===> weight_decay=1e-05
+2023-02-24 21:24:33 ===> amsgrad=True
+2023-02-24 21:24:33 ===> criterion=softmax_dice
+2023-02-24 21:24:33 ===> num_class=4
+2023-02-24 21:24:33 ===> seed=1234
+2023-02-24 21:24:33 ===> no_cuda=False
+2023-02-24 21:24:33 ===> gpu=2
+2023-02-24 21:24:33 ===> num_workers=8
+2023-02-24 21:24:33 ===> batch_size=4
+2023-02-24 21:24:33 ===> start_epoch=0
+2023-02-24 21:24:33 ===> end_epoch=400
+2023-02-24 21:24:33 ===> save_freq=200
+2023-02-24 21:24:33 ===> resume=
+2023-02-24 21:24:33 ===> load=True
+2023-02-24 21:24:33 ===> local_rank=0
+2023-02-24 21:24:33 ===> ----------------------------------------This is a halving line----------------------------------
+2023-02-24 21:24:33 ===> HDT_net,training on train.txt!
+2023-02-24 21:24:33 ===> Added key: store_based_barrier_key:1 to store for rank: 0
+2023-02-24 21:24:33 ===> Rank 0: Completed store-based barrier for key:store_based_barrier_key:1 with 1 nodes.
+2023-02-24 21:24:34 ===> re-training!!!
+2023-02-24 21:24:34 ===> Samples for train = 118
+2023-02-24 21:24:34 ===> Samples for valid = 30
+2023-02-24 21:25:58 ===> --------------------------------------This is all argsurations----------------------------------
+2023-02-24 21:25:58 ===> user=cyx
+2023-02-24 21:25:58 ===> experiment=My_Net_
+2023-02-24 21:25:58 ===> date=2023-02-24
+2023-02-24 21:25:58 ===> description=HDT_net,training on train.txt!
+2023-02-24 21:25:58 ===> root=/home/cyx/Datasets/BraData/
+2023-02-24 21:25:58 ===> train_dir=Train
+2023-02-24 21:25:58 ===> valid_dir=Train
+2023-02-24 21:25:58 ===> test_dir=Val
+2023-02-24 21:25:58 ===> mode=train
+2023-02-24 21:25:58 ===> train_file=IDH_train_1.txt
+2023-02-24 21:25:58 ===> valid_file=IDH_valid_1.txt
+2023-02-24 21:25:58 ===> test_file=IDH_test.txt
+2023-02-24 21:25:58 ===> dataset=brats_IDH
+2023-02-24 21:25:58 ===> model_name=HDT_Net
+2023-02-24 21:25:58 ===> input_C=4
+2023-02-24 21:25:58 ===> input_H=240
+2023-02-24 21:25:58 ===> input_W=240
+2023-02-24 21:25:58 ===> input_D=155
+2023-02-24 21:25:58 ===> crop_H=128
+2023-02-24 21:25:58 ===> crop_W=128
+2023-02-24 21:25:58 ===> crop_D=128
+2023-02-24 21:25:58 ===> output_D=155
+2023-02-24 21:25:58 ===> lr=0.0002
+2023-02-24 21:25:58 ===> weight_decay=1e-05
+2023-02-24 21:25:58 ===> amsgrad=True
+2023-02-24 21:25:58 ===> criterion=softmax_dice
+2023-02-24 21:25:58 ===> num_class=4
+2023-02-24 21:25:58 ===> seed=1234
+2023-02-24 21:25:58 ===> no_cuda=False
+2023-02-24 21:25:58 ===> gpu=2
+2023-02-24 21:25:58 ===> num_workers=8
+2023-02-24 21:25:58 ===> batch_size=4
+2023-02-24 21:25:58 ===> start_epoch=0
+2023-02-24 21:25:58 ===> end_epoch=400
+2023-02-24 21:25:58 ===> save_freq=200
+2023-02-24 21:25:58 ===> resume=
+2023-02-24 21:25:58 ===> load=True
+2023-02-24 21:25:58 ===> local_rank=0
+2023-02-24 21:25:58 ===> ----------------------------------------This is a halving line----------------------------------
+2023-02-24 21:25:58 ===> HDT_net,training on train.txt!
+2023-02-24 21:25:58 ===> Added key: store_based_barrier_key:1 to store for rank: 0
+2023-02-24 21:25:58 ===> Rank 0: Completed store-based barrier for key:store_based_barrier_key:1 with 1 nodes.
+2023-02-24 21:25:59 ===> re-training!!!
+2023-02-24 21:25:59 ===> Samples for train = 118
+2023-02-24 21:25:59 ===> Samples for valid = 30

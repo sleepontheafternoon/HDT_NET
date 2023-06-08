@@ -1,0 +1,2983 @@
+2023-04-29 13:46:44 ===> --------------------------------------This is all argsurations----------------------------------
+2023-04-29 13:46:44 ===> user=cyx
+2023-04-29 13:46:44 ===> experiment=My_Net_plus
+2023-04-29 13:46:44 ===> date=2023-04-29
+2023-04-29 13:46:44 ===> description=HDT_net,training on train.txt!
+2023-04-29 13:46:44 ===> root=/home/cyx/Datasets/BraData/
+2023-04-29 13:46:44 ===> train_dir=Train
+2023-04-29 13:46:44 ===> valid_dir=Train
+2023-04-29 13:46:44 ===> test_dir=Val
+2023-04-29 13:46:44 ===> mode=train
+2023-04-29 13:46:44 ===> train_file=IDH_train_1.txt
+2023-04-29 13:46:44 ===> valid_file=IDH_valid_1.txt
+2023-04-29 13:46:44 ===> test_file=IDH_test.txt
+2023-04-29 13:46:44 ===> dataset=brats_IDH
+2023-04-29 13:46:44 ===> model_name=HDT_Net_In_Out
+2023-04-29 13:46:44 ===> input_C=4
+2023-04-29 13:46:44 ===> input_H=240
+2023-04-29 13:46:44 ===> input_W=240
+2023-04-29 13:46:44 ===> input_D=155
+2023-04-29 13:46:44 ===> crop_H=128
+2023-04-29 13:46:44 ===> crop_W=128
+2023-04-29 13:46:44 ===> crop_D=128
+2023-04-29 13:46:44 ===> output_D=155
+2023-04-29 13:46:44 ===> lr=0.0002
+2023-04-29 13:46:44 ===> weight_decay=1e-05
+2023-04-29 13:46:44 ===> amsgrad=True
+2023-04-29 13:46:44 ===> criterion=softmax_dice
+2023-04-29 13:46:44 ===> num_class=4
+2023-04-29 13:46:44 ===> seed=1234
+2023-04-29 13:46:44 ===> no_cuda=False
+2023-04-29 13:46:44 ===> gpu=0,3
+2023-04-29 13:46:44 ===> num_workers=8
+2023-04-29 13:46:44 ===> batch_size=4
+2023-04-29 13:46:44 ===> start_epoch=0
+2023-04-29 13:46:44 ===> end_epoch=100
+2023-04-29 13:46:44 ===> save_freq=25
+2023-04-29 13:46:44 ===> resume=
+2023-04-29 13:46:44 ===> load=True
+2023-04-29 13:46:44 ===> local_rank=0
+2023-04-29 13:46:44 ===> ----------------------------------------This is a halving line----------------------------------
+2023-04-29 13:46:44 ===> HDT_net,training on train.txt!
+2023-04-29 13:46:44 ===> Added key: store_based_barrier_key:1 to store for rank: 0
+2023-04-29 13:46:44 ===> Rank 0: Completed store-based barrier for key:store_based_barrier_key:1 with 2 nodes.
+2023-04-29 13:46:46 ===> re-training!!!
+2023-04-29 13:46:46 ===> Samples for train = 118
+2023-04-29 13:46:46 ===> Samples for valid = 30
+2023-04-29 13:49:56 ===> --------------------------------------This is all argsurations----------------------------------
+2023-04-29 13:49:56 ===> user=cyx
+2023-04-29 13:49:56 ===> experiment=My_Net_plus
+2023-04-29 13:49:56 ===> date=2023-04-29
+2023-04-29 13:49:56 ===> description=HDT_net,training on train.txt!
+2023-04-29 13:49:56 ===> root=/home/cyx/Datasets/BraData/
+2023-04-29 13:49:56 ===> train_dir=Train
+2023-04-29 13:49:56 ===> valid_dir=Train
+2023-04-29 13:49:56 ===> test_dir=Val
+2023-04-29 13:49:56 ===> mode=train
+2023-04-29 13:49:56 ===> train_file=IDH_train_1.txt
+2023-04-29 13:49:56 ===> valid_file=IDH_valid_1.txt
+2023-04-29 13:49:56 ===> test_file=IDH_test.txt
+2023-04-29 13:49:56 ===> dataset=brats_IDH
+2023-04-29 13:49:56 ===> model_name=HDT_Net_In_Out
+2023-04-29 13:49:56 ===> input_C=4
+2023-04-29 13:49:56 ===> input_H=240
+2023-04-29 13:49:56 ===> input_W=240
+2023-04-29 13:49:56 ===> input_D=155
+2023-04-29 13:49:56 ===> crop_H=128
+2023-04-29 13:49:56 ===> crop_W=128
+2023-04-29 13:49:56 ===> crop_D=128
+2023-04-29 13:49:56 ===> output_D=155
+2023-04-29 13:49:56 ===> lr=0.0002
+2023-04-29 13:49:56 ===> weight_decay=1e-05
+2023-04-29 13:49:56 ===> amsgrad=True
+2023-04-29 13:49:56 ===> criterion=softmax_dice
+2023-04-29 13:49:56 ===> num_class=4
+2023-04-29 13:49:56 ===> seed=1234
+2023-04-29 13:49:56 ===> no_cuda=False
+2023-04-29 13:49:56 ===> gpu=0,3
+2023-04-29 13:49:56 ===> num_workers=8
+2023-04-29 13:49:56 ===> batch_size=4
+2023-04-29 13:49:56 ===> start_epoch=0
+2023-04-29 13:49:56 ===> end_epoch=90
+2023-04-29 13:49:56 ===> save_freq=20
+2023-04-29 13:49:56 ===> resume=
+2023-04-29 13:49:56 ===> load=True
+2023-04-29 13:49:56 ===> local_rank=0
+2023-04-29 13:49:56 ===> ----------------------------------------This is a halving line----------------------------------
+2023-04-29 13:49:56 ===> HDT_net,training on train.txt!
+2023-04-29 13:49:56 ===> Added key: store_based_barrier_key:1 to store for rank: 0
+2023-04-29 13:49:56 ===> Rank 0: Completed store-based barrier for key:store_based_barrier_key:1 with 2 nodes.
+2023-04-29 13:49:58 ===> re-training!!!
+2023-04-29 13:49:58 ===> Samples for train = 118
+2023-04-29 13:49:58 ===> Samples for valid = 30
+2023-04-29 13:50:03 ===> Epoch:0 Iter:0 idh_loss: 0.93955
+2023-04-29 13:50:04 ===> Epoch:0 Iter:1 idh_loss: 2.48315
+2023-04-29 13:50:04 ===> Epoch:0 Iter:2 idh_loss: 0.76178
+2023-04-29 13:50:05 ===> Epoch:0 Iter:3 idh_loss: 0.91203
+2023-04-29 13:50:05 ===> Epoch:0 Iter:4 idh_loss: 1.20209
+2023-04-29 13:50:05 ===> Epoch:0 Iter:5 idh_loss: 0.99229
+2023-04-29 13:50:06 ===> Epoch:0 Iter:6 idh_loss: 0.73039
+2023-04-29 13:50:06 ===> Epoch:0 Iter:7 idh_loss: 0.66527
+2023-04-29 13:50:07 ===> Epoch:0 Iter:8 idh_loss: 0.68486
+2023-04-29 13:50:07 ===> Epoch:0 Iter:9 idh_loss: 0.77595
+2023-04-29 13:50:08 ===> Epoch:0 Iter:10 idh_loss: 0.70200
+2023-04-29 13:50:08 ===> Epoch:0 Iter:11 idh_loss: 0.67494
+2023-04-29 13:50:09 ===> Epoch:0 Iter:12 idh_loss: 0.73689
+2023-04-29 13:50:09 ===> Epoch:0 Iter:13 idh_loss: 0.71217
+2023-04-29 13:50:09 ===> Epoch:0 Iter:14 idh_loss: 0.69996
+2023-04-29 13:50:10 ===> Epoch:0 Iter:15 idh_loss: 0.69520
+2023-04-29 13:50:10 ===> Epoch:0 Iter:16 idh_loss: 0.68671
+2023-04-29 13:50:11 ===> Epoch:0 Iter:17 idh_loss: 0.67109
+2023-04-29 13:50:11 ===> Epoch:0 Iter:18 idh_loss: 0.65272
+2023-04-29 13:50:12 ===> Epoch:0 Iter:19 idh_loss: 0.73533
+2023-04-29 13:50:12 ===> Epoch:0 Iter:20 idh_loss: 0.83111
+2023-04-29 13:50:12 ===> Epoch:0 Iter:21 idh_loss: 0.88094
+2023-04-29 13:50:13 ===> Epoch:0 Iter:22 idh_loss: 0.80640
+2023-04-29 13:50:13 ===> Epoch:0 Iter:23 idh_loss: 0.68295
+2023-04-29 13:50:14 ===> Epoch:0 Iter:24 idh_loss: 0.68769
+2023-04-29 13:50:14 ===> Epoch:0 Iter:25 idh_loss: 0.81456
+2023-04-29 13:50:15 ===> Epoch:0 Iter:26 idh_loss: 0.40910
+2023-04-29 13:50:15 ===> Epoch:0 Iter:27 idh_loss: 0.80712
+2023-04-29 13:50:15 ===> Epoch:0 Iter:28 idh_loss: 0.58767
+2023-04-29 13:50:19 ===> there is an improvement that update the metrics and save the best model.
+2023-04-29 13:50:20 ===> Epoch:0[best_epoch:0 | min_total_loss:0.66845 | idh_loss:0.66845 | idh_acc: 0.60000 | idh_auc:0.68519]
+2023-04-29 13:50:20 ===> Current epoch time consumption: 0.36 minutes!
+2023-04-29 13:50:20 ===> Estimated remaining training time: 0.54 hours!
+2023-04-29 13:50:21 ===> Epoch:1 Iter:0 idh_loss: 0.26725
+2023-04-29 13:50:22 ===> Epoch:1 Iter:1 idh_loss: 1.08448
+2023-04-29 13:50:22 ===> Epoch:1 Iter:2 idh_loss: 0.67442
+2023-04-29 13:50:22 ===> Epoch:1 Iter:3 idh_loss: 0.91923
+2023-04-29 13:50:23 ===> Epoch:1 Iter:4 idh_loss: 1.26569
+2023-04-29 13:50:23 ===> Epoch:1 Iter:5 idh_loss: 0.61002
+2023-04-29 13:50:24 ===> Epoch:1 Iter:6 idh_loss: 0.72128
+2023-04-29 13:50:24 ===> Epoch:1 Iter:7 idh_loss: 0.64999
+2023-04-29 13:50:25 ===> Epoch:1 Iter:8 idh_loss: 0.65663
+2023-04-29 13:50:25 ===> Epoch:1 Iter:9 idh_loss: 0.81352
+2023-04-29 13:50:26 ===> Epoch:1 Iter:10 idh_loss: 0.63969
+2023-04-29 13:50:26 ===> Epoch:1 Iter:11 idh_loss: 0.69770
+2023-04-29 13:50:26 ===> Epoch:1 Iter:12 idh_loss: 0.61722
+2023-04-29 13:50:27 ===> Epoch:1 Iter:13 idh_loss: 0.81841
+2023-04-29 13:50:27 ===> Epoch:1 Iter:14 idh_loss: 0.73746
+2023-04-29 13:50:28 ===> Epoch:1 Iter:15 idh_loss: 0.71537
+2023-04-29 13:50:28 ===> Epoch:1 Iter:16 idh_loss: 0.69778
+2023-04-29 13:50:29 ===> Epoch:1 Iter:17 idh_loss: 0.66196
+2023-04-29 13:50:29 ===> Epoch:1 Iter:18 idh_loss: 0.80051
+2023-04-29 13:50:29 ===> Epoch:1 Iter:19 idh_loss: 0.59904
+2023-04-29 13:50:30 ===> Epoch:1 Iter:20 idh_loss: 0.84572
+2023-04-29 13:50:30 ===> Epoch:1 Iter:21 idh_loss: 0.60542
+2023-04-29 13:50:31 ===> Epoch:1 Iter:22 idh_loss: 0.57019
+2023-04-29 13:50:31 ===> Epoch:1 Iter:23 idh_loss: 0.71158
+2023-04-29 13:50:32 ===> Epoch:1 Iter:24 idh_loss: 0.36277
+2023-04-29 13:50:32 ===> Epoch:1 Iter:25 idh_loss: 0.74915
+2023-04-29 13:50:33 ===> Epoch:1 Iter:26 idh_loss: 0.67765
+2023-04-29 13:50:33 ===> Epoch:1 Iter:27 idh_loss: 0.62191
+2023-04-29 13:50:33 ===> Epoch:1 Iter:28 idh_loss: 0.80873
+2023-04-29 13:50:37 ===> Epoch:1[best_epoch:0 | min_total_loss:0.66845 | idh_loss:0.66978 | idh_acc: 0.63333 | idh_auc:0.75926]
+2023-04-29 13:50:37 ===> Current epoch time consumption: 0.29 minutes!
+2023-04-29 13:50:37 ===> Estimated remaining training time: 0.42 hours!
+2023-04-29 13:50:38 ===> Epoch:2 Iter:0 idh_loss: 0.76920
+2023-04-29 13:50:39 ===> Epoch:2 Iter:1 idh_loss: 0.57284
+2023-04-29 13:50:39 ===> Epoch:2 Iter:2 idh_loss: 0.58379
+2023-04-29 13:50:40 ===> Epoch:2 Iter:3 idh_loss: 0.55730
+2023-04-29 13:50:40 ===> Epoch:2 Iter:4 idh_loss: 0.49336
+2023-04-29 13:50:41 ===> Epoch:2 Iter:5 idh_loss: 0.73375
+2023-04-29 13:50:41 ===> Epoch:2 Iter:6 idh_loss: 0.59811
+2023-04-29 13:50:41 ===> Epoch:2 Iter:7 idh_loss: 0.59313
+2023-04-29 13:50:42 ===> Epoch:2 Iter:8 idh_loss: 0.53701
+2023-04-29 13:50:42 ===> Epoch:2 Iter:9 idh_loss: 0.75420
+2023-04-29 13:50:43 ===> Epoch:2 Iter:10 idh_loss: 0.96356
+2023-04-29 13:50:43 ===> Epoch:2 Iter:11 idh_loss: 0.84326
+2023-04-29 13:50:44 ===> Epoch:2 Iter:12 idh_loss: 0.51421
+2023-04-29 13:50:44 ===> Epoch:2 Iter:13 idh_loss: 0.47682
+2023-04-29 13:50:45 ===> Epoch:2 Iter:14 idh_loss: 0.59421
+2023-04-29 13:50:45 ===> Epoch:2 Iter:15 idh_loss: 0.75422
+2023-04-29 13:50:45 ===> Epoch:2 Iter:16 idh_loss: 0.79072
+2023-04-29 13:50:46 ===> Epoch:2 Iter:17 idh_loss: 0.87700
+2023-04-29 13:50:46 ===> Epoch:2 Iter:18 idh_loss: 0.47479
+2023-04-29 13:50:47 ===> Epoch:2 Iter:19 idh_loss: 0.82526
+2023-04-29 13:50:47 ===> Epoch:2 Iter:20 idh_loss: 0.79167
+2023-04-29 13:50:48 ===> Epoch:2 Iter:21 idh_loss: 0.53840
+2023-04-29 13:50:48 ===> Epoch:2 Iter:22 idh_loss: 0.53647
+2023-04-29 13:50:49 ===> Epoch:2 Iter:23 idh_loss: 0.71559
+2023-04-29 13:50:49 ===> Epoch:2 Iter:24 idh_loss: 0.85959
+2023-04-29 13:50:49 ===> Epoch:2 Iter:25 idh_loss: 0.42896
+2023-04-29 13:50:50 ===> Epoch:2 Iter:26 idh_loss: 0.46866
+2023-04-29 13:50:50 ===> Epoch:2 Iter:27 idh_loss: 0.61456
+2023-04-29 13:50:51 ===> Epoch:2 Iter:28 idh_loss: 0.75474
+2023-04-29 13:50:54 ===> Epoch:2[best_epoch:0 | min_total_loss:0.66845 | idh_loss:0.67778 | idh_acc: 0.66667 | idh_auc:0.72685]
+2023-04-29 13:50:54 ===> Current epoch time consumption: 0.29 minutes!
+2023-04-29 13:50:54 ===> Estimated remaining training time: 0.41 hours!
+2023-04-29 13:50:55 ===> Epoch:3 Iter:0 idh_loss: 0.85565
+2023-04-29 13:50:56 ===> Epoch:3 Iter:1 idh_loss: 0.45223
+2023-04-29 13:50:56 ===> Epoch:3 Iter:2 idh_loss: 0.63888
+2023-04-29 13:50:57 ===> Epoch:3 Iter:3 idh_loss: 0.77997
+2023-04-29 13:50:57 ===> Epoch:3 Iter:4 idh_loss: 0.50695
+2023-04-29 13:50:58 ===> Epoch:3 Iter:5 idh_loss: 0.46890
+2023-04-29 13:50:58 ===> Epoch:3 Iter:6 idh_loss: 0.51144
+2023-04-29 13:50:59 ===> Epoch:3 Iter:7 idh_loss: 0.61934
+2023-04-29 13:50:59 ===> Epoch:3 Iter:8 idh_loss: 0.39485
+2023-04-29 13:50:59 ===> Epoch:3 Iter:9 idh_loss: 1.18281
+2023-04-29 13:51:00 ===> Epoch:3 Iter:10 idh_loss: 0.41001
+2023-04-29 13:51:00 ===> Epoch:3 Iter:11 idh_loss: 1.06407
+2023-04-29 13:51:01 ===> Epoch:3 Iter:12 idh_loss: 0.55058
+2023-04-29 13:51:01 ===> Epoch:3 Iter:13 idh_loss: 0.33632
+2023-04-29 13:51:02 ===> Epoch:3 Iter:14 idh_loss: 0.49530
+2023-04-29 13:51:02 ===> Epoch:3 Iter:15 idh_loss: 0.41517
+2023-04-29 13:51:03 ===> Epoch:3 Iter:16 idh_loss: 1.04000
+2023-04-29 13:51:03 ===> Epoch:3 Iter:17 idh_loss: 0.92010
+2023-04-29 13:51:03 ===> Epoch:3 Iter:18 idh_loss: 1.19138
+2023-04-29 13:51:04 ===> Epoch:3 Iter:19 idh_loss: 0.39595
+2023-04-29 13:51:04 ===> Epoch:3 Iter:20 idh_loss: 0.60849
+2023-04-29 13:51:05 ===> Epoch:3 Iter:21 idh_loss: 0.71924
+2023-04-29 13:51:05 ===> Epoch:3 Iter:22 idh_loss: 0.29639
+2023-04-29 13:51:06 ===> Epoch:3 Iter:23 idh_loss: 0.53445
+2023-04-29 13:51:06 ===> Epoch:3 Iter:24 idh_loss: 0.60021
+2023-04-29 13:51:07 ===> Epoch:3 Iter:25 idh_loss: 0.25767
+2023-04-29 13:51:07 ===> Epoch:3 Iter:26 idh_loss: 0.43812
+2023-04-29 13:51:07 ===> Epoch:3 Iter:27 idh_loss: 1.07581
+2023-04-29 13:51:08 ===> Epoch:3 Iter:28 idh_loss: 0.70233
+2023-04-29 13:51:11 ===> there is an improvement that update the metrics and save the best model.
+2023-04-29 13:51:14 ===> Epoch:3[best_epoch:3 | min_total_loss:0.56767 | idh_loss:0.56767 | idh_acc: 0.66667 | idh_auc:0.75000]
+2023-04-29 13:51:14 ===> Current epoch time consumption: 0.34 minutes!
+2023-04-29 13:51:14 ===> Estimated remaining training time: 0.48 hours!
+2023-04-29 13:51:15 ===> Epoch:4 Iter:0 idh_loss: 0.54750
+2023-04-29 13:51:16 ===> Epoch:4 Iter:1 idh_loss: 0.61042
+2023-04-29 13:51:16 ===> Epoch:4 Iter:2 idh_loss: 0.51751
+2023-04-29 13:51:17 ===> Epoch:4 Iter:3 idh_loss: 0.76614
+2023-04-29 13:51:17 ===> Epoch:4 Iter:4 idh_loss: 0.69987
+2023-04-29 13:51:18 ===> Epoch:4 Iter:5 idh_loss: 0.74017
+2023-04-29 13:51:18 ===> Epoch:4 Iter:6 idh_loss: 1.29240
+2023-04-29 13:51:19 ===> Epoch:4 Iter:7 idh_loss: 0.92446
+2023-04-29 13:51:19 ===> Epoch:4 Iter:8 idh_loss: 0.41875
+2023-04-29 13:51:19 ===> Epoch:4 Iter:9 idh_loss: 0.81494
+2023-04-29 13:51:20 ===> Epoch:4 Iter:10 idh_loss: 0.87575
+2023-04-29 13:51:20 ===> Epoch:4 Iter:11 idh_loss: 0.48188
+2023-04-29 13:51:21 ===> Epoch:4 Iter:12 idh_loss: 0.66472
+2023-04-29 13:51:21 ===> Epoch:4 Iter:13 idh_loss: 0.39444
+2023-04-29 13:51:22 ===> Epoch:4 Iter:14 idh_loss: 0.42152
+2023-04-29 13:51:22 ===> Epoch:4 Iter:15 idh_loss: 0.72703
+2023-04-29 13:51:22 ===> Epoch:4 Iter:16 idh_loss: 0.85950
+2023-04-29 13:51:23 ===> Epoch:4 Iter:17 idh_loss: 1.12745
+2023-04-29 13:51:23 ===> Epoch:4 Iter:18 idh_loss: 1.03399
+2023-04-29 13:51:24 ===> Epoch:4 Iter:19 idh_loss: 1.18237
+2023-04-29 13:51:24 ===> Epoch:4 Iter:20 idh_loss: 0.45826
+2023-04-29 13:51:25 ===> Epoch:4 Iter:21 idh_loss: 0.74298
+2023-04-29 13:51:25 ===> Epoch:4 Iter:22 idh_loss: 0.47735
+2023-04-29 13:51:26 ===> Epoch:4 Iter:23 idh_loss: 0.52433
+2023-04-29 13:51:26 ===> Epoch:4 Iter:24 idh_loss: 0.59717
+2023-04-29 13:51:26 ===> Epoch:4 Iter:25 idh_loss: 0.83938
+2023-04-29 13:51:27 ===> Epoch:4 Iter:26 idh_loss: 0.70927
+2023-04-29 13:51:27 ===> Epoch:4 Iter:27 idh_loss: 0.66309
+2023-04-29 13:51:28 ===> Epoch:4 Iter:28 idh_loss: 0.79152
+2023-04-29 13:51:31 ===> Epoch:4[best_epoch:3 | min_total_loss:0.56767 | idh_loss:0.65488 | idh_acc: 0.63333 | idh_auc:0.86111]
+2023-04-29 13:51:31 ===> Current epoch time consumption: 0.28 minutes!
+2023-04-29 13:51:31 ===> Estimated remaining training time: 0.40 hours!
+2023-04-29 13:51:33 ===> Epoch:5 Iter:0 idh_loss: 0.44330
+2023-04-29 13:51:33 ===> Epoch:5 Iter:1 idh_loss: 0.68930
+2023-04-29 13:51:34 ===> Epoch:5 Iter:2 idh_loss: 0.74075
+2023-04-29 13:51:34 ===> Epoch:5 Iter:3 idh_loss: 0.50639
+2023-04-29 13:51:34 ===> Epoch:5 Iter:4 idh_loss: 0.63731
+2023-04-29 13:51:35 ===> Epoch:5 Iter:5 idh_loss: 0.48127
+2023-04-29 13:51:35 ===> Epoch:5 Iter:6 idh_loss: 0.43832
+2023-04-29 13:51:36 ===> Epoch:5 Iter:7 idh_loss: 1.09778
+2023-04-29 13:51:36 ===> Epoch:5 Iter:8 idh_loss: 0.78008
+2023-04-29 13:51:37 ===> Epoch:5 Iter:9 idh_loss: 0.70569
+2023-04-29 13:51:37 ===> Epoch:5 Iter:10 idh_loss: 0.73536
+2023-04-29 13:51:37 ===> Epoch:5 Iter:11 idh_loss: 0.65161
+2023-04-29 13:51:38 ===> Epoch:5 Iter:12 idh_loss: 0.61442
+2023-04-29 13:51:38 ===> Epoch:5 Iter:13 idh_loss: 0.54018
+2023-04-29 13:51:39 ===> Epoch:5 Iter:14 idh_loss: 0.47926
+2023-04-29 13:51:39 ===> Epoch:5 Iter:15 idh_loss: 0.36863
+2023-04-29 13:51:40 ===> Epoch:5 Iter:16 idh_loss: 0.52665
+2023-04-29 13:51:40 ===> Epoch:5 Iter:17 idh_loss: 0.50486
+2023-04-29 13:51:41 ===> Epoch:5 Iter:18 idh_loss: 0.70691
+2023-04-29 13:51:41 ===> Epoch:5 Iter:19 idh_loss: 0.63893
+2023-04-29 13:51:41 ===> Epoch:5 Iter:20 idh_loss: 0.81550
+2023-04-29 13:51:42 ===> Epoch:5 Iter:21 idh_loss: 0.62819
+2023-04-29 13:51:42 ===> Epoch:5 Iter:22 idh_loss: 0.58920
+2023-04-29 13:51:43 ===> Epoch:5 Iter:23 idh_loss: 0.52870
+2023-04-29 13:51:43 ===> Epoch:5 Iter:24 idh_loss: 0.36383
+2023-04-29 13:51:44 ===> Epoch:5 Iter:25 idh_loss: 0.47063
+2023-04-29 13:51:44 ===> Epoch:5 Iter:26 idh_loss: 0.34123
+2023-04-29 13:51:45 ===> Epoch:5 Iter:27 idh_loss: 0.53717
+2023-04-29 13:51:45 ===> Epoch:5 Iter:28 idh_loss: 0.91529
+2023-04-29 13:51:48 ===> Epoch:5[best_epoch:3 | min_total_loss:0.56767 | idh_loss:0.65143 | idh_acc: 0.70000 | idh_auc:0.82407]
+2023-04-29 13:51:48 ===> Current epoch time consumption: 0.29 minutes!
+2023-04-29 13:51:48 ===> Estimated remaining training time: 0.40 hours!
+2023-04-29 13:51:50 ===> Epoch:6 Iter:0 idh_loss: 0.72699
+2023-04-29 13:51:50 ===> Epoch:6 Iter:1 idh_loss: 0.28397
+2023-04-29 13:51:51 ===> Epoch:6 Iter:2 idh_loss: 0.24809
+2023-04-29 13:51:51 ===> Epoch:6 Iter:3 idh_loss: 0.76867
+2023-04-29 13:51:52 ===> Epoch:6 Iter:4 idh_loss: 0.29188
+2023-04-29 13:51:52 ===> Epoch:6 Iter:5 idh_loss: 0.74819
+2023-04-29 13:51:53 ===> Epoch:6 Iter:6 idh_loss: 0.59137
+2023-04-29 13:51:53 ===> Epoch:6 Iter:7 idh_loss: 0.39033
+2023-04-29 13:51:53 ===> Epoch:6 Iter:8 idh_loss: 0.53971
+2023-04-29 13:51:54 ===> Epoch:6 Iter:9 idh_loss: 0.93529
+2023-04-29 13:51:54 ===> Epoch:6 Iter:10 idh_loss: 0.49849
+2023-04-29 13:51:55 ===> Epoch:6 Iter:11 idh_loss: 0.26929
+2023-04-29 13:51:55 ===> Epoch:6 Iter:12 idh_loss: 0.20700
+2023-04-29 13:51:56 ===> Epoch:6 Iter:13 idh_loss: 0.15370
+2023-04-29 13:51:56 ===> Epoch:6 Iter:14 idh_loss: 0.37360
+2023-04-29 13:51:57 ===> Epoch:6 Iter:15 idh_loss: 1.28641
+2023-04-29 13:51:57 ===> Epoch:6 Iter:16 idh_loss: 0.24144
+2023-04-29 13:51:57 ===> Epoch:6 Iter:17 idh_loss: 0.40629
+2023-04-29 13:51:58 ===> Epoch:6 Iter:18 idh_loss: 1.44581
+2023-04-29 13:51:58 ===> Epoch:6 Iter:19 idh_loss: 0.41405
+2023-04-29 13:51:59 ===> Epoch:6 Iter:20 idh_loss: 0.65192
+2023-04-29 13:51:59 ===> Epoch:6 Iter:21 idh_loss: 0.61191
+2023-04-29 13:52:00 ===> Epoch:6 Iter:22 idh_loss: 0.76063
+2023-04-29 13:52:00 ===> Epoch:6 Iter:23 idh_loss: 0.49182
+2023-04-29 13:52:00 ===> Epoch:6 Iter:24 idh_loss: 0.89227
+2023-04-29 13:52:01 ===> Epoch:6 Iter:25 idh_loss: 0.80365
+2023-04-29 13:52:01 ===> Epoch:6 Iter:26 idh_loss: 0.64935
+2023-04-29 13:52:02 ===> Epoch:6 Iter:27 idh_loss: 0.59467
+2023-04-29 13:52:02 ===> Epoch:6 Iter:28 idh_loss: 0.74300
+2023-04-29 13:52:06 ===> Epoch:6[best_epoch:3 | min_total_loss:0.56767 | idh_loss:0.70384 | idh_acc: 0.60000 | idh_auc:0.79630]
+2023-04-29 13:52:06 ===> Current epoch time consumption: 0.29 minutes!
+2023-04-29 13:52:06 ===> Estimated remaining training time: 0.40 hours!
+2023-04-29 13:52:07 ===> Epoch:7 Iter:0 idh_loss: 0.61104
+2023-04-29 13:52:08 ===> Epoch:7 Iter:1 idh_loss: 0.61629
+2023-04-29 13:52:08 ===> Epoch:7 Iter:2 idh_loss: 0.54251
+2023-04-29 13:52:08 ===> Epoch:7 Iter:3 idh_loss: 0.67548
+2023-04-29 13:52:09 ===> Epoch:7 Iter:4 idh_loss: 0.47186
+2023-04-29 13:52:09 ===> Epoch:7 Iter:5 idh_loss: 0.40933
+2023-04-29 13:52:10 ===> Epoch:7 Iter:6 idh_loss: 0.52694
+2023-04-29 13:52:10 ===> Epoch:7 Iter:7 idh_loss: 0.71771
+2023-04-29 13:52:11 ===> Epoch:7 Iter:8 idh_loss: 0.91188
+2023-04-29 13:52:11 ===> Epoch:7 Iter:9 idh_loss: 0.64345
+2023-04-29 13:52:12 ===> Epoch:7 Iter:10 idh_loss: 0.56298
+2023-04-29 13:52:12 ===> Epoch:7 Iter:11 idh_loss: 0.56558
+2023-04-29 13:52:12 ===> Epoch:7 Iter:12 idh_loss: 0.52126
+2023-04-29 13:52:13 ===> Epoch:7 Iter:13 idh_loss: 0.58641
+2023-04-29 13:52:13 ===> Epoch:7 Iter:14 idh_loss: 0.84982
+2023-04-29 13:52:14 ===> Epoch:7 Iter:15 idh_loss: 0.55510
+2023-04-29 13:52:14 ===> Epoch:7 Iter:16 idh_loss: 0.46553
+2023-04-29 13:52:15 ===> Epoch:7 Iter:17 idh_loss: 0.49008
+2023-04-29 13:52:15 ===> Epoch:7 Iter:18 idh_loss: 0.47710
+2023-04-29 13:52:16 ===> Epoch:7 Iter:19 idh_loss: 0.38284
+2023-04-29 13:52:16 ===> Epoch:7 Iter:20 idh_loss: 0.40271
+2023-04-29 13:52:16 ===> Epoch:7 Iter:21 idh_loss: 0.45329
+2023-04-29 13:52:17 ===> Epoch:7 Iter:22 idh_loss: 0.39275
+2023-04-29 13:52:17 ===> Epoch:7 Iter:23 idh_loss: 0.44065
+2023-04-29 13:52:18 ===> Epoch:7 Iter:24 idh_loss: 1.12668
+2023-04-29 13:52:18 ===> Epoch:7 Iter:25 idh_loss: 1.04044
+2023-04-29 13:52:19 ===> Epoch:7 Iter:26 idh_loss: 0.77779
+2023-04-29 13:52:19 ===> Epoch:7 Iter:27 idh_loss: 0.49241
+2023-04-29 13:52:20 ===> Epoch:7 Iter:28 idh_loss: 0.61357
+2023-04-29 13:52:23 ===> Epoch:7[best_epoch:3 | min_total_loss:0.56767 | idh_loss:0.66143 | idh_acc: 0.60000 | idh_auc:0.93981]
+2023-04-29 13:52:23 ===> Current epoch time consumption: 0.29 minutes!
+2023-04-29 13:52:23 ===> Estimated remaining training time: 0.40 hours!
+2023-04-29 13:52:25 ===> Epoch:8 Iter:0 idh_loss: 0.66557
+2023-04-29 13:52:25 ===> Epoch:8 Iter:1 idh_loss: 0.58796
+2023-04-29 13:52:26 ===> Epoch:8 Iter:2 idh_loss: 0.91682
+2023-04-29 13:52:26 ===> Epoch:8 Iter:3 idh_loss: 0.67384
+2023-04-29 13:52:26 ===> Epoch:8 Iter:4 idh_loss: 0.76647
+2023-04-29 13:52:27 ===> Epoch:8 Iter:5 idh_loss: 0.55227
+2023-04-29 13:52:27 ===> Epoch:8 Iter:6 idh_loss: 0.63905
+2023-04-29 13:52:28 ===> Epoch:8 Iter:7 idh_loss: 0.72081
+2023-04-29 13:52:28 ===> Epoch:8 Iter:8 idh_loss: 1.24605
+2023-04-29 13:52:29 ===> Epoch:8 Iter:9 idh_loss: 0.98853
+2023-04-29 13:52:29 ===> Epoch:8 Iter:10 idh_loss: 0.58566
+2023-04-29 13:52:29 ===> Epoch:8 Iter:11 idh_loss: 0.55089
+2023-04-29 13:52:30 ===> Epoch:8 Iter:12 idh_loss: 0.43612
+2023-04-29 13:52:30 ===> Epoch:8 Iter:13 idh_loss: 0.58204
+2023-04-29 13:52:31 ===> Epoch:8 Iter:14 idh_loss: 0.50496
+2023-04-29 13:52:31 ===> Epoch:8 Iter:15 idh_loss: 0.53967
+2023-04-29 13:52:32 ===> Epoch:8 Iter:16 idh_loss: 0.87244
+2023-04-29 13:52:32 ===> Epoch:8 Iter:17 idh_loss: 0.35150
+2023-04-29 13:52:33 ===> Epoch:8 Iter:18 idh_loss: 0.65896
+2023-04-29 13:52:33 ===> Epoch:8 Iter:19 idh_loss: 0.49118
+2023-04-29 13:52:33 ===> Epoch:8 Iter:20 idh_loss: 0.69929
+2023-04-29 13:52:34 ===> Epoch:8 Iter:21 idh_loss: 0.69781
+2023-04-29 13:52:34 ===> Epoch:8 Iter:22 idh_loss: 0.46413
+2023-04-29 13:52:35 ===> Epoch:8 Iter:23 idh_loss: 0.52756
+2023-04-29 13:52:35 ===> Epoch:8 Iter:24 idh_loss: 0.50044
+2023-04-29 13:52:36 ===> Epoch:8 Iter:25 idh_loss: 0.43329
+2023-04-29 13:52:36 ===> Epoch:8 Iter:26 idh_loss: 0.71512
+2023-04-29 13:52:37 ===> Epoch:8 Iter:27 idh_loss: 0.66619
+2023-04-29 13:52:37 ===> Epoch:8 Iter:28 idh_loss: 0.55733
+2023-04-29 13:52:40 ===> Epoch:8[best_epoch:3 | min_total_loss:0.56767 | idh_loss:0.75602 | idh_acc: 0.56667 | idh_auc:0.86574]
+2023-04-29 13:52:40 ===> Current epoch time consumption: 0.29 minutes!
+2023-04-29 13:52:40 ===> Estimated remaining training time: 0.39 hours!
+2023-04-29 13:52:42 ===> Epoch:9 Iter:0 idh_loss: 0.52741
+2023-04-29 13:52:42 ===> Epoch:9 Iter:1 idh_loss: 0.76565
+2023-04-29 13:52:43 ===> Epoch:9 Iter:2 idh_loss: 0.53601
+2023-04-29 13:52:43 ===> Epoch:9 Iter:3 idh_loss: 0.64649
+2023-04-29 13:52:44 ===> Epoch:9 Iter:4 idh_loss: 0.66867
+2023-04-29 13:52:44 ===> Epoch:9 Iter:5 idh_loss: 0.68847
+2023-04-29 13:52:44 ===> Epoch:9 Iter:6 idh_loss: 0.36940
+2023-04-29 13:52:45 ===> Epoch:9 Iter:7 idh_loss: 0.65784
+2023-04-29 13:52:45 ===> Epoch:9 Iter:8 idh_loss: 0.53990
+2023-04-29 13:52:46 ===> Epoch:9 Iter:9 idh_loss: 0.69165
+2023-04-29 13:52:46 ===> Epoch:9 Iter:10 idh_loss: 0.40711
+2023-04-29 13:52:47 ===> Epoch:9 Iter:11 idh_loss: 0.58127
+2023-04-29 13:52:47 ===> Epoch:9 Iter:12 idh_loss: 0.40471
+2023-04-29 13:52:47 ===> Epoch:9 Iter:13 idh_loss: 0.39276
+2023-04-29 13:52:48 ===> Epoch:9 Iter:14 idh_loss: 0.44544
+2023-04-29 13:52:48 ===> Epoch:9 Iter:15 idh_loss: 0.54729
+2023-04-29 13:52:49 ===> Epoch:9 Iter:16 idh_loss: 0.27947
+2023-04-29 13:52:49 ===> Epoch:9 Iter:17 idh_loss: 0.18572
+2023-04-29 13:52:50 ===> Epoch:9 Iter:18 idh_loss: 1.47556
+2023-04-29 13:52:50 ===> Epoch:9 Iter:19 idh_loss: 1.04843
+2023-04-29 13:52:51 ===> Epoch:9 Iter:20 idh_loss: 0.44163
+2023-04-29 13:52:51 ===> Epoch:9 Iter:21 idh_loss: 0.28349
+2023-04-29 13:52:51 ===> Epoch:9 Iter:22 idh_loss: 0.69528
+2023-04-29 13:52:52 ===> Epoch:9 Iter:23 idh_loss: 0.48405
+2023-04-29 13:52:52 ===> Epoch:9 Iter:24 idh_loss: 1.07551
+2023-04-29 13:52:53 ===> Epoch:9 Iter:25 idh_loss: 0.50060
+2023-04-29 13:52:53 ===> Epoch:9 Iter:26 idh_loss: 0.94631
+2023-04-29 13:52:54 ===> Epoch:9 Iter:27 idh_loss: 0.80441
+2023-04-29 13:52:54 ===> Epoch:9 Iter:28 idh_loss: 0.57651
+2023-04-29 13:52:58 ===> Epoch:9[best_epoch:3 | min_total_loss:0.56767 | idh_loss:0.74690 | idh_acc: 0.56667 | idh_auc:0.78704]
+2023-04-29 13:52:58 ===> Current epoch time consumption: 0.29 minutes!
+2023-04-29 13:52:58 ===> Estimated remaining training time: 0.39 hours!
+2023-04-29 13:52:59 ===> Epoch:10 Iter:0 idh_loss: 0.58494
+2023-04-29 13:53:00 ===> Epoch:10 Iter:1 idh_loss: 0.46539
+2023-04-29 13:53:00 ===> Epoch:10 Iter:2 idh_loss: 0.89097
+2023-04-29 13:53:00 ===> Epoch:10 Iter:3 idh_loss: 0.48038
+2023-04-29 13:53:01 ===> Epoch:10 Iter:4 idh_loss: 0.74921
+2023-04-29 13:53:01 ===> Epoch:10 Iter:5 idh_loss: 0.40052
+2023-04-29 13:53:02 ===> Epoch:10 Iter:6 idh_loss: 0.33006
+2023-04-29 13:53:02 ===> Epoch:10 Iter:7 idh_loss: 0.42526
+2023-04-29 13:53:03 ===> Epoch:10 Iter:8 idh_loss: 0.36251
+2023-04-29 13:53:03 ===> Epoch:10 Iter:9 idh_loss: 0.53595
+2023-04-29 13:53:04 ===> Epoch:10 Iter:10 idh_loss: 0.74590
+2023-04-29 13:53:04 ===> Epoch:10 Iter:11 idh_loss: 0.96426
+2023-04-29 13:53:04 ===> Epoch:10 Iter:12 idh_loss: 1.28360
+2023-04-29 13:53:05 ===> Epoch:10 Iter:13 idh_loss: 0.67027
+2023-04-29 13:53:05 ===> Epoch:10 Iter:14 idh_loss: 0.41288
+2023-04-29 13:53:06 ===> Epoch:10 Iter:15 idh_loss: 0.52350
+2023-04-29 13:53:06 ===> Epoch:10 Iter:16 idh_loss: 0.74772
+2023-04-29 13:53:07 ===> Epoch:10 Iter:17 idh_loss: 0.45564
+2023-04-29 13:53:07 ===> Epoch:10 Iter:18 idh_loss: 0.43875
+2023-04-29 13:53:08 ===> Epoch:10 Iter:19 idh_loss: 0.52888
+2023-04-29 13:53:08 ===> Epoch:10 Iter:20 idh_loss: 0.51220
+2023-04-29 13:53:08 ===> Epoch:10 Iter:21 idh_loss: 0.78433
+2023-04-29 13:53:09 ===> Epoch:10 Iter:22 idh_loss: 0.51183
+2023-04-29 13:53:09 ===> Epoch:10 Iter:23 idh_loss: 0.46883
+2023-04-29 13:53:10 ===> Epoch:10 Iter:24 idh_loss: 0.52682
+2023-04-29 13:53:10 ===> Epoch:10 Iter:25 idh_loss: 0.81630
+2023-04-29 13:53:11 ===> Epoch:10 Iter:26 idh_loss: 0.42577
+2023-04-29 13:53:11 ===> Epoch:10 Iter:27 idh_loss: 1.12902
+2023-04-29 13:53:12 ===> Epoch:10 Iter:28 idh_loss: 0.55532
+2023-04-29 13:53:15 ===> Epoch:10[best_epoch:3 | min_total_loss:0.56767 | idh_loss:0.74102 | idh_acc: 0.63333 | idh_auc:0.60648]
+2023-04-29 13:53:15 ===> Current epoch time consumption: 0.29 minutes!
+2023-04-29 13:53:15 ===> Estimated remaining training time: 0.38 hours!
+2023-04-29 13:53:17 ===> Epoch:11 Iter:0 idh_loss: 0.50089
+2023-04-29 13:53:17 ===> Epoch:11 Iter:1 idh_loss: 0.76305
+2023-04-29 13:53:17 ===> Epoch:11 Iter:2 idh_loss: 0.75776
+2023-04-29 13:53:18 ===> Epoch:11 Iter:3 idh_loss: 0.37299
+2023-04-29 13:53:18 ===> Epoch:11 Iter:4 idh_loss: 0.45697
+2023-04-29 13:53:19 ===> Epoch:11 Iter:5 idh_loss: 1.17629
+2023-04-29 13:53:19 ===> Epoch:11 Iter:6 idh_loss: 0.64029
+2023-04-29 13:53:20 ===> Epoch:11 Iter:7 idh_loss: 0.38668
+2023-04-29 13:53:20 ===> Epoch:11 Iter:8 idh_loss: 0.82000
+2023-04-29 13:53:21 ===> Epoch:11 Iter:9 idh_loss: 0.54778
+2023-04-29 13:53:21 ===> Epoch:11 Iter:10 idh_loss: 0.73764
+2023-04-29 13:53:21 ===> Epoch:11 Iter:11 idh_loss: 0.69475
+2023-04-29 13:53:22 ===> Epoch:11 Iter:12 idh_loss: 0.39210
+2023-04-29 13:53:22 ===> Epoch:11 Iter:13 idh_loss: 0.58465
+2023-04-29 13:53:23 ===> Epoch:11 Iter:14 idh_loss: 0.37152
+2023-04-29 13:53:23 ===> Epoch:11 Iter:15 idh_loss: 0.72906
+2023-04-29 13:53:24 ===> Epoch:11 Iter:16 idh_loss: 0.77524
+2023-04-29 13:53:24 ===> Epoch:11 Iter:17 idh_loss: 0.52676
+2023-04-29 13:53:25 ===> Epoch:11 Iter:18 idh_loss: 0.49227
+2023-04-29 13:53:25 ===> Epoch:11 Iter:19 idh_loss: 0.48572
+2023-04-29 13:53:25 ===> Epoch:11 Iter:20 idh_loss: 0.61858
+2023-04-29 13:53:26 ===> Epoch:11 Iter:21 idh_loss: 0.41999
+2023-04-29 13:53:26 ===> Epoch:11 Iter:22 idh_loss: 0.34520
+2023-04-29 13:53:27 ===> Epoch:11 Iter:23 idh_loss: 0.88661
+2023-04-29 13:53:27 ===> Epoch:11 Iter:24 idh_loss: 0.34844
+2023-04-29 13:53:28 ===> Epoch:11 Iter:25 idh_loss: 0.59016
+2023-04-29 13:53:28 ===> Epoch:11 Iter:26 idh_loss: 0.91008
+2023-04-29 13:53:29 ===> Epoch:11 Iter:27 idh_loss: 0.44091
+2023-04-29 13:53:29 ===> Epoch:11 Iter:28 idh_loss: 0.41345
+2023-04-29 13:53:32 ===> Epoch:11[best_epoch:3 | min_total_loss:0.56767 | idh_loss:0.58219 | idh_acc: 0.70000 | idh_auc:0.76852]
+2023-04-29 13:53:32 ===> Current epoch time consumption: 0.29 minutes!
+2023-04-29 13:53:32 ===> Estimated remaining training time: 0.38 hours!
+2023-04-29 13:53:34 ===> Epoch:12 Iter:0 idh_loss: 0.35774
+2023-04-29 13:53:34 ===> Epoch:12 Iter:1 idh_loss: 0.95190
+2023-04-29 13:53:35 ===> Epoch:12 Iter:2 idh_loss: 0.37329
+2023-04-29 13:53:35 ===> Epoch:12 Iter:3 idh_loss: 0.94439
+2023-04-29 13:53:36 ===> Epoch:12 Iter:4 idh_loss: 0.45954
+2023-04-29 13:53:36 ===> Epoch:12 Iter:5 idh_loss: 0.33319
+2023-04-29 13:53:37 ===> Epoch:12 Iter:6 idh_loss: 0.23475
+2023-04-29 13:53:37 ===> Epoch:12 Iter:7 idh_loss: 0.72178
+2023-04-29 13:53:38 ===> Epoch:12 Iter:8 idh_loss: 0.35483
+2023-04-29 13:53:38 ===> Epoch:12 Iter:9 idh_loss: 0.47387
+2023-04-29 13:53:38 ===> Epoch:12 Iter:10 idh_loss: 0.99524
+2023-04-29 13:53:39 ===> Epoch:12 Iter:11 idh_loss: 0.77029
+2023-04-29 13:53:39 ===> Epoch:12 Iter:12 idh_loss: 0.39186
+2023-04-29 13:53:40 ===> Epoch:12 Iter:13 idh_loss: 0.98427
+2023-04-29 13:53:40 ===> Epoch:12 Iter:14 idh_loss: 0.50277
+2023-04-29 13:53:41 ===> Epoch:12 Iter:15 idh_loss: 0.74623
+2023-04-29 13:53:41 ===> Epoch:12 Iter:16 idh_loss: 0.51602
+2023-04-29 13:53:42 ===> Epoch:12 Iter:17 idh_loss: 0.45596
+2023-04-29 13:53:42 ===> Epoch:12 Iter:18 idh_loss: 0.33600
+2023-04-29 13:53:42 ===> Epoch:12 Iter:19 idh_loss: 0.79999
+2023-04-29 13:53:43 ===> Epoch:12 Iter:20 idh_loss: 0.35456
+2023-04-29 13:53:43 ===> Epoch:12 Iter:21 idh_loss: 0.58855
+2023-04-29 13:53:44 ===> Epoch:12 Iter:22 idh_loss: 0.58933
+2023-04-29 13:53:44 ===> Epoch:12 Iter:23 idh_loss: 0.65228
+2023-04-29 13:53:45 ===> Epoch:12 Iter:24 idh_loss: 0.37943
+2023-04-29 13:53:45 ===> Epoch:12 Iter:25 idh_loss: 1.09335
+2023-04-29 13:53:46 ===> Epoch:12 Iter:26 idh_loss: 0.19362
+2023-04-29 13:53:46 ===> Epoch:12 Iter:27 idh_loss: 0.23045
+2023-04-29 13:53:46 ===> Epoch:12 Iter:28 idh_loss: 1.07952
+2023-04-29 13:53:50 ===> there is an improvement that update the metrics and save the best model.
+2023-04-29 13:53:53 ===> Epoch:12[best_epoch:12 | min_total_loss:0.41877 | idh_loss:0.41877 | idh_acc: 0.86667 | idh_auc:0.84259]
+2023-04-29 13:53:53 ===> Current epoch time consumption: 0.35 minutes!
+2023-04-29 13:53:53 ===> Estimated remaining training time: 0.44 hours!
+2023-04-29 13:53:54 ===> Epoch:13 Iter:0 idh_loss: 0.29267
+2023-04-29 13:53:55 ===> Epoch:13 Iter:1 idh_loss: 0.43968
+2023-04-29 13:53:55 ===> Epoch:13 Iter:2 idh_loss: 0.35665
+2023-04-29 13:53:56 ===> Epoch:13 Iter:3 idh_loss: 0.46945
+2023-04-29 13:53:56 ===> Epoch:13 Iter:4 idh_loss: 0.62859
+2023-04-29 13:53:57 ===> Epoch:13 Iter:5 idh_loss: 0.50149
+2023-04-29 13:53:57 ===> Epoch:13 Iter:6 idh_loss: 0.22706
+2023-04-29 13:53:58 ===> Epoch:13 Iter:7 idh_loss: 0.54746
+2023-04-29 13:53:58 ===> Epoch:13 Iter:8 idh_loss: 0.30297
+2023-04-29 13:53:58 ===> Epoch:13 Iter:9 idh_loss: 0.44507
+2023-04-29 13:53:59 ===> Epoch:13 Iter:10 idh_loss: 0.90940
+2023-04-29 13:53:59 ===> Epoch:13 Iter:11 idh_loss: 0.41424
+2023-04-29 13:54:00 ===> Epoch:13 Iter:12 idh_loss: 0.39714
+2023-04-29 13:54:00 ===> Epoch:13 Iter:13 idh_loss: 0.53428
+2023-04-29 13:54:01 ===> Epoch:13 Iter:14 idh_loss: 0.37510
+2023-04-29 13:54:01 ===> Epoch:13 Iter:15 idh_loss: 0.74665
+2023-04-29 13:54:01 ===> Epoch:13 Iter:16 idh_loss: 0.66885
+2023-04-29 13:54:02 ===> Epoch:13 Iter:17 idh_loss: 0.31440
+2023-04-29 13:54:02 ===> Epoch:13 Iter:18 idh_loss: 0.21018
+2023-04-29 13:54:03 ===> Epoch:13 Iter:19 idh_loss: 0.46255
+2023-04-29 13:54:03 ===> Epoch:13 Iter:20 idh_loss: 0.85984
+2023-04-29 13:54:04 ===> Epoch:13 Iter:21 idh_loss: 0.54404
+2023-04-29 13:54:04 ===> Epoch:13 Iter:22 idh_loss: 0.82976
+2023-04-29 13:54:05 ===> Epoch:13 Iter:23 idh_loss: 0.45817
+2023-04-29 13:54:05 ===> Epoch:13 Iter:24 idh_loss: 0.47696
+2023-04-29 13:54:05 ===> Epoch:13 Iter:25 idh_loss: 0.86006
+2023-04-29 13:54:06 ===> Epoch:13 Iter:26 idh_loss: 1.16182
+2023-04-29 13:54:06 ===> Epoch:13 Iter:27 idh_loss: 0.27447
+2023-04-29 13:54:07 ===> Epoch:13 Iter:28 idh_loss: 0.76688
+2023-04-29 13:54:10 ===> Epoch:13[best_epoch:12 | min_total_loss:0.41877 | idh_loss:0.74163 | idh_acc: 0.56667 | idh_auc:0.80556]
+2023-04-29 13:54:10 ===> Current epoch time consumption: 0.28 minutes!
+2023-04-29 13:54:10 ===> Estimated remaining training time: 0.36 hours!
+2023-04-29 13:54:12 ===> Epoch:14 Iter:0 idh_loss: 0.60674
+2023-04-29 13:54:12 ===> Epoch:14 Iter:1 idh_loss: 0.32653
+2023-04-29 13:54:13 ===> Epoch:14 Iter:2 idh_loss: 0.29048
+2023-04-29 13:54:13 ===> Epoch:14 Iter:3 idh_loss: 0.53028
+2023-04-29 13:54:14 ===> Epoch:14 Iter:4 idh_loss: 2.47985
+2023-04-29 13:54:14 ===> Epoch:14 Iter:5 idh_loss: 0.46124
+2023-04-29 13:54:14 ===> Epoch:14 Iter:6 idh_loss: 0.78508
+2023-04-29 13:54:15 ===> Epoch:14 Iter:7 idh_loss: 0.45250
+2023-04-29 13:54:15 ===> Epoch:14 Iter:8 idh_loss: 0.63856
+2023-04-29 13:54:16 ===> Epoch:14 Iter:9 idh_loss: 0.46912
+2023-04-29 13:54:16 ===> Epoch:14 Iter:10 idh_loss: 0.29229
+2023-04-29 13:54:17 ===> Epoch:14 Iter:11 idh_loss: 0.57765
+2023-04-29 13:54:17 ===> Epoch:14 Iter:12 idh_loss: 0.55284
+2023-04-29 13:54:18 ===> Epoch:14 Iter:13 idh_loss: 0.52225
+2023-04-29 13:54:18 ===> Epoch:14 Iter:14 idh_loss: 0.58193
+2023-04-29 13:54:18 ===> Epoch:14 Iter:15 idh_loss: 0.61799
+2023-04-29 13:54:19 ===> Epoch:14 Iter:16 idh_loss: 0.58505
+2023-04-29 13:54:19 ===> Epoch:14 Iter:17 idh_loss: 0.53468
+2023-04-29 13:54:20 ===> Epoch:14 Iter:18 idh_loss: 0.59751
+2023-04-29 13:54:20 ===> Epoch:14 Iter:19 idh_loss: 0.57751
+2023-04-29 13:54:21 ===> Epoch:14 Iter:20 idh_loss: 0.39128
+2023-04-29 13:54:21 ===> Epoch:14 Iter:21 idh_loss: 0.73355
+2023-04-29 13:54:22 ===> Epoch:14 Iter:22 idh_loss: 0.38116
+2023-04-29 13:54:22 ===> Epoch:14 Iter:23 idh_loss: 0.52927
+2023-04-29 13:54:22 ===> Epoch:14 Iter:24 idh_loss: 0.51708
+2023-04-29 13:54:23 ===> Epoch:14 Iter:25 idh_loss: 0.52066
+2023-04-29 13:54:23 ===> Epoch:14 Iter:26 idh_loss: 0.72447
+2023-04-29 13:54:24 ===> Epoch:14 Iter:27 idh_loss: 1.22257
+2023-04-29 13:54:24 ===> Epoch:14 Iter:28 idh_loss: 0.53225
+2023-04-29 13:54:28 ===> Epoch:14[best_epoch:12 | min_total_loss:0.41877 | idh_loss:0.45988 | idh_acc: 0.76667 | idh_auc:0.87963]
+2023-04-29 13:54:28 ===> Current epoch time consumption: 0.29 minutes!
+2023-04-29 13:54:28 ===> Estimated remaining training time: 0.36 hours!
+2023-04-29 13:54:29 ===> Epoch:15 Iter:0 idh_loss: 0.81520
+2023-04-29 13:54:30 ===> Epoch:15 Iter:1 idh_loss: 0.37777
+2023-04-29 13:54:30 ===> Epoch:15 Iter:2 idh_loss: 1.05232
+2023-04-29 13:54:30 ===> Epoch:15 Iter:3 idh_loss: 0.41728
+2023-04-29 13:54:31 ===> Epoch:15 Iter:4 idh_loss: 0.46735
+2023-04-29 13:54:31 ===> Epoch:15 Iter:5 idh_loss: 0.35548
+2023-04-29 13:54:32 ===> Epoch:15 Iter:6 idh_loss: 0.61533
+2023-04-29 13:54:32 ===> Epoch:15 Iter:7 idh_loss: 0.34421
+2023-04-29 13:54:33 ===> Epoch:15 Iter:8 idh_loss: 0.51510
+2023-04-29 13:54:33 ===> Epoch:15 Iter:9 idh_loss: 0.49233
+2023-04-29 13:54:34 ===> Epoch:15 Iter:10 idh_loss: 0.24457
+2023-04-29 13:54:34 ===> Epoch:15 Iter:11 idh_loss: 0.50736
+2023-04-29 13:54:34 ===> Epoch:15 Iter:12 idh_loss: 0.97028
+2023-04-29 13:54:35 ===> Epoch:15 Iter:13 idh_loss: 0.46470
+2023-04-29 13:54:35 ===> Epoch:15 Iter:14 idh_loss: 0.54900
+2023-04-29 13:54:36 ===> Epoch:15 Iter:15 idh_loss: 0.64410
+2023-04-29 13:54:36 ===> Epoch:15 Iter:16 idh_loss: 0.33994
+2023-04-29 13:54:37 ===> Epoch:15 Iter:17 idh_loss: 0.39121
+2023-04-29 13:54:37 ===> Epoch:15 Iter:18 idh_loss: 0.43250
+2023-04-29 13:54:38 ===> Epoch:15 Iter:19 idh_loss: 0.47476
+2023-04-29 13:54:38 ===> Epoch:15 Iter:20 idh_loss: 1.22826
+2023-04-29 13:54:38 ===> Epoch:15 Iter:21 idh_loss: 1.03746
+2023-04-29 13:54:39 ===> Epoch:15 Iter:22 idh_loss: 0.59864
+2023-04-29 13:54:39 ===> Epoch:15 Iter:23 idh_loss: 0.26891
+2023-04-29 13:54:40 ===> Epoch:15 Iter:24 idh_loss: 0.56769
+2023-04-29 13:54:40 ===> Epoch:15 Iter:25 idh_loss: 0.31317
+2023-04-29 13:54:41 ===> Epoch:15 Iter:26 idh_loss: 0.88196
+2023-04-29 13:54:41 ===> Epoch:15 Iter:27 idh_loss: 0.58497
+2023-04-29 13:54:42 ===> Epoch:15 Iter:28 idh_loss: 0.58599
+2023-04-29 13:54:45 ===> Epoch:15[best_epoch:12 | min_total_loss:0.41877 | idh_loss:0.92536 | idh_acc: 0.53333 | idh_auc:0.84259]
+2023-04-29 13:54:45 ===> Current epoch time consumption: 0.29 minutes!
+2023-04-29 13:54:45 ===> Estimated remaining training time: 0.35 hours!
+2023-04-29 13:54:46 ===> Epoch:16 Iter:0 idh_loss: 0.79281
+2023-04-29 13:54:47 ===> Epoch:16 Iter:1 idh_loss: 0.56693
+2023-04-29 13:54:47 ===> Epoch:16 Iter:2 idh_loss: 0.67487
+2023-04-29 13:54:48 ===> Epoch:16 Iter:3 idh_loss: 0.66594
+2023-04-29 13:54:48 ===> Epoch:16 Iter:4 idh_loss: 0.32500
+2023-04-29 13:54:48 ===> Epoch:16 Iter:5 idh_loss: 0.71821
+2023-04-29 13:54:49 ===> Epoch:16 Iter:6 idh_loss: 0.67185
+2023-04-29 13:54:49 ===> Epoch:16 Iter:7 idh_loss: 0.51161
+2023-04-29 13:54:50 ===> Epoch:16 Iter:8 idh_loss: 0.40963
+2023-04-29 13:54:50 ===> Epoch:16 Iter:9 idh_loss: 0.47400
+2023-04-29 13:54:51 ===> Epoch:16 Iter:10 idh_loss: 0.29361
+2023-04-29 13:54:51 ===> Epoch:16 Iter:11 idh_loss: 0.14617
+2023-04-29 13:54:52 ===> Epoch:16 Iter:12 idh_loss: 0.54487
+2023-04-29 13:54:52 ===> Epoch:16 Iter:13 idh_loss: 0.54283
+2023-04-29 13:54:52 ===> Epoch:16 Iter:14 idh_loss: 0.41774
+2023-04-29 13:54:53 ===> Epoch:16 Iter:15 idh_loss: 0.21105
+2023-04-29 13:54:53 ===> Epoch:16 Iter:16 idh_loss: 0.32032
+2023-04-29 13:54:54 ===> Epoch:16 Iter:17 idh_loss: 0.21677
+2023-04-29 13:54:54 ===> Epoch:16 Iter:18 idh_loss: 0.49467
+2023-04-29 13:54:55 ===> Epoch:16 Iter:19 idh_loss: 0.64668
+2023-04-29 13:54:55 ===> Epoch:16 Iter:20 idh_loss: 1.21643
+2023-04-29 13:54:56 ===> Epoch:16 Iter:21 idh_loss: 0.53270
+2023-04-29 13:54:56 ===> Epoch:16 Iter:22 idh_loss: 0.48740
+2023-04-29 13:54:56 ===> Epoch:16 Iter:23 idh_loss: 1.15119
+2023-04-29 13:54:57 ===> Epoch:16 Iter:24 idh_loss: 0.38826
+2023-04-29 13:54:57 ===> Epoch:16 Iter:25 idh_loss: 0.44030
+2023-04-29 13:54:58 ===> Epoch:16 Iter:26 idh_loss: 0.33813
+2023-04-29 13:54:58 ===> Epoch:16 Iter:27 idh_loss: 0.60751
+2023-04-29 13:54:59 ===> Epoch:16 Iter:28 idh_loss: 0.56207
+2023-04-29 13:55:02 ===> Epoch:16[best_epoch:12 | min_total_loss:0.41877 | idh_loss:0.80675 | idh_acc: 0.60000 | idh_auc:0.68056]
+2023-04-29 13:55:02 ===> Current epoch time consumption: 0.29 minutes!
+2023-04-29 13:55:02 ===> Estimated remaining training time: 0.35 hours!
+2023-04-29 13:55:04 ===> Epoch:17 Iter:0 idh_loss: 0.69508
+2023-04-29 13:55:04 ===> Epoch:17 Iter:1 idh_loss: 0.45172
+2023-04-29 13:55:05 ===> Epoch:17 Iter:2 idh_loss: 0.42914
+2023-04-29 13:55:05 ===> Epoch:17 Iter:3 idh_loss: 0.41570
+2023-04-29 13:55:05 ===> Epoch:17 Iter:4 idh_loss: 0.27893
+2023-04-29 13:55:06 ===> Epoch:17 Iter:5 idh_loss: 0.92174
+2023-04-29 13:55:06 ===> Epoch:17 Iter:6 idh_loss: 0.56198
+2023-04-29 13:55:07 ===> Epoch:17 Iter:7 idh_loss: 0.46125
+2023-04-29 13:55:07 ===> Epoch:17 Iter:8 idh_loss: 0.59613
+2023-04-29 13:55:08 ===> Epoch:17 Iter:9 idh_loss: 0.53580
+2023-04-29 13:55:08 ===> Epoch:17 Iter:10 idh_loss: 0.38093
+2023-04-29 13:55:09 ===> Epoch:17 Iter:11 idh_loss: 0.59233
+2023-04-29 13:55:09 ===> Epoch:17 Iter:12 idh_loss: 0.52087
+2023-04-29 13:55:09 ===> Epoch:17 Iter:13 idh_loss: 0.44696
+2023-04-29 13:55:10 ===> Epoch:17 Iter:14 idh_loss: 0.25400
+2023-04-29 13:55:10 ===> Epoch:17 Iter:15 idh_loss: 0.58332
+2023-04-29 13:55:11 ===> Epoch:17 Iter:16 idh_loss: 0.59825
+2023-04-29 13:55:11 ===> Epoch:17 Iter:17 idh_loss: 0.58621
+2023-04-29 13:55:12 ===> Epoch:17 Iter:18 idh_loss: 0.80121
+2023-04-29 13:55:12 ===> Epoch:17 Iter:19 idh_loss: 0.29873
+2023-04-29 13:55:12 ===> Epoch:17 Iter:20 idh_loss: 0.32339
+2023-04-29 13:55:13 ===> Epoch:17 Iter:21 idh_loss: 0.45337
+2023-04-29 13:55:13 ===> Epoch:17 Iter:22 idh_loss: 0.49201
+2023-04-29 13:55:14 ===> Epoch:17 Iter:23 idh_loss: 0.19325
+2023-04-29 13:55:14 ===> Epoch:17 Iter:24 idh_loss: 0.78530
+2023-04-29 13:55:15 ===> Epoch:17 Iter:25 idh_loss: 0.71889
+2023-04-29 13:55:15 ===> Epoch:17 Iter:26 idh_loss: 1.26036
+2023-04-29 13:55:16 ===> Epoch:17 Iter:27 idh_loss: 0.37294
+2023-04-29 13:55:16 ===> Epoch:17 Iter:28 idh_loss: 0.54350
+2023-04-29 13:55:19 ===> Epoch:17[best_epoch:12 | min_total_loss:0.41877 | idh_loss:0.62521 | idh_acc: 0.66667 | idh_auc:0.73611]
+2023-04-29 13:55:19 ===> Current epoch time consumption: 0.29 minutes!
+2023-04-29 13:55:19 ===> Estimated remaining training time: 0.35 hours!
+2023-04-29 13:55:21 ===> Epoch:18 Iter:0 idh_loss: 0.32532
+2023-04-29 13:55:21 ===> Epoch:18 Iter:1 idh_loss: 0.25518
+2023-04-29 13:55:22 ===> Epoch:18 Iter:2 idh_loss: 0.39598
+2023-04-29 13:55:22 ===> Epoch:18 Iter:3 idh_loss: 0.40591
+2023-04-29 13:55:23 ===> Epoch:18 Iter:4 idh_loss: 0.37060
+2023-04-29 13:55:23 ===> Epoch:18 Iter:5 idh_loss: 0.85959
+2023-04-29 13:55:24 ===> Epoch:18 Iter:6 idh_loss: 0.24186
+2023-04-29 13:55:24 ===> Epoch:18 Iter:7 idh_loss: 0.58901
+2023-04-29 13:55:24 ===> Epoch:18 Iter:8 idh_loss: 0.35293
+2023-04-29 13:55:25 ===> Epoch:18 Iter:9 idh_loss: 0.31364
+2023-04-29 13:55:25 ===> Epoch:18 Iter:10 idh_loss: 1.37257
+2023-04-29 13:55:26 ===> Epoch:18 Iter:11 idh_loss: 0.31684
+2023-04-29 13:55:26 ===> Epoch:18 Iter:12 idh_loss: 0.89983
+2023-04-29 13:55:27 ===> Epoch:18 Iter:13 idh_loss: 0.97810
+2023-04-29 13:55:27 ===> Epoch:18 Iter:14 idh_loss: 0.54327
+2023-04-29 13:55:28 ===> Epoch:18 Iter:15 idh_loss: 0.56149
+2023-04-29 13:55:28 ===> Epoch:18 Iter:16 idh_loss: 0.72979
+2023-04-29 13:55:28 ===> Epoch:18 Iter:17 idh_loss: 0.81983
+2023-04-29 13:55:29 ===> Epoch:18 Iter:18 idh_loss: 0.61382
+2023-04-29 13:55:29 ===> Epoch:18 Iter:19 idh_loss: 0.50268
+2023-04-29 13:55:30 ===> Epoch:18 Iter:20 idh_loss: 1.09403
+2023-04-29 13:55:30 ===> Epoch:18 Iter:21 idh_loss: 0.69761
+2023-04-29 13:55:31 ===> Epoch:18 Iter:22 idh_loss: 0.85949
+2023-04-29 13:55:31 ===> Epoch:18 Iter:23 idh_loss: 0.83598
+2023-04-29 13:55:32 ===> Epoch:18 Iter:24 idh_loss: 0.54201
+2023-04-29 13:55:32 ===> Epoch:18 Iter:25 idh_loss: 0.65644
+2023-04-29 13:55:32 ===> Epoch:18 Iter:26 idh_loss: 0.65260
+2023-04-29 13:55:33 ===> Epoch:18 Iter:27 idh_loss: 0.51362
+2023-04-29 13:55:33 ===> Epoch:18 Iter:28 idh_loss: 0.82019
+2023-04-29 13:55:37 ===> Epoch:18[best_epoch:12 | min_total_loss:0.41877 | idh_loss:0.55101 | idh_acc: 0.76667 | idh_auc:0.81944]
+2023-04-29 13:55:37 ===> Current epoch time consumption: 0.29 minutes!
+2023-04-29 13:55:37 ===> Estimated remaining training time: 0.34 hours!
+2023-04-29 13:55:38 ===> Epoch:19 Iter:0 idh_loss: 0.59306
+2023-04-29 13:55:39 ===> Epoch:19 Iter:1 idh_loss: 0.67523
+2023-04-29 13:55:39 ===> Epoch:19 Iter:2 idh_loss: 0.35689
+2023-04-29 13:55:40 ===> Epoch:19 Iter:3 idh_loss: 0.56523
+2023-04-29 13:55:40 ===> Epoch:19 Iter:4 idh_loss: 0.98889
+2023-04-29 13:55:41 ===> Epoch:19 Iter:5 idh_loss: 0.41546
+2023-04-29 13:55:41 ===> Epoch:19 Iter:6 idh_loss: 0.56428
+2023-04-29 13:55:41 ===> Epoch:19 Iter:7 idh_loss: 0.45531
+2023-04-29 13:55:42 ===> Epoch:19 Iter:8 idh_loss: 0.48768
+2023-04-29 13:55:42 ===> Epoch:19 Iter:9 idh_loss: 0.75363
+2023-04-29 13:55:43 ===> Epoch:19 Iter:10 idh_loss: 0.31916
+2023-04-29 13:55:43 ===> Epoch:19 Iter:11 idh_loss: 0.48507
+2023-04-29 13:55:44 ===> Epoch:19 Iter:12 idh_loss: 0.56113
+2023-04-29 13:55:44 ===> Epoch:19 Iter:13 idh_loss: 0.78645
+2023-04-29 13:55:44 ===> Epoch:19 Iter:14 idh_loss: 0.61481
+2023-04-29 13:55:45 ===> Epoch:19 Iter:15 idh_loss: 0.61758
+2023-04-29 13:55:45 ===> Epoch:19 Iter:16 idh_loss: 0.43334
+2023-04-29 13:55:46 ===> Epoch:19 Iter:17 idh_loss: 0.57583
+2023-04-29 13:55:46 ===> Epoch:19 Iter:18 idh_loss: 0.44284
+2023-04-29 13:55:47 ===> Epoch:19 Iter:19 idh_loss: 0.46532
+2023-04-29 13:55:47 ===> Epoch:19 Iter:20 idh_loss: 0.42881
+2023-04-29 13:55:48 ===> Epoch:19 Iter:21 idh_loss: 0.92078
+2023-04-29 13:55:48 ===> Epoch:19 Iter:22 idh_loss: 0.82924
+2023-04-29 13:55:48 ===> Epoch:19 Iter:23 idh_loss: 0.71340
+2023-04-29 13:55:49 ===> Epoch:19 Iter:24 idh_loss: 0.32544
+2023-04-29 13:55:49 ===> Epoch:19 Iter:25 idh_loss: 0.62467
+2023-04-29 13:55:50 ===> Epoch:19 Iter:26 idh_loss: 0.39863
+2023-04-29 13:55:50 ===> Epoch:19 Iter:27 idh_loss: 0.50777
+2023-04-29 13:55:51 ===> Epoch:19 Iter:28 idh_loss: 0.53084
+2023-04-29 13:55:54 ===> Epoch:19[best_epoch:12 | min_total_loss:0.41877 | idh_loss:0.43167 | idh_acc: 0.80000 | idh_auc:0.92130]
+2023-04-29 13:55:55 ===> Current epoch time consumption: 0.29 minutes!
+2023-04-29 13:55:55 ===> Estimated remaining training time: 0.34 hours!
+2023-04-29 13:55:56 ===> Epoch:20 Iter:0 idh_loss: 0.44284
+2023-04-29 13:55:57 ===> Epoch:20 Iter:1 idh_loss: 0.37466
+2023-04-29 13:55:57 ===> Epoch:20 Iter:2 idh_loss: 0.28661
+2023-04-29 13:55:58 ===> Epoch:20 Iter:3 idh_loss: 0.22748
+2023-04-29 13:55:58 ===> Epoch:20 Iter:4 idh_loss: 1.07538
+2023-04-29 13:55:58 ===> Epoch:20 Iter:5 idh_loss: 1.28028
+2023-04-29 13:55:59 ===> Epoch:20 Iter:6 idh_loss: 1.07329
+2023-04-29 13:55:59 ===> Epoch:20 Iter:7 idh_loss: 0.33313
+2023-04-29 13:56:00 ===> Epoch:20 Iter:8 idh_loss: 0.23671
+2023-04-29 13:56:00 ===> Epoch:20 Iter:9 idh_loss: 0.98426
+2023-04-29 13:56:01 ===> Epoch:20 Iter:10 idh_loss: 0.39027
+2023-04-29 13:56:01 ===> Epoch:20 Iter:11 idh_loss: 0.60584
+2023-04-29 13:56:02 ===> Epoch:20 Iter:12 idh_loss: 0.37282
+2023-04-29 13:56:02 ===> Epoch:20 Iter:13 idh_loss: 0.94567
+2023-04-29 13:56:02 ===> Epoch:20 Iter:14 idh_loss: 0.21719
+2023-04-29 13:56:03 ===> Epoch:20 Iter:15 idh_loss: 0.48235
+2023-04-29 13:56:03 ===> Epoch:20 Iter:16 idh_loss: 0.65426
+2023-04-29 13:56:04 ===> Epoch:20 Iter:17 idh_loss: 0.58400
+2023-04-29 13:56:04 ===> Epoch:20 Iter:18 idh_loss: 0.63522
+2023-04-29 13:56:05 ===> Epoch:20 Iter:19 idh_loss: 0.29022
+2023-04-29 13:56:05 ===> Epoch:20 Iter:20 idh_loss: 0.33072
+2023-04-29 13:56:06 ===> Epoch:20 Iter:21 idh_loss: 0.45922
+2023-04-29 13:56:06 ===> Epoch:20 Iter:22 idh_loss: 0.79939
+2023-04-29 13:56:06 ===> Epoch:20 Iter:23 idh_loss: 0.64323
+2023-04-29 13:56:07 ===> Epoch:20 Iter:24 idh_loss: 0.47824
+2023-04-29 13:56:07 ===> Epoch:20 Iter:25 idh_loss: 0.44577
+2023-04-29 13:56:08 ===> Epoch:20 Iter:26 idh_loss: 0.46063
+2023-04-29 13:56:08 ===> Epoch:20 Iter:27 idh_loss: 0.69555
+2023-04-29 13:56:09 ===> Epoch:20 Iter:28 idh_loss: 0.62133
+2023-04-29 13:56:12 ===> Epoch:20[best_epoch:12 | min_total_loss:0.41877 | idh_loss:0.55598 | idh_acc: 0.70000 | idh_auc:0.94444]
+2023-04-29 13:56:12 ===> Current epoch time consumption: 0.29 minutes!
+2023-04-29 13:56:12 ===> Estimated remaining training time: 0.33 hours!
+2023-04-29 13:56:13 ===> Epoch:21 Iter:0 idh_loss: 0.97406
+2023-04-29 13:56:14 ===> Epoch:21 Iter:1 idh_loss: 0.96440
+2023-04-29 13:56:14 ===> Epoch:21 Iter:2 idh_loss: 0.62638
+2023-04-29 13:56:15 ===> Epoch:21 Iter:3 idh_loss: 0.48887
+2023-04-29 13:56:15 ===> Epoch:21 Iter:4 idh_loss: 0.52871
+2023-04-29 13:56:16 ===> Epoch:21 Iter:5 idh_loss: 0.33619
+2023-04-29 13:56:16 ===> Epoch:21 Iter:6 idh_loss: 0.62502
+2023-04-29 13:56:17 ===> Epoch:21 Iter:7 idh_loss: 0.57763
+2023-04-29 13:56:17 ===> Epoch:21 Iter:8 idh_loss: 0.63422
+2023-04-29 13:56:18 ===> Epoch:21 Iter:9 idh_loss: 0.73699
+2023-04-29 13:56:18 ===> Epoch:21 Iter:10 idh_loss: 0.31417
+2023-04-29 13:56:18 ===> Epoch:21 Iter:11 idh_loss: 0.39259
+2023-04-29 13:56:19 ===> Epoch:21 Iter:12 idh_loss: 0.82776
+2023-04-29 13:56:19 ===> Epoch:21 Iter:13 idh_loss: 0.54827
+2023-04-29 13:56:20 ===> Epoch:21 Iter:14 idh_loss: 0.48432
+2023-04-29 13:56:20 ===> Epoch:21 Iter:15 idh_loss: 0.32545
+2023-04-29 13:56:21 ===> Epoch:21 Iter:16 idh_loss: 0.50740
+2023-04-29 13:56:21 ===> Epoch:21 Iter:17 idh_loss: 0.48626
+2023-04-29 13:56:22 ===> Epoch:21 Iter:18 idh_loss: 0.47622
+2023-04-29 13:56:22 ===> Epoch:21 Iter:19 idh_loss: 0.24850
+2023-04-29 13:56:22 ===> Epoch:21 Iter:20 idh_loss: 0.25184
+2023-04-29 13:56:23 ===> Epoch:21 Iter:21 idh_loss: 0.33090
+2023-04-29 13:56:23 ===> Epoch:21 Iter:22 idh_loss: 0.62698
+2023-04-29 13:56:24 ===> Epoch:21 Iter:23 idh_loss: 0.36905
+2023-04-29 13:56:24 ===> Epoch:21 Iter:24 idh_loss: 0.83905
+2023-04-29 13:56:25 ===> Epoch:21 Iter:25 idh_loss: 0.38483
+2023-04-29 13:56:25 ===> Epoch:21 Iter:26 idh_loss: 0.71864
+2023-04-29 13:56:25 ===> Epoch:21 Iter:27 idh_loss: 0.57956
+2023-04-29 13:56:26 ===> Epoch:21 Iter:28 idh_loss: 0.28151
+2023-04-29 13:56:29 ===> there is an improvement that update the metrics and save the best model.
+2023-04-29 13:56:32 ===> Epoch:21[best_epoch:21 | min_total_loss:0.38754 | idh_loss:0.38754 | idh_acc: 0.83333 | idh_auc:0.94907]
+2023-04-29 13:56:32 ===> Current epoch time consumption: 0.34 minutes!
+2023-04-29 13:56:32 ===> Estimated remaining training time: 0.39 hours!
+2023-04-29 13:56:34 ===> Epoch:22 Iter:0 idh_loss: 0.73366
+2023-04-29 13:56:34 ===> Epoch:22 Iter:1 idh_loss: 0.96529
+2023-04-29 13:56:34 ===> Epoch:22 Iter:2 idh_loss: 0.41138
+2023-04-29 13:56:35 ===> Epoch:22 Iter:3 idh_loss: 0.40604
+2023-04-29 13:56:35 ===> Epoch:22 Iter:4 idh_loss: 1.01362
+2023-04-29 13:56:36 ===> Epoch:22 Iter:5 idh_loss: 1.08786
+2023-04-29 13:56:36 ===> Epoch:22 Iter:6 idh_loss: 0.25656
+2023-04-29 13:56:37 ===> Epoch:22 Iter:7 idh_loss: 0.49627
+2023-04-29 13:56:37 ===> Epoch:22 Iter:8 idh_loss: 0.28155
+2023-04-29 13:56:38 ===> Epoch:22 Iter:9 idh_loss: 0.83580
+2023-04-29 13:56:38 ===> Epoch:22 Iter:10 idh_loss: 0.37729
+2023-04-29 13:56:38 ===> Epoch:22 Iter:11 idh_loss: 0.56448
+2023-04-29 13:56:39 ===> Epoch:22 Iter:12 idh_loss: 0.51184
+2023-04-29 13:56:39 ===> Epoch:22 Iter:13 idh_loss: 0.56502
+2023-04-29 13:56:40 ===> Epoch:22 Iter:14 idh_loss: 0.25739
+2023-04-29 13:56:40 ===> Epoch:22 Iter:15 idh_loss: 0.27893
+2023-04-29 13:56:41 ===> Epoch:22 Iter:16 idh_loss: 0.23228
+2023-04-29 13:56:41 ===> Epoch:22 Iter:17 idh_loss: 0.48401
+2023-04-29 13:56:42 ===> Epoch:22 Iter:18 idh_loss: 1.23410
+2023-04-29 13:56:42 ===> Epoch:22 Iter:19 idh_loss: 0.60992
+2023-04-29 13:56:42 ===> Epoch:22 Iter:20 idh_loss: 0.52810
+2023-04-29 13:56:43 ===> Epoch:22 Iter:21 idh_loss: 0.56747
+2023-04-29 13:56:43 ===> Epoch:22 Iter:22 idh_loss: 0.54939
+2023-04-29 13:56:44 ===> Epoch:22 Iter:23 idh_loss: 0.36164
+2023-04-29 13:56:44 ===> Epoch:22 Iter:24 idh_loss: 0.35902
+2023-04-29 13:56:45 ===> Epoch:22 Iter:25 idh_loss: 0.49191
+2023-04-29 13:56:45 ===> Epoch:22 Iter:26 idh_loss: 0.52925
+2023-04-29 13:56:45 ===> Epoch:22 Iter:27 idh_loss: 0.88085
+2023-04-29 13:56:46 ===> Epoch:22 Iter:28 idh_loss: 0.55659
+2023-04-29 13:56:49 ===> Epoch:22[best_epoch:21 | min_total_loss:0.38754 | idh_loss:0.54090 | idh_acc: 0.63333 | idh_auc:0.93981]
+2023-04-29 13:56:49 ===> Current epoch time consumption: 0.28 minutes!
+2023-04-29 13:56:49 ===> Estimated remaining training time: 0.31 hours!
+2023-04-29 13:56:51 ===> Epoch:23 Iter:0 idh_loss: 0.27306
+2023-04-29 13:56:51 ===> Epoch:23 Iter:1 idh_loss: 0.30488
+2023-04-29 13:56:52 ===> Epoch:23 Iter:2 idh_loss: 0.53259
+2023-04-29 13:56:52 ===> Epoch:23 Iter:3 idh_loss: 0.23169
+2023-04-29 13:56:53 ===> Epoch:23 Iter:4 idh_loss: 0.64084
+2023-04-29 13:56:53 ===> Epoch:23 Iter:5 idh_loss: 0.33456
+2023-04-29 13:56:53 ===> Epoch:23 Iter:6 idh_loss: 0.44175
+2023-04-29 13:56:54 ===> Epoch:23 Iter:7 idh_loss: 0.33102
+2023-04-29 13:56:54 ===> Epoch:23 Iter:8 idh_loss: 0.35831
+2023-04-29 13:56:55 ===> Epoch:23 Iter:9 idh_loss: 0.77666
+2023-04-29 13:56:55 ===> Epoch:23 Iter:10 idh_loss: 0.16694
+2023-04-29 13:56:56 ===> Epoch:23 Iter:11 idh_loss: 0.47803
+2023-04-29 13:56:56 ===> Epoch:23 Iter:12 idh_loss: 0.40885
+2023-04-29 13:56:57 ===> Epoch:23 Iter:13 idh_loss: 0.78101
+2023-04-29 13:56:57 ===> Epoch:23 Iter:14 idh_loss: 0.29556
+2023-04-29 13:56:57 ===> Epoch:23 Iter:15 idh_loss: 0.83666
+2023-04-29 13:56:58 ===> Epoch:23 Iter:16 idh_loss: 0.69162
+2023-04-29 13:56:58 ===> Epoch:23 Iter:17 idh_loss: 0.42588
+2023-04-29 13:56:59 ===> Epoch:23 Iter:18 idh_loss: 0.47173
+2023-04-29 13:56:59 ===> Epoch:23 Iter:19 idh_loss: 0.96725
+2023-04-29 13:57:00 ===> Epoch:23 Iter:20 idh_loss: 0.91282
+2023-04-29 13:57:00 ===> Epoch:23 Iter:21 idh_loss: 0.84205
+2023-04-29 13:57:01 ===> Epoch:23 Iter:22 idh_loss: 0.40363
+2023-04-29 13:57:01 ===> Epoch:23 Iter:23 idh_loss: 0.46502
+2023-04-29 13:57:01 ===> Epoch:23 Iter:24 idh_loss: 0.18558
+2023-04-29 13:57:02 ===> Epoch:23 Iter:25 idh_loss: 0.31034
+2023-04-29 13:57:02 ===> Epoch:23 Iter:26 idh_loss: 0.31901
+2023-04-29 13:57:03 ===> Epoch:23 Iter:27 idh_loss: 0.33727
+2023-04-29 13:57:03 ===> Epoch:23 Iter:28 idh_loss: 0.55921
+2023-04-29 13:57:07 ===> there is an improvement that update the metrics and save the best model.
+2023-04-29 13:57:10 ===> Epoch:23[best_epoch:23 | min_total_loss:0.34203 | idh_loss:0.34203 | idh_acc: 0.93333 | idh_auc:0.94907]
+2023-04-29 13:57:10 ===> Current epoch time consumption: 0.34 minutes!
+2023-04-29 13:57:10 ===> Estimated remaining training time: 0.38 hours!
+2023-04-29 13:57:11 ===> Epoch:24 Iter:0 idh_loss: 0.33610
+2023-04-29 13:57:11 ===> Epoch:24 Iter:1 idh_loss: 0.24325
+2023-04-29 13:57:12 ===> Epoch:24 Iter:2 idh_loss: 0.76789
+2023-04-29 13:57:12 ===> Epoch:24 Iter:3 idh_loss: 0.36775
+2023-04-29 13:57:13 ===> Epoch:24 Iter:4 idh_loss: 0.60618
+2023-04-29 13:57:13 ===> Epoch:24 Iter:5 idh_loss: 0.28474
+2023-04-29 13:57:14 ===> Epoch:24 Iter:6 idh_loss: 0.85909
+2023-04-29 13:57:14 ===> Epoch:24 Iter:7 idh_loss: 0.23678
+2023-04-29 13:57:14 ===> Epoch:24 Iter:8 idh_loss: 0.49037
+2023-04-29 13:57:15 ===> Epoch:24 Iter:9 idh_loss: 0.30205
+2023-04-29 13:57:15 ===> Epoch:24 Iter:10 idh_loss: 0.42231
+2023-04-29 13:57:16 ===> Epoch:24 Iter:11 idh_loss: 0.58503
+2023-04-29 13:57:16 ===> Epoch:24 Iter:12 idh_loss: 0.25663
+2023-04-29 13:57:17 ===> Epoch:24 Iter:13 idh_loss: 0.61341
+2023-04-29 13:57:17 ===> Epoch:24 Iter:14 idh_loss: 0.72746
+2023-04-29 13:57:18 ===> Epoch:24 Iter:15 idh_loss: 0.40547
+2023-04-29 13:57:18 ===> Epoch:24 Iter:16 idh_loss: 0.33213
+2023-04-29 13:57:18 ===> Epoch:24 Iter:17 idh_loss: 0.32586
+2023-04-29 13:57:19 ===> Epoch:24 Iter:18 idh_loss: 0.89180
+2023-04-29 13:57:19 ===> Epoch:24 Iter:19 idh_loss: 0.51208
+2023-04-29 13:57:20 ===> Epoch:24 Iter:20 idh_loss: 0.23599
+2023-04-29 13:57:20 ===> Epoch:24 Iter:21 idh_loss: 1.11165
+2023-04-29 13:57:21 ===> Epoch:24 Iter:22 idh_loss: 0.51378
+2023-04-29 13:57:21 ===> Epoch:24 Iter:23 idh_loss: 0.29229
+2023-04-29 13:57:22 ===> Epoch:24 Iter:24 idh_loss: 0.70552
+2023-04-29 13:57:22 ===> Epoch:24 Iter:25 idh_loss: 0.19363
+2023-04-29 13:57:22 ===> Epoch:24 Iter:26 idh_loss: 0.64851
+2023-04-29 13:57:23 ===> Epoch:24 Iter:27 idh_loss: 0.28195
+2023-04-29 13:57:23 ===> Epoch:24 Iter:28 idh_loss: 1.36082
+2023-04-29 13:57:27 ===> Epoch:24[best_epoch:23 | min_total_loss:0.34203 | idh_loss:0.37818 | idh_acc: 0.83333 | idh_auc:0.93981]
+2023-04-29 13:57:27 ===> Current epoch time consumption: 0.28 minutes!
+2023-04-29 13:57:27 ===> Estimated remaining training time: 0.30 hours!
+2023-04-29 13:57:28 ===> Epoch:25 Iter:0 idh_loss: 0.36070
+2023-04-29 13:57:29 ===> Epoch:25 Iter:1 idh_loss: 0.38574
+2023-04-29 13:57:29 ===> Epoch:25 Iter:2 idh_loss: 0.54252
+2023-04-29 13:57:29 ===> Epoch:25 Iter:3 idh_loss: 0.45787
+2023-04-29 13:57:30 ===> Epoch:25 Iter:4 idh_loss: 0.35628
+2023-04-29 13:57:30 ===> Epoch:25 Iter:5 idh_loss: 0.47015
+2023-04-29 13:57:31 ===> Epoch:25 Iter:6 idh_loss: 0.30327
+2023-04-29 13:57:31 ===> Epoch:25 Iter:7 idh_loss: 0.28754
+2023-04-29 13:57:32 ===> Epoch:25 Iter:8 idh_loss: 0.95507
+2023-04-29 13:57:32 ===> Epoch:25 Iter:9 idh_loss: 0.34468
+2023-04-29 13:57:33 ===> Epoch:25 Iter:10 idh_loss: 0.52075
+2023-04-29 13:57:33 ===> Epoch:25 Iter:11 idh_loss: 0.45298
+2023-04-29 13:57:33 ===> Epoch:25 Iter:12 idh_loss: 0.37467
+2023-04-29 13:57:34 ===> Epoch:25 Iter:13 idh_loss: 0.34215
+2023-04-29 13:57:34 ===> Epoch:25 Iter:14 idh_loss: 0.41570
+2023-04-29 13:57:35 ===> Epoch:25 Iter:15 idh_loss: 0.42502
+2023-04-29 13:57:35 ===> Epoch:25 Iter:16 idh_loss: 0.36096
+2023-04-29 13:57:36 ===> Epoch:25 Iter:17 idh_loss: 0.14362
+2023-04-29 13:57:36 ===> Epoch:25 Iter:18 idh_loss: 0.65970
+2023-04-29 13:57:36 ===> Epoch:25 Iter:19 idh_loss: 0.49785
+2023-04-29 13:57:37 ===> Epoch:25 Iter:20 idh_loss: 0.69976
+2023-04-29 13:57:37 ===> Epoch:25 Iter:21 idh_loss: 0.31764
+2023-04-29 13:57:38 ===> Epoch:25 Iter:22 idh_loss: 0.37295
+2023-04-29 13:57:38 ===> Epoch:25 Iter:23 idh_loss: 0.90638
+2023-04-29 13:57:39 ===> Epoch:25 Iter:24 idh_loss: 0.22902
+2023-04-29 13:57:39 ===> Epoch:25 Iter:25 idh_loss: 1.25934
+2023-04-29 13:57:40 ===> Epoch:25 Iter:26 idh_loss: 0.29154
+2023-04-29 13:57:40 ===> Epoch:25 Iter:27 idh_loss: 0.36335
+2023-04-29 13:57:40 ===> Epoch:25 Iter:28 idh_loss: 0.36685
+2023-04-29 13:57:44 ===> Epoch:25[best_epoch:23 | min_total_loss:0.34203 | idh_loss:0.41626 | idh_acc: 0.73333 | idh_auc:0.90278]
+2023-04-29 13:57:44 ===> Current epoch time consumption: 0.29 minutes!
+2023-04-29 13:57:44 ===> Estimated remaining training time: 0.31 hours!
+2023-04-29 13:57:45 ===> Epoch:26 Iter:0 idh_loss: 0.71415
+2023-04-29 13:57:46 ===> Epoch:26 Iter:1 idh_loss: 1.25075
+2023-04-29 13:57:46 ===> Epoch:26 Iter:2 idh_loss: 0.53395
+2023-04-29 13:57:47 ===> Epoch:26 Iter:3 idh_loss: 0.20416
+2023-04-29 13:57:47 ===> Epoch:26 Iter:4 idh_loss: 0.53561
+2023-04-29 13:57:48 ===> Epoch:26 Iter:5 idh_loss: 0.26188
+2023-04-29 13:57:48 ===> Epoch:26 Iter:6 idh_loss: 0.26105
+2023-04-29 13:57:48 ===> Epoch:26 Iter:7 idh_loss: 0.36350
+2023-04-29 13:57:49 ===> Epoch:26 Iter:8 idh_loss: 0.42748
+2023-04-29 13:57:49 ===> Epoch:26 Iter:9 idh_loss: 0.40963
+2023-04-29 13:57:50 ===> Epoch:26 Iter:10 idh_loss: 0.57979
+2023-04-29 13:57:50 ===> Epoch:26 Iter:11 idh_loss: 0.36917
+2023-04-29 13:57:51 ===> Epoch:26 Iter:12 idh_loss: 0.57376
+2023-04-29 13:57:51 ===> Epoch:26 Iter:13 idh_loss: 0.38446
+2023-04-29 13:57:52 ===> Epoch:26 Iter:14 idh_loss: 0.26856
+2023-04-29 13:57:52 ===> Epoch:26 Iter:15 idh_loss: 0.46632
+2023-04-29 13:57:52 ===> Epoch:26 Iter:16 idh_loss: 0.75462
+2023-04-29 13:57:53 ===> Epoch:26 Iter:17 idh_loss: 0.18635
+2023-04-29 13:57:53 ===> Epoch:26 Iter:18 idh_loss: 0.72910
+2023-04-29 13:57:54 ===> Epoch:26 Iter:19 idh_loss: 0.30041
+2023-04-29 13:57:54 ===> Epoch:26 Iter:20 idh_loss: 0.89133
+2023-04-29 13:57:55 ===> Epoch:26 Iter:21 idh_loss: 0.24794
+2023-04-29 13:57:55 ===> Epoch:26 Iter:22 idh_loss: 0.50912
+2023-04-29 13:57:56 ===> Epoch:26 Iter:23 idh_loss: 0.71251
+2023-04-29 13:57:56 ===> Epoch:26 Iter:24 idh_loss: 0.86410
+2023-04-29 13:57:56 ===> Epoch:26 Iter:25 idh_loss: 0.31590
+2023-04-29 13:57:57 ===> Epoch:26 Iter:26 idh_loss: 0.56075
+2023-04-29 13:57:57 ===> Epoch:26 Iter:27 idh_loss: 0.20209
+2023-04-29 13:57:58 ===> Epoch:26 Iter:28 idh_loss: 0.34800
+2023-04-29 13:58:01 ===> Epoch:26[best_epoch:23 | min_total_loss:0.34203 | idh_loss:0.34947 | idh_acc: 0.86667 | idh_auc:0.95833]
+2023-04-29 13:58:01 ===> Current epoch time consumption: 0.29 minutes!
+2023-04-29 13:58:01 ===> Estimated remaining training time: 0.30 hours!
+2023-04-29 13:58:03 ===> Epoch:27 Iter:0 idh_loss: 0.70722
+2023-04-29 13:58:03 ===> Epoch:27 Iter:1 idh_loss: 0.18560
+2023-04-29 13:58:04 ===> Epoch:27 Iter:2 idh_loss: 0.75289
+2023-04-29 13:58:04 ===> Epoch:27 Iter:3 idh_loss: 0.92783
+2023-04-29 13:58:04 ===> Epoch:27 Iter:4 idh_loss: 0.68414
+2023-04-29 13:58:05 ===> Epoch:27 Iter:5 idh_loss: 0.17573
+2023-04-29 13:58:05 ===> Epoch:27 Iter:6 idh_loss: 0.40727
+2023-04-29 13:58:06 ===> Epoch:27 Iter:7 idh_loss: 0.64848
+2023-04-29 13:58:06 ===> Epoch:27 Iter:8 idh_loss: 0.56279
+2023-04-29 13:58:07 ===> Epoch:27 Iter:9 idh_loss: 0.71408
+2023-04-29 13:58:07 ===> Epoch:27 Iter:10 idh_loss: 0.21822
+2023-04-29 13:58:08 ===> Epoch:27 Iter:11 idh_loss: 0.60984
+2023-04-29 13:58:08 ===> Epoch:27 Iter:12 idh_loss: 0.26468
+2023-04-29 13:58:08 ===> Epoch:27 Iter:13 idh_loss: 1.05551
+2023-04-29 13:58:09 ===> Epoch:27 Iter:14 idh_loss: 0.43845
+2023-04-29 13:58:09 ===> Epoch:27 Iter:15 idh_loss: 0.41677
+2023-04-29 13:58:10 ===> Epoch:27 Iter:16 idh_loss: 0.93236
+2023-04-29 13:58:10 ===> Epoch:27 Iter:17 idh_loss: 0.55010
+2023-04-29 13:58:11 ===> Epoch:27 Iter:18 idh_loss: 0.42901
+2023-04-29 13:58:11 ===> Epoch:27 Iter:19 idh_loss: 0.32817
+2023-04-29 13:58:11 ===> Epoch:27 Iter:20 idh_loss: 0.86279
+2023-04-29 13:58:12 ===> Epoch:27 Iter:21 idh_loss: 0.55471
+2023-04-29 13:58:12 ===> Epoch:27 Iter:22 idh_loss: 0.32145
+2023-04-29 13:58:13 ===> Epoch:27 Iter:23 idh_loss: 0.14863
+2023-04-29 13:58:13 ===> Epoch:27 Iter:24 idh_loss: 0.49531
+2023-04-29 13:58:14 ===> Epoch:27 Iter:25 idh_loss: 0.34620
+2023-04-29 13:58:14 ===> Epoch:27 Iter:26 idh_loss: 0.32517
+2023-04-29 13:58:15 ===> Epoch:27 Iter:27 idh_loss: 0.64321
+2023-04-29 13:58:15 ===> Epoch:27 Iter:28 idh_loss: 0.69133
+2023-04-29 13:58:18 ===> Epoch:27[best_epoch:23 | min_total_loss:0.34203 | idh_loss:0.35695 | idh_acc: 0.80000 | idh_auc:0.95833]
+2023-04-29 13:58:18 ===> Current epoch time consumption: 0.29 minutes!
+2023-04-29 13:58:18 ===> Estimated remaining training time: 0.30 hours!
+2023-04-29 13:58:20 ===> Epoch:28 Iter:0 idh_loss: 0.27816
+2023-04-29 13:58:20 ===> Epoch:28 Iter:1 idh_loss: 0.89378
+2023-04-29 13:58:21 ===> Epoch:28 Iter:2 idh_loss: 0.61906
+2023-04-29 13:58:21 ===> Epoch:28 Iter:3 idh_loss: 0.34448
+2023-04-29 13:58:22 ===> Epoch:28 Iter:4 idh_loss: 0.19735
+2023-04-29 13:58:22 ===> Epoch:28 Iter:5 idh_loss: 0.46577
+2023-04-29 13:58:23 ===> Epoch:28 Iter:6 idh_loss: 0.40072
+2023-04-29 13:58:23 ===> Epoch:28 Iter:7 idh_loss: 0.54129
+2023-04-29 13:58:23 ===> Epoch:28 Iter:8 idh_loss: 0.21617
+2023-04-29 13:58:24 ===> Epoch:28 Iter:9 idh_loss: 0.22839
+2023-04-29 13:58:24 ===> Epoch:28 Iter:10 idh_loss: 0.83330
+2023-04-29 13:58:25 ===> Epoch:28 Iter:11 idh_loss: 0.31665
+2023-04-29 13:58:25 ===> Epoch:28 Iter:12 idh_loss: 1.23071
+2023-04-29 13:58:26 ===> Epoch:28 Iter:13 idh_loss: 0.20719
+2023-04-29 13:58:26 ===> Epoch:28 Iter:14 idh_loss: 0.16599
+2023-04-29 13:58:27 ===> Epoch:28 Iter:15 idh_loss: 0.23272
+2023-04-29 13:58:27 ===> Epoch:28 Iter:16 idh_loss: 0.15448
+2023-04-29 13:58:27 ===> Epoch:28 Iter:17 idh_loss: 0.20708
+2023-04-29 13:58:28 ===> Epoch:28 Iter:18 idh_loss: 0.29978
+2023-04-29 13:58:28 ===> Epoch:28 Iter:19 idh_loss: 0.40841
+2023-04-29 13:58:29 ===> Epoch:28 Iter:20 idh_loss: 0.11576
+2023-04-29 13:58:29 ===> Epoch:28 Iter:21 idh_loss: 0.79149
+2023-04-29 13:58:30 ===> Epoch:28 Iter:22 idh_loss: 1.04526
+2023-04-29 13:58:30 ===> Epoch:28 Iter:23 idh_loss: 0.17712
+2023-04-29 13:58:31 ===> Epoch:28 Iter:24 idh_loss: 0.63190
+2023-04-29 13:58:31 ===> Epoch:28 Iter:25 idh_loss: 0.84842
+2023-04-29 13:58:31 ===> Epoch:28 Iter:26 idh_loss: 0.36804
+2023-04-29 13:58:32 ===> Epoch:28 Iter:27 idh_loss: 0.50902
+2023-04-29 13:58:32 ===> Epoch:28 Iter:28 idh_loss: 0.29265
+2023-04-29 13:58:36 ===> Epoch:28[best_epoch:23 | min_total_loss:0.34203 | idh_loss:0.39127 | idh_acc: 0.80000 | idh_auc:0.98148]
+2023-04-29 13:58:36 ===> Current epoch time consumption: 0.29 minutes!
+2023-04-29 13:58:36 ===> Estimated remaining training time: 0.30 hours!
+2023-04-29 13:58:37 ===> Epoch:29 Iter:0 idh_loss: 0.68927
+2023-04-29 13:58:38 ===> Epoch:29 Iter:1 idh_loss: 0.96672
+2023-04-29 13:58:38 ===> Epoch:29 Iter:2 idh_loss: 0.17289
+2023-04-29 13:58:39 ===> Epoch:29 Iter:3 idh_loss: 0.52774
+2023-04-29 13:58:39 ===> Epoch:29 Iter:4 idh_loss: 0.67748
+2023-04-29 13:58:40 ===> Epoch:29 Iter:5 idh_loss: 0.22494
+2023-04-29 13:58:40 ===> Epoch:29 Iter:6 idh_loss: 0.20637
+2023-04-29 13:58:41 ===> Epoch:29 Iter:7 idh_loss: 0.41221
+2023-04-29 13:58:41 ===> Epoch:29 Iter:8 idh_loss: 0.62589
+2023-04-29 13:58:41 ===> Epoch:29 Iter:9 idh_loss: 0.55860
+2023-04-29 13:58:42 ===> Epoch:29 Iter:10 idh_loss: 0.82533
+2023-04-29 13:58:42 ===> Epoch:29 Iter:11 idh_loss: 0.23423
+2023-04-29 13:58:43 ===> Epoch:29 Iter:12 idh_loss: 0.44327
+2023-04-29 13:58:43 ===> Epoch:29 Iter:13 idh_loss: 0.42085
+2023-04-29 13:58:44 ===> Epoch:29 Iter:14 idh_loss: 0.38611
+2023-04-29 13:58:44 ===> Epoch:29 Iter:15 idh_loss: 0.50049
+2023-04-29 13:58:45 ===> Epoch:29 Iter:16 idh_loss: 0.81325
+2023-04-29 13:58:45 ===> Epoch:29 Iter:17 idh_loss: 0.23220
+2023-04-29 13:58:45 ===> Epoch:29 Iter:18 idh_loss: 0.22436
+2023-04-29 13:58:46 ===> Epoch:29 Iter:19 idh_loss: 0.30317
+2023-04-29 13:58:46 ===> Epoch:29 Iter:20 idh_loss: 0.06552
+2023-04-29 13:58:47 ===> Epoch:29 Iter:21 idh_loss: 0.28596
+2023-04-29 13:58:47 ===> Epoch:29 Iter:22 idh_loss: 1.30886
+2023-04-29 13:58:48 ===> Epoch:29 Iter:23 idh_loss: 1.45999
+2023-04-29 13:58:48 ===> Epoch:29 Iter:24 idh_loss: 0.51877
+2023-04-29 13:58:49 ===> Epoch:29 Iter:25 idh_loss: 0.21410
+2023-04-29 13:58:49 ===> Epoch:29 Iter:26 idh_loss: 0.84030
+2023-04-29 13:58:49 ===> Epoch:29 Iter:27 idh_loss: 1.02756
+2023-04-29 13:58:50 ===> Epoch:29 Iter:28 idh_loss: 0.27993
+2023-04-29 13:58:53 ===> Epoch:29[best_epoch:23 | min_total_loss:0.34203 | idh_loss:0.35760 | idh_acc: 0.83333 | idh_auc:0.92130]
+2023-04-29 13:58:53 ===> Current epoch time consumption: 0.29 minutes!
+2023-04-29 13:58:53 ===> Estimated remaining training time: 0.29 hours!
+2023-04-29 13:58:55 ===> Epoch:30 Iter:0 idh_loss: 0.20172
+2023-04-29 13:58:55 ===> Epoch:30 Iter:1 idh_loss: 1.02096
+2023-04-29 13:58:56 ===> Epoch:30 Iter:2 idh_loss: 0.37413
+2023-04-29 13:58:56 ===> Epoch:30 Iter:3 idh_loss: 0.17696
+2023-04-29 13:58:57 ===> Epoch:30 Iter:4 idh_loss: 0.19848
+2023-04-29 13:58:57 ===> Epoch:30 Iter:5 idh_loss: 0.23350
+2023-04-29 13:58:58 ===> Epoch:30 Iter:6 idh_loss: 1.02519
+2023-04-29 13:58:58 ===> Epoch:30 Iter:7 idh_loss: 0.77982
+2023-04-29 13:58:58 ===> Epoch:30 Iter:8 idh_loss: 0.61498
+2023-04-29 13:58:59 ===> Epoch:30 Iter:9 idh_loss: 0.42795
+2023-04-29 13:58:59 ===> Epoch:30 Iter:10 idh_loss: 0.31408
+2023-04-29 13:59:00 ===> Epoch:30 Iter:11 idh_loss: 0.26607
+2023-04-29 13:59:00 ===> Epoch:30 Iter:12 idh_loss: 0.29912
+2023-04-29 13:59:01 ===> Epoch:30 Iter:13 idh_loss: 0.40576
+2023-04-29 13:59:01 ===> Epoch:30 Iter:14 idh_loss: 0.28796
+2023-04-29 13:59:01 ===> Epoch:30 Iter:15 idh_loss: 0.63010
+2023-04-29 13:59:02 ===> Epoch:30 Iter:16 idh_loss: 0.86833
+2023-04-29 13:59:02 ===> Epoch:30 Iter:17 idh_loss: 0.22361
+2023-04-29 13:59:03 ===> Epoch:30 Iter:18 idh_loss: 0.45684
+2023-04-29 13:59:03 ===> Epoch:30 Iter:19 idh_loss: 0.37316
+2023-04-29 13:59:04 ===> Epoch:30 Iter:20 idh_loss: 0.47579
+2023-04-29 13:59:04 ===> Epoch:30 Iter:21 idh_loss: 0.56242
+2023-04-29 13:59:05 ===> Epoch:30 Iter:22 idh_loss: 0.60667
+2023-04-29 13:59:05 ===> Epoch:30 Iter:23 idh_loss: 0.54379
+2023-04-29 13:59:05 ===> Epoch:30 Iter:24 idh_loss: 0.36653
+2023-04-29 13:59:06 ===> Epoch:30 Iter:25 idh_loss: 0.34265
+2023-04-29 13:59:06 ===> Epoch:30 Iter:26 idh_loss: 0.27541
+2023-04-29 13:59:07 ===> Epoch:30 Iter:27 idh_loss: 0.27808
+2023-04-29 13:59:07 ===> Epoch:30 Iter:28 idh_loss: 0.20074
+2023-04-29 13:59:11 ===> there is an improvement that update the metrics and save the best model.
+2023-04-29 13:59:14 ===> Epoch:30[best_epoch:30 | min_total_loss:0.29925 | idh_loss:0.29925 | idh_acc: 0.93333 | idh_auc:0.96759]
+2023-04-29 13:59:14 ===> Current epoch time consumption: 0.34 minutes!
+2023-04-29 13:59:14 ===> Estimated remaining training time: 0.34 hours!
+2023-04-29 13:59:15 ===> Epoch:31 Iter:0 idh_loss: 0.30892
+2023-04-29 13:59:15 ===> Epoch:31 Iter:1 idh_loss: 0.18625
+2023-04-29 13:59:16 ===> Epoch:31 Iter:2 idh_loss: 0.37616
+2023-04-29 13:59:16 ===> Epoch:31 Iter:3 idh_loss: 1.25831
+2023-04-29 13:59:17 ===> Epoch:31 Iter:4 idh_loss: 1.25022
+2023-04-29 13:59:17 ===> Epoch:31 Iter:5 idh_loss: 0.16851
+2023-04-29 13:59:17 ===> Epoch:31 Iter:6 idh_loss: 1.10652
+2023-04-29 13:59:18 ===> Epoch:31 Iter:7 idh_loss: 0.46136
+2023-04-29 13:59:18 ===> Epoch:31 Iter:8 idh_loss: 0.50616
+2023-04-29 13:59:19 ===> Epoch:31 Iter:9 idh_loss: 0.45286
+2023-04-29 13:59:19 ===> Epoch:31 Iter:10 idh_loss: 0.35418
+2023-04-29 13:59:20 ===> Epoch:31 Iter:11 idh_loss: 0.72726
+2023-04-29 13:59:20 ===> Epoch:31 Iter:12 idh_loss: 0.84933
+2023-04-29 13:59:21 ===> Epoch:31 Iter:13 idh_loss: 0.34718
+2023-04-29 13:59:21 ===> Epoch:31 Iter:14 idh_loss: 0.13433
+2023-04-29 13:59:21 ===> Epoch:31 Iter:15 idh_loss: 0.21049
+2023-04-29 13:59:22 ===> Epoch:31 Iter:16 idh_loss: 0.37911
+2023-04-29 13:59:22 ===> Epoch:31 Iter:17 idh_loss: 0.93548
+2023-04-29 13:59:23 ===> Epoch:31 Iter:18 idh_loss: 0.82730
+2023-04-29 13:59:23 ===> Epoch:31 Iter:19 idh_loss: 0.52700
+2023-04-29 13:59:24 ===> Epoch:31 Iter:20 idh_loss: 0.42219
+2023-04-29 13:59:24 ===> Epoch:31 Iter:21 idh_loss: 0.69823
+2023-04-29 13:59:25 ===> Epoch:31 Iter:22 idh_loss: 0.36595
+2023-04-29 13:59:25 ===> Epoch:31 Iter:23 idh_loss: 0.24874
+2023-04-29 13:59:25 ===> Epoch:31 Iter:24 idh_loss: 0.66946
+2023-04-29 13:59:26 ===> Epoch:31 Iter:25 idh_loss: 0.41277
+2023-04-29 13:59:26 ===> Epoch:31 Iter:26 idh_loss: 0.20894
+2023-04-29 13:59:27 ===> Epoch:31 Iter:27 idh_loss: 0.31741
+2023-04-29 13:59:27 ===> Epoch:31 Iter:28 idh_loss: 0.55545
+2023-04-29 13:59:30 ===> Epoch:31[best_epoch:30 | min_total_loss:0.29925 | idh_loss:0.34938 | idh_acc: 0.83333 | idh_auc:0.91204]
+2023-04-29 13:59:30 ===> Current epoch time consumption: 0.28 minutes!
+2023-04-29 13:59:30 ===> Estimated remaining training time: 0.27 hours!
+2023-04-29 13:59:32 ===> Epoch:32 Iter:0 idh_loss: 0.58497
+2023-04-29 13:59:33 ===> Epoch:32 Iter:1 idh_loss: 0.76269
+2023-04-29 13:59:33 ===> Epoch:32 Iter:2 idh_loss: 0.28469
+2023-04-29 13:59:33 ===> Epoch:32 Iter:3 idh_loss: 0.23062
+2023-04-29 13:59:34 ===> Epoch:32 Iter:4 idh_loss: 0.33825
+2023-04-29 13:59:34 ===> Epoch:32 Iter:5 idh_loss: 0.40085
+2023-04-29 13:59:35 ===> Epoch:32 Iter:6 idh_loss: 0.54791
+2023-04-29 13:59:35 ===> Epoch:32 Iter:7 idh_loss: 0.31473
+2023-04-29 13:59:36 ===> Epoch:32 Iter:8 idh_loss: 0.55100
+2023-04-29 13:59:36 ===> Epoch:32 Iter:9 idh_loss: 0.17532
+2023-04-29 13:59:37 ===> Epoch:32 Iter:10 idh_loss: 0.45713
+2023-04-29 13:59:37 ===> Epoch:32 Iter:11 idh_loss: 0.28468
+2023-04-29 13:59:37 ===> Epoch:32 Iter:12 idh_loss: 0.55362
+2023-04-29 13:59:38 ===> Epoch:32 Iter:13 idh_loss: 0.08148
+2023-04-29 13:59:38 ===> Epoch:32 Iter:14 idh_loss: 0.44969
+2023-04-29 13:59:39 ===> Epoch:32 Iter:15 idh_loss: 0.50321
+2023-04-29 13:59:39 ===> Epoch:32 Iter:16 idh_loss: 0.67053
+2023-04-29 13:59:40 ===> Epoch:32 Iter:17 idh_loss: 0.85108
+2023-04-29 13:59:40 ===> Epoch:32 Iter:18 idh_loss: 0.40084
+2023-04-29 13:59:41 ===> Epoch:32 Iter:19 idh_loss: 0.23776
+2023-04-29 13:59:41 ===> Epoch:32 Iter:20 idh_loss: 0.57943
+2023-04-29 13:59:41 ===> Epoch:32 Iter:21 idh_loss: 0.05561
+2023-04-29 13:59:42 ===> Epoch:32 Iter:22 idh_loss: 0.17091
+2023-04-29 13:59:42 ===> Epoch:32 Iter:23 idh_loss: 0.62647
+2023-04-29 13:59:43 ===> Epoch:32 Iter:24 idh_loss: 0.53366
+2023-04-29 13:59:43 ===> Epoch:32 Iter:25 idh_loss: 0.58677
+2023-04-29 13:59:44 ===> Epoch:32 Iter:26 idh_loss: 0.33518
+2023-04-29 13:59:44 ===> Epoch:32 Iter:27 idh_loss: 1.06641
+2023-04-29 13:59:45 ===> Epoch:32 Iter:28 idh_loss: 0.40352
+2023-04-29 13:59:48 ===> Epoch:32[best_epoch:30 | min_total_loss:0.29925 | idh_loss:0.40122 | idh_acc: 0.83333 | idh_auc:0.94907]
+2023-04-29 13:59:48 ===> Current epoch time consumption: 0.29 minutes!
+2023-04-29 13:59:48 ===> Estimated remaining training time: 0.27 hours!
+2023-04-29 13:59:50 ===> Epoch:33 Iter:0 idh_loss: 0.21220
+2023-04-29 13:59:50 ===> Epoch:33 Iter:1 idh_loss: 0.24399
+2023-04-29 13:59:51 ===> Epoch:33 Iter:2 idh_loss: 0.10751
+2023-04-29 13:59:51 ===> Epoch:33 Iter:3 idh_loss: 0.25301
+2023-04-29 13:59:51 ===> Epoch:33 Iter:4 idh_loss: 0.55849
+2023-04-29 13:59:52 ===> Epoch:33 Iter:5 idh_loss: 0.38633
+2023-04-29 13:59:52 ===> Epoch:33 Iter:6 idh_loss: 0.19519
+2023-04-29 13:59:53 ===> Epoch:33 Iter:7 idh_loss: 0.23760
+2023-04-29 13:59:53 ===> Epoch:33 Iter:8 idh_loss: 0.61184
+2023-04-29 13:59:54 ===> Epoch:33 Iter:9 idh_loss: 0.57039
+2023-04-29 13:59:54 ===> Epoch:33 Iter:10 idh_loss: 0.16134
+2023-04-29 13:59:55 ===> Epoch:33 Iter:11 idh_loss: 1.05968
+2023-04-29 13:59:55 ===> Epoch:33 Iter:12 idh_loss: 0.14284
+2023-04-29 13:59:55 ===> Epoch:33 Iter:13 idh_loss: 0.50944
+2023-04-29 13:59:56 ===> Epoch:33 Iter:14 idh_loss: 0.33340
+2023-04-29 13:59:56 ===> Epoch:33 Iter:15 idh_loss: 0.31316
+2023-04-29 13:59:57 ===> Epoch:33 Iter:16 idh_loss: 0.29214
+2023-04-29 13:59:57 ===> Epoch:33 Iter:17 idh_loss: 0.47772
+2023-04-29 13:59:58 ===> Epoch:33 Iter:18 idh_loss: 0.74460
+2023-04-29 13:59:58 ===> Epoch:33 Iter:19 idh_loss: 0.57007
+2023-04-29 13:59:58 ===> Epoch:33 Iter:20 idh_loss: 0.17986
+2023-04-29 13:59:59 ===> Epoch:33 Iter:21 idh_loss: 0.44384
+2023-04-29 13:59:59 ===> Epoch:33 Iter:22 idh_loss: 0.45117
+2023-04-29 14:00:00 ===> Epoch:33 Iter:23 idh_loss: 1.01794
+2023-04-29 14:00:00 ===> Epoch:33 Iter:24 idh_loss: 0.42083
+2023-04-29 14:00:01 ===> Epoch:33 Iter:25 idh_loss: 0.57329
+2023-04-29 14:00:01 ===> Epoch:33 Iter:26 idh_loss: 0.26788
+2023-04-29 14:00:02 ===> Epoch:33 Iter:27 idh_loss: 0.20498
+2023-04-29 14:00:02 ===> Epoch:33 Iter:28 idh_loss: 0.16818
+2023-04-29 14:00:05 ===> Epoch:33[best_epoch:30 | min_total_loss:0.29925 | idh_loss:0.42307 | idh_acc: 0.80000 | idh_auc:0.91667]
+2023-04-29 14:00:05 ===> Current epoch time consumption: 0.29 minutes!
+2023-04-29 14:00:05 ===> Estimated remaining training time: 0.27 hours!
+2023-04-29 14:00:07 ===> Epoch:34 Iter:0 idh_loss: 0.44585
+2023-04-29 14:00:07 ===> Epoch:34 Iter:1 idh_loss: 0.68914
+2023-04-29 14:00:08 ===> Epoch:34 Iter:2 idh_loss: 1.14036
+2023-04-29 14:00:08 ===> Epoch:34 Iter:3 idh_loss: 0.12011
+2023-04-29 14:00:09 ===> Epoch:34 Iter:4 idh_loss: 0.13075
+2023-04-29 14:00:09 ===> Epoch:34 Iter:5 idh_loss: 0.22689
+2023-04-29 14:00:10 ===> Epoch:34 Iter:6 idh_loss: 0.04144
+2023-04-29 14:00:10 ===> Epoch:34 Iter:7 idh_loss: 0.47838
+2023-04-29 14:00:10 ===> Epoch:34 Iter:8 idh_loss: 1.41184
+2023-04-29 14:00:11 ===> Epoch:34 Iter:9 idh_loss: 1.81421
+2023-04-29 14:00:11 ===> Epoch:34 Iter:10 idh_loss: 0.22605
+2023-04-29 14:00:12 ===> Epoch:34 Iter:11 idh_loss: 0.28535
+2023-04-29 14:00:12 ===> Epoch:34 Iter:12 idh_loss: 0.63904
+2023-04-29 14:00:13 ===> Epoch:34 Iter:13 idh_loss: 0.61238
+2023-04-29 14:00:13 ===> Epoch:34 Iter:14 idh_loss: 0.34681
+2023-04-29 14:00:14 ===> Epoch:34 Iter:15 idh_loss: 0.23222
+2023-04-29 14:00:14 ===> Epoch:34 Iter:16 idh_loss: 0.63844
+2023-04-29 14:00:14 ===> Epoch:34 Iter:17 idh_loss: 0.45194
+2023-04-29 14:00:15 ===> Epoch:34 Iter:18 idh_loss: 0.81522
+2023-04-29 14:00:15 ===> Epoch:34 Iter:19 idh_loss: 0.49552
+2023-04-29 14:00:16 ===> Epoch:34 Iter:20 idh_loss: 0.47396
+2023-04-29 14:00:16 ===> Epoch:34 Iter:21 idh_loss: 0.36181
+2023-04-29 14:00:17 ===> Epoch:34 Iter:22 idh_loss: 0.26018
+2023-04-29 14:00:17 ===> Epoch:34 Iter:23 idh_loss: 0.17615
+2023-04-29 14:00:18 ===> Epoch:34 Iter:24 idh_loss: 0.55222
+2023-04-29 14:00:18 ===> Epoch:34 Iter:25 idh_loss: 0.11590
+2023-04-29 14:00:18 ===> Epoch:34 Iter:26 idh_loss: 0.78091
+2023-04-29 14:00:19 ===> Epoch:34 Iter:27 idh_loss: 0.24005
+2023-04-29 14:00:19 ===> Epoch:34 Iter:28 idh_loss: 0.16457
+2023-04-29 14:00:23 ===> Epoch:34[best_epoch:30 | min_total_loss:0.29925 | idh_loss:0.43106 | idh_acc: 0.76667 | idh_auc:0.93519]
+2023-04-29 14:00:23 ===> Current epoch time consumption: 0.29 minutes!
+2023-04-29 14:00:23 ===> Estimated remaining training time: 0.26 hours!
+2023-04-29 14:00:24 ===> Epoch:35 Iter:0 idh_loss: 0.29044
+2023-04-29 14:00:25 ===> Epoch:35 Iter:1 idh_loss: 0.30507
+2023-04-29 14:00:25 ===> Epoch:35 Iter:2 idh_loss: 0.40636
+2023-04-29 14:00:26 ===> Epoch:35 Iter:3 idh_loss: 0.50297
+2023-04-29 14:00:26 ===> Epoch:35 Iter:4 idh_loss: 0.40251
+2023-04-29 14:00:26 ===> Epoch:35 Iter:5 idh_loss: 0.56161
+2023-04-29 14:00:27 ===> Epoch:35 Iter:6 idh_loss: 0.12936
+2023-04-29 14:00:27 ===> Epoch:35 Iter:7 idh_loss: 0.34717
+2023-04-29 14:00:28 ===> Epoch:35 Iter:8 idh_loss: 0.16696
+2023-04-29 14:00:28 ===> Epoch:35 Iter:9 idh_loss: 0.53673
+2023-04-29 14:00:29 ===> Epoch:35 Iter:10 idh_loss: 0.45972
+2023-04-29 14:00:29 ===> Epoch:35 Iter:11 idh_loss: 0.91286
+2023-04-29 14:00:30 ===> Epoch:35 Iter:12 idh_loss: 1.07868
+2023-04-29 14:00:30 ===> Epoch:35 Iter:13 idh_loss: 1.42617
+2023-04-29 14:00:30 ===> Epoch:35 Iter:14 idh_loss: 0.34129
+2023-04-29 14:00:31 ===> Epoch:35 Iter:15 idh_loss: 0.19670
+2023-04-29 14:00:31 ===> Epoch:35 Iter:16 idh_loss: 0.05267
+2023-04-29 14:00:32 ===> Epoch:35 Iter:17 idh_loss: 0.20675
+2023-04-29 14:00:32 ===> Epoch:35 Iter:18 idh_loss: 0.48323
+2023-04-29 14:00:33 ===> Epoch:35 Iter:19 idh_loss: 0.27720
+2023-04-29 14:00:33 ===> Epoch:35 Iter:20 idh_loss: 0.99686
+2023-04-29 14:00:33 ===> Epoch:35 Iter:21 idh_loss: 0.20318
+2023-04-29 14:00:34 ===> Epoch:35 Iter:22 idh_loss: 0.63099
+2023-04-29 14:00:34 ===> Epoch:35 Iter:23 idh_loss: 0.30151
+2023-04-29 14:00:35 ===> Epoch:35 Iter:24 idh_loss: 0.07679
+2023-04-29 14:00:35 ===> Epoch:35 Iter:25 idh_loss: 0.24909
+2023-04-29 14:00:36 ===> Epoch:35 Iter:26 idh_loss: 0.27527
+2023-04-29 14:00:36 ===> Epoch:35 Iter:27 idh_loss: 0.47228
+2023-04-29 14:00:37 ===> Epoch:35 Iter:28 idh_loss: 0.15687
+2023-04-29 14:00:40 ===> there is an improvement that update the metrics and save the best model.
+2023-04-29 14:00:43 ===> Epoch:35[best_epoch:35 | min_total_loss:0.29566 | idh_loss:0.29566 | idh_acc: 0.90000 | idh_auc:0.95370]
+2023-04-29 14:00:43 ===> Current epoch time consumption: 0.34 minutes!
+2023-04-29 14:00:43 ===> Estimated remaining training time: 0.31 hours!
+2023-04-29 14:00:44 ===> Epoch:36 Iter:0 idh_loss: 0.46009
+2023-04-29 14:00:45 ===> Epoch:36 Iter:1 idh_loss: 0.88045
+2023-04-29 14:00:45 ===> Epoch:36 Iter:2 idh_loss: 0.56214
+2023-04-29 14:00:46 ===> Epoch:36 Iter:3 idh_loss: 0.18063
+2023-04-29 14:00:46 ===> Epoch:36 Iter:4 idh_loss: 0.36425
+2023-04-29 14:00:46 ===> Epoch:36 Iter:5 idh_loss: 0.16362
+2023-04-29 14:00:47 ===> Epoch:36 Iter:6 idh_loss: 0.39491
+2023-04-29 14:00:47 ===> Epoch:36 Iter:7 idh_loss: 0.23987
+2023-04-29 14:00:48 ===> Epoch:36 Iter:8 idh_loss: 0.22190
+2023-04-29 14:00:48 ===> Epoch:36 Iter:9 idh_loss: 0.19236
+2023-04-29 14:00:49 ===> Epoch:36 Iter:10 idh_loss: 0.18381
+2023-04-29 14:00:49 ===> Epoch:36 Iter:11 idh_loss: 0.17736
+2023-04-29 14:00:50 ===> Epoch:36 Iter:12 idh_loss: 0.41903
+2023-04-29 14:00:50 ===> Epoch:36 Iter:13 idh_loss: 0.59297
+2023-04-29 14:00:50 ===> Epoch:36 Iter:14 idh_loss: 0.11768
+2023-04-29 14:00:51 ===> Epoch:36 Iter:15 idh_loss: 1.16967
+2023-04-29 14:00:51 ===> Epoch:36 Iter:16 idh_loss: 0.17982
+2023-04-29 14:00:52 ===> Epoch:36 Iter:17 idh_loss: 0.35738
+2023-04-29 14:00:52 ===> Epoch:36 Iter:18 idh_loss: 0.25388
+2023-04-29 14:00:53 ===> Epoch:36 Iter:19 idh_loss: 0.49045
+2023-04-29 14:00:53 ===> Epoch:36 Iter:20 idh_loss: 0.27852
+2023-04-29 14:00:53 ===> Epoch:36 Iter:21 idh_loss: 0.50742
+2023-04-29 14:00:54 ===> Epoch:36 Iter:22 idh_loss: 0.32529
+2023-04-29 14:00:54 ===> Epoch:36 Iter:23 idh_loss: 0.02712
+2023-04-29 14:00:55 ===> Epoch:36 Iter:24 idh_loss: 0.18698
+2023-04-29 14:00:55 ===> Epoch:36 Iter:25 idh_loss: 0.13200
+2023-04-29 14:00:56 ===> Epoch:36 Iter:26 idh_loss: 0.15198
+2023-04-29 14:00:56 ===> Epoch:36 Iter:27 idh_loss: 0.32428
+2023-04-29 14:00:57 ===> Epoch:36 Iter:28 idh_loss: 0.35906
+2023-04-29 14:01:00 ===> there is an improvement that update the metrics and save the best model.
+2023-04-29 14:01:03 ===> Epoch:36[best_epoch:36 | min_total_loss:0.25957 | idh_loss:0.25957 | idh_acc: 0.90000 | idh_auc:0.97222]
+2023-04-29 14:01:03 ===> Current epoch time consumption: 0.33 minutes!
+2023-04-29 14:01:03 ===> Estimated remaining training time: 0.30 hours!
+2023-04-29 14:01:04 ===> Epoch:37 Iter:0 idh_loss: 0.36408
+2023-04-29 14:01:05 ===> Epoch:37 Iter:1 idh_loss: 0.24939
+2023-04-29 14:01:05 ===> Epoch:37 Iter:2 idh_loss: 0.43767
+2023-04-29 14:01:06 ===> Epoch:37 Iter:3 idh_loss: 0.28349
+2023-04-29 14:01:06 ===> Epoch:37 Iter:4 idh_loss: 0.21582
+2023-04-29 14:01:06 ===> Epoch:37 Iter:5 idh_loss: 0.70153
+2023-04-29 14:01:07 ===> Epoch:37 Iter:6 idh_loss: 0.60531
+2023-04-29 14:01:07 ===> Epoch:37 Iter:7 idh_loss: 0.17010
+2023-04-29 14:01:08 ===> Epoch:37 Iter:8 idh_loss: 0.30429
+2023-04-29 14:01:08 ===> Epoch:37 Iter:9 idh_loss: 0.38714
+2023-04-29 14:01:09 ===> Epoch:37 Iter:10 idh_loss: 0.04584
+2023-04-29 14:01:09 ===> Epoch:37 Iter:11 idh_loss: 0.68861
+2023-04-29 14:01:10 ===> Epoch:37 Iter:12 idh_loss: 0.96325
+2023-04-29 14:01:10 ===> Epoch:37 Iter:13 idh_loss: 0.73860
+2023-04-29 14:01:10 ===> Epoch:37 Iter:14 idh_loss: 0.66827
+2023-04-29 14:01:11 ===> Epoch:37 Iter:15 idh_loss: 0.09593
+2023-04-29 14:01:11 ===> Epoch:37 Iter:16 idh_loss: 0.62239
+2023-04-29 14:01:12 ===> Epoch:37 Iter:17 idh_loss: 0.45533
+2023-04-29 14:01:12 ===> Epoch:37 Iter:18 idh_loss: 0.94934
+2023-04-29 14:01:13 ===> Epoch:37 Iter:19 idh_loss: 0.07055
+2023-04-29 14:01:13 ===> Epoch:37 Iter:20 idh_loss: 0.49232
+2023-04-29 14:01:14 ===> Epoch:37 Iter:21 idh_loss: 0.34024
+2023-04-29 14:01:14 ===> Epoch:37 Iter:22 idh_loss: 0.35340
+2023-04-29 14:01:14 ===> Epoch:37 Iter:23 idh_loss: 0.16476
+2023-04-29 14:01:15 ===> Epoch:37 Iter:24 idh_loss: 0.43775
+2023-04-29 14:01:15 ===> Epoch:37 Iter:25 idh_loss: 0.92383
+2023-04-29 14:01:16 ===> Epoch:37 Iter:26 idh_loss: 0.13901
+2023-04-29 14:01:16 ===> Epoch:37 Iter:27 idh_loss: 0.13815
+2023-04-29 14:01:17 ===> Epoch:37 Iter:28 idh_loss: 0.06494
+2023-04-29 14:01:20 ===> Epoch:37[best_epoch:36 | min_total_loss:0.25957 | idh_loss:0.31256 | idh_acc: 0.83333 | idh_auc:0.94444]
+2023-04-29 14:01:20 ===> Current epoch time consumption: 0.28 minutes!
+2023-04-29 14:01:20 ===> Estimated remaining training time: 0.25 hours!
+2023-04-29 14:01:21 ===> Epoch:38 Iter:0 idh_loss: 0.12784
+2023-04-29 14:01:22 ===> Epoch:38 Iter:1 idh_loss: 0.88276
+2023-04-29 14:01:22 ===> Epoch:38 Iter:2 idh_loss: 0.16556
+2023-04-29 14:01:23 ===> Epoch:38 Iter:3 idh_loss: 0.67238
+2023-04-29 14:01:23 ===> Epoch:38 Iter:4 idh_loss: 0.55768
+2023-04-29 14:01:24 ===> Epoch:38 Iter:5 idh_loss: 0.30542
+2023-04-29 14:01:24 ===> Epoch:38 Iter:6 idh_loss: 0.17472
+2023-04-29 14:01:25 ===> Epoch:38 Iter:7 idh_loss: 0.32374
+2023-04-29 14:01:25 ===> Epoch:38 Iter:8 idh_loss: 0.41449
+2023-04-29 14:01:25 ===> Epoch:38 Iter:9 idh_loss: 0.34376
+2023-04-29 14:01:26 ===> Epoch:38 Iter:10 idh_loss: 0.42331
+2023-04-29 14:01:26 ===> Epoch:38 Iter:11 idh_loss: 0.25637
+2023-04-29 14:01:27 ===> Epoch:38 Iter:12 idh_loss: 0.30066
+2023-04-29 14:01:27 ===> Epoch:38 Iter:13 idh_loss: 0.66931
+2023-04-29 14:01:28 ===> Epoch:38 Iter:14 idh_loss: 0.19727
+2023-04-29 14:01:28 ===> Epoch:38 Iter:15 idh_loss: 1.00554
+2023-04-29 14:01:29 ===> Epoch:38 Iter:16 idh_loss: 0.27314
+2023-04-29 14:01:29 ===> Epoch:38 Iter:17 idh_loss: 0.26167
+2023-04-29 14:01:29 ===> Epoch:38 Iter:18 idh_loss: 0.21297
+2023-04-29 14:01:30 ===> Epoch:38 Iter:19 idh_loss: 0.36969
+2023-04-29 14:01:30 ===> Epoch:38 Iter:20 idh_loss: 0.37427
+2023-04-29 14:01:31 ===> Epoch:38 Iter:21 idh_loss: 0.06434
+2023-04-29 14:01:31 ===> Epoch:38 Iter:22 idh_loss: 0.08756
+2023-04-29 14:01:32 ===> Epoch:38 Iter:23 idh_loss: 0.43863
+2023-04-29 14:01:32 ===> Epoch:38 Iter:24 idh_loss: 0.15611
+2023-04-29 14:01:33 ===> Epoch:38 Iter:25 idh_loss: 0.91246
+2023-04-29 14:01:33 ===> Epoch:38 Iter:26 idh_loss: 0.82157
+2023-04-29 14:01:33 ===> Epoch:38 Iter:27 idh_loss: 0.45477
+2023-04-29 14:01:34 ===> Epoch:38 Iter:28 idh_loss: 0.43978
+2023-04-29 14:01:37 ===> Epoch:38[best_epoch:36 | min_total_loss:0.25957 | idh_loss:0.28932 | idh_acc: 0.86667 | idh_auc:0.96296]
+2023-04-29 14:01:37 ===> Current epoch time consumption: 0.29 minutes!
+2023-04-29 14:01:37 ===> Estimated remaining training time: 0.24 hours!
+2023-04-29 14:01:39 ===> Epoch:39 Iter:0 idh_loss: 0.68424
+2023-04-29 14:01:39 ===> Epoch:39 Iter:1 idh_loss: 0.72584
+2023-04-29 14:01:40 ===> Epoch:39 Iter:2 idh_loss: 0.52018
+2023-04-29 14:01:40 ===> Epoch:39 Iter:3 idh_loss: 0.79758
+2023-04-29 14:01:41 ===> Epoch:39 Iter:4 idh_loss: 0.43271
+2023-04-29 14:01:41 ===> Epoch:39 Iter:5 idh_loss: 0.47134
+2023-04-29 14:01:42 ===> Epoch:39 Iter:6 idh_loss: 0.43043
+2023-04-29 14:01:42 ===> Epoch:39 Iter:7 idh_loss: 0.23055
+2023-04-29 14:01:42 ===> Epoch:39 Iter:8 idh_loss: 0.23220
+2023-04-29 14:01:43 ===> Epoch:39 Iter:9 idh_loss: 0.16253
+2023-04-29 14:01:43 ===> Epoch:39 Iter:10 idh_loss: 0.14735
+2023-04-29 14:01:44 ===> Epoch:39 Iter:11 idh_loss: 0.21046
+2023-04-29 14:01:44 ===> Epoch:39 Iter:12 idh_loss: 0.77616
+2023-04-29 14:01:45 ===> Epoch:39 Iter:13 idh_loss: 0.12913
+2023-04-29 14:01:45 ===> Epoch:39 Iter:14 idh_loss: 0.49422
+2023-04-29 14:01:46 ===> Epoch:39 Iter:15 idh_loss: 0.08500
+2023-04-29 14:01:46 ===> Epoch:39 Iter:16 idh_loss: 0.37229
+2023-04-29 14:01:46 ===> Epoch:39 Iter:17 idh_loss: 0.60630
+2023-04-29 14:01:47 ===> Epoch:39 Iter:18 idh_loss: 0.10610
+2023-04-29 14:01:47 ===> Epoch:39 Iter:19 idh_loss: 0.53589
+2023-04-29 14:01:48 ===> Epoch:39 Iter:20 idh_loss: 0.30682
+2023-04-29 14:01:48 ===> Epoch:39 Iter:21 idh_loss: 0.80377
+2023-04-29 14:01:49 ===> Epoch:39 Iter:22 idh_loss: 1.07457
+2023-04-29 14:01:49 ===> Epoch:39 Iter:23 idh_loss: 0.20841
+2023-04-29 14:01:49 ===> Epoch:39 Iter:24 idh_loss: 0.08366
+2023-04-29 14:01:50 ===> Epoch:39 Iter:25 idh_loss: 0.24021
+2023-04-29 14:01:50 ===> Epoch:39 Iter:26 idh_loss: 0.88303
+2023-04-29 14:01:51 ===> Epoch:39 Iter:27 idh_loss: 0.11697
+2023-04-29 14:01:51 ===> Epoch:39 Iter:28 idh_loss: 0.41837
+2023-04-29 14:01:55 ===> Epoch:39[best_epoch:36 | min_total_loss:0.25957 | idh_loss:0.32593 | idh_acc: 0.83333 | idh_auc:0.94907]
+2023-04-29 14:01:55 ===> Current epoch time consumption: 0.29 minutes!
+2023-04-29 14:01:55 ===> Estimated remaining training time: 0.24 hours!
+2023-04-29 14:01:57 ===> Epoch:40 Iter:0 idh_loss: 0.20015
+2023-04-29 14:01:57 ===> Epoch:40 Iter:1 idh_loss: 0.32526
+2023-04-29 14:01:58 ===> Epoch:40 Iter:2 idh_loss: 0.33412
+2023-04-29 14:01:58 ===> Epoch:40 Iter:3 idh_loss: 0.25046
+2023-04-29 14:01:59 ===> Epoch:40 Iter:4 idh_loss: 0.70130
+2023-04-29 14:01:59 ===> Epoch:40 Iter:5 idh_loss: 0.55238
+2023-04-29 14:01:59 ===> Epoch:40 Iter:6 idh_loss: 0.51329
+2023-04-29 14:02:00 ===> Epoch:40 Iter:7 idh_loss: 0.65418
+2023-04-29 14:02:00 ===> Epoch:40 Iter:8 idh_loss: 0.34744
+2023-04-29 14:02:01 ===> Epoch:40 Iter:9 idh_loss: 0.69684
+2023-04-29 14:02:01 ===> Epoch:40 Iter:10 idh_loss: 0.93393
+2023-04-29 14:02:02 ===> Epoch:40 Iter:11 idh_loss: 0.22337
+2023-04-29 14:02:02 ===> Epoch:40 Iter:12 idh_loss: 0.34471
+2023-04-29 14:02:03 ===> Epoch:40 Iter:13 idh_loss: 0.36240
+2023-04-29 14:02:03 ===> Epoch:40 Iter:14 idh_loss: 0.36763
+2023-04-29 14:02:03 ===> Epoch:40 Iter:15 idh_loss: 0.23087
+2023-04-29 14:02:04 ===> Epoch:40 Iter:16 idh_loss: 0.35700
+2023-04-29 14:02:04 ===> Epoch:40 Iter:17 idh_loss: 0.05751
+2023-04-29 14:02:05 ===> Epoch:40 Iter:18 idh_loss: 0.07506
+2023-04-29 14:02:05 ===> Epoch:40 Iter:19 idh_loss: 0.14687
+2023-04-29 14:02:06 ===> Epoch:40 Iter:20 idh_loss: 0.07273
+2023-04-29 14:02:06 ===> Epoch:40 Iter:21 idh_loss: 0.14427
+2023-04-29 14:02:06 ===> Epoch:40 Iter:22 idh_loss: 0.35788
+2023-04-29 14:02:07 ===> Epoch:40 Iter:23 idh_loss: 0.42556
+2023-04-29 14:02:07 ===> Epoch:40 Iter:24 idh_loss: 0.16003
+2023-04-29 14:02:08 ===> Epoch:40 Iter:25 idh_loss: 0.59677
+2023-04-29 14:02:08 ===> Epoch:40 Iter:26 idh_loss: 0.23624
+2023-04-29 14:02:09 ===> Epoch:40 Iter:27 idh_loss: 0.27330
+2023-04-29 14:02:09 ===> Epoch:40 Iter:28 idh_loss: 0.43495
+2023-04-29 14:02:12 ===> Epoch:40[best_epoch:36 | min_total_loss:0.25957 | idh_loss:0.29201 | idh_acc: 0.90000 | idh_auc:0.97222]
+2023-04-29 14:02:12 ===> Current epoch time consumption: 0.28 minutes!
+2023-04-29 14:02:12 ===> Estimated remaining training time: 0.23 hours!
+2023-04-29 14:02:14 ===> Epoch:41 Iter:0 idh_loss: 0.12777
+2023-04-29 14:02:14 ===> Epoch:41 Iter:1 idh_loss: 0.28997
+2023-04-29 14:02:15 ===> Epoch:41 Iter:2 idh_loss: 0.16956
+2023-04-29 14:02:15 ===> Epoch:41 Iter:3 idh_loss: 0.06885
+2023-04-29 14:02:16 ===> Epoch:41 Iter:4 idh_loss: 0.04504
+2023-04-29 14:02:16 ===> Epoch:41 Iter:5 idh_loss: 0.98799
+2023-04-29 14:02:17 ===> Epoch:41 Iter:6 idh_loss: 0.97620
+2023-04-29 14:02:17 ===> Epoch:41 Iter:7 idh_loss: 0.27445
+2023-04-29 14:02:18 ===> Epoch:41 Iter:8 idh_loss: 0.23686
+2023-04-29 14:02:18 ===> Epoch:41 Iter:9 idh_loss: 0.13721
+2023-04-29 14:02:18 ===> Epoch:41 Iter:10 idh_loss: 0.17243
+2023-04-29 14:02:19 ===> Epoch:41 Iter:11 idh_loss: 0.53780
+2023-04-29 14:02:19 ===> Epoch:41 Iter:12 idh_loss: 0.06749
+2023-04-29 14:02:20 ===> Epoch:41 Iter:13 idh_loss: 0.14314
+2023-04-29 14:02:20 ===> Epoch:41 Iter:14 idh_loss: 0.54735
+2023-04-29 14:02:21 ===> Epoch:41 Iter:15 idh_loss: 0.89236
+2023-04-29 14:02:21 ===> Epoch:41 Iter:16 idh_loss: 0.28337
+2023-04-29 14:02:22 ===> Epoch:41 Iter:17 idh_loss: 0.05552
+2023-04-29 14:02:22 ===> Epoch:41 Iter:18 idh_loss: 0.39486
+2023-04-29 14:02:22 ===> Epoch:41 Iter:19 idh_loss: 0.44059
+2023-04-29 14:02:23 ===> Epoch:41 Iter:20 idh_loss: 0.51901
+2023-04-29 14:02:23 ===> Epoch:41 Iter:21 idh_loss: 0.08889
+2023-04-29 14:02:24 ===> Epoch:41 Iter:22 idh_loss: 0.62717
+2023-04-29 14:02:24 ===> Epoch:41 Iter:23 idh_loss: 0.52749
+2023-04-29 14:02:25 ===> Epoch:41 Iter:24 idh_loss: 0.59441
+2023-04-29 14:02:25 ===> Epoch:41 Iter:25 idh_loss: 0.86542
+2023-04-29 14:02:26 ===> Epoch:41 Iter:26 idh_loss: 0.24467
+2023-04-29 14:02:26 ===> Epoch:41 Iter:27 idh_loss: 0.58112
+2023-04-29 14:02:26 ===> Epoch:41 Iter:28 idh_loss: 0.28487
+2023-04-29 14:02:30 ===> Epoch:41[best_epoch:36 | min_total_loss:0.25957 | idh_loss:0.51863 | idh_acc: 0.76667 | idh_auc:0.94907]
+2023-04-29 14:02:30 ===> Current epoch time consumption: 0.29 minutes!
+2023-04-29 14:02:30 ===> Estimated remaining training time: 0.23 hours!
+2023-04-29 14:02:31 ===> Epoch:42 Iter:0 idh_loss: 0.33093
+2023-04-29 14:02:32 ===> Epoch:42 Iter:1 idh_loss: 0.81633
+2023-04-29 14:02:32 ===> Epoch:42 Iter:2 idh_loss: 0.42364
+2023-04-29 14:02:33 ===> Epoch:42 Iter:3 idh_loss: 0.27621
+2023-04-29 14:02:33 ===> Epoch:42 Iter:4 idh_loss: 0.61563
+2023-04-29 14:02:33 ===> Epoch:42 Iter:5 idh_loss: 0.31356
+2023-04-29 14:02:34 ===> Epoch:42 Iter:6 idh_loss: 0.25052
+2023-04-29 14:02:34 ===> Epoch:42 Iter:7 idh_loss: 0.23328
+2023-04-29 14:02:35 ===> Epoch:42 Iter:8 idh_loss: 0.65376
+2023-04-29 14:02:35 ===> Epoch:42 Iter:9 idh_loss: 0.34379
+2023-04-29 14:02:36 ===> Epoch:42 Iter:10 idh_loss: 0.15241
+2023-04-29 14:02:36 ===> Epoch:42 Iter:11 idh_loss: 1.16343
+2023-04-29 14:02:37 ===> Epoch:42 Iter:12 idh_loss: 0.96414
+2023-04-29 14:02:37 ===> Epoch:42 Iter:13 idh_loss: 0.44042
+2023-04-29 14:02:37 ===> Epoch:42 Iter:14 idh_loss: 0.74038
+2023-04-29 14:02:38 ===> Epoch:42 Iter:15 idh_loss: 0.53050
+2023-04-29 14:02:38 ===> Epoch:42 Iter:16 idh_loss: 0.58190
+2023-04-29 14:02:39 ===> Epoch:42 Iter:17 idh_loss: 0.12645
+2023-04-29 14:02:39 ===> Epoch:42 Iter:18 idh_loss: 0.20208
+2023-04-29 14:02:40 ===> Epoch:42 Iter:19 idh_loss: 0.40563
+2023-04-29 14:02:40 ===> Epoch:42 Iter:20 idh_loss: 0.48815
+2023-04-29 14:02:41 ===> Epoch:42 Iter:21 idh_loss: 0.09193
+2023-04-29 14:02:41 ===> Epoch:42 Iter:22 idh_loss: 0.25832
+2023-04-29 14:02:41 ===> Epoch:42 Iter:23 idh_loss: 0.21491
+2023-04-29 14:02:42 ===> Epoch:42 Iter:24 idh_loss: 0.15087
+2023-04-29 14:02:42 ===> Epoch:42 Iter:25 idh_loss: 0.59922
+2023-04-29 14:02:43 ===> Epoch:42 Iter:26 idh_loss: 0.17083
+2023-04-29 14:02:43 ===> Epoch:42 Iter:27 idh_loss: 0.04289
+2023-04-29 14:02:44 ===> Epoch:42 Iter:28 idh_loss: 0.13829
+2023-04-29 14:02:47 ===> Epoch:42[best_epoch:36 | min_total_loss:0.25957 | idh_loss:0.64745 | idh_acc: 0.66667 | idh_auc:0.88889]
+2023-04-29 14:02:47 ===> Current epoch time consumption: 0.29 minutes!
+2023-04-29 14:02:47 ===> Estimated remaining training time: 0.23 hours!
+2023-04-29 14:02:49 ===> Epoch:43 Iter:0 idh_loss: 0.19651
+2023-04-29 14:02:49 ===> Epoch:43 Iter:1 idh_loss: 0.08015
+2023-04-29 14:02:49 ===> Epoch:43 Iter:2 idh_loss: 0.19703
+2023-04-29 14:02:50 ===> Epoch:43 Iter:3 idh_loss: 0.11452
+2023-04-29 14:02:50 ===> Epoch:43 Iter:4 idh_loss: 0.18745
+2023-04-29 14:02:51 ===> Epoch:43 Iter:5 idh_loss: 0.03259
+2023-04-29 14:02:51 ===> Epoch:43 Iter:6 idh_loss: 1.16990
+2023-04-29 14:02:52 ===> Epoch:43 Iter:7 idh_loss: 0.14002
+2023-04-29 14:02:52 ===> Epoch:43 Iter:8 idh_loss: 0.40871
+2023-04-29 14:02:53 ===> Epoch:43 Iter:9 idh_loss: 0.16481
+2023-04-29 14:02:53 ===> Epoch:43 Iter:10 idh_loss: 0.38718
+2023-04-29 14:02:53 ===> Epoch:43 Iter:11 idh_loss: 0.13705
+2023-04-29 14:02:54 ===> Epoch:43 Iter:12 idh_loss: 0.57717
+2023-04-29 14:02:54 ===> Epoch:43 Iter:13 idh_loss: 0.97502
+2023-04-29 14:02:55 ===> Epoch:43 Iter:14 idh_loss: 0.05853
+2023-04-29 14:02:55 ===> Epoch:43 Iter:15 idh_loss: 1.00888
+2023-04-29 14:02:56 ===> Epoch:43 Iter:16 idh_loss: 0.46664
+2023-04-29 14:02:56 ===> Epoch:43 Iter:17 idh_loss: 0.42901
+2023-04-29 14:02:57 ===> Epoch:43 Iter:18 idh_loss: 1.40290
+2023-04-29 14:02:57 ===> Epoch:43 Iter:19 idh_loss: 0.32162
+2023-04-29 14:02:57 ===> Epoch:43 Iter:20 idh_loss: 0.43157
+2023-04-29 14:02:58 ===> Epoch:43 Iter:21 idh_loss: 0.05722
+2023-04-29 14:02:58 ===> Epoch:43 Iter:22 idh_loss: 0.28061
+2023-04-29 14:02:59 ===> Epoch:43 Iter:23 idh_loss: 0.22537
+2023-04-29 14:02:59 ===> Epoch:43 Iter:24 idh_loss: 0.13196
+2023-04-29 14:03:00 ===> Epoch:43 Iter:25 idh_loss: 0.85830
+2023-04-29 14:03:00 ===> Epoch:43 Iter:26 idh_loss: 0.21204
+2023-04-29 14:03:01 ===> Epoch:43 Iter:27 idh_loss: 0.38801
+2023-04-29 14:03:01 ===> Epoch:43 Iter:28 idh_loss: 0.14560
+2023-04-29 14:03:04 ===> Epoch:43[best_epoch:36 | min_total_loss:0.25957 | idh_loss:0.63382 | idh_acc: 0.73333 | idh_auc:0.87963]
+2023-04-29 14:03:04 ===> Current epoch time consumption: 0.29 minutes!
+2023-04-29 14:03:04 ===> Estimated remaining training time: 0.22 hours!
+2023-04-29 14:03:06 ===> Epoch:44 Iter:0 idh_loss: 0.64754
+2023-04-29 14:03:06 ===> Epoch:44 Iter:1 idh_loss: 0.11130
+2023-04-29 14:03:07 ===> Epoch:44 Iter:2 idh_loss: 0.16551
+2023-04-29 14:03:07 ===> Epoch:44 Iter:3 idh_loss: 0.05414
+2023-04-29 14:03:08 ===> Epoch:44 Iter:4 idh_loss: 0.06103
+2023-04-29 14:03:08 ===> Epoch:44 Iter:5 idh_loss: 0.11255
+2023-04-29 14:03:09 ===> Epoch:44 Iter:6 idh_loss: 0.34293
+2023-04-29 14:03:09 ===> Epoch:44 Iter:7 idh_loss: 0.11163
+2023-04-29 14:03:10 ===> Epoch:44 Iter:8 idh_loss: 0.14884
+2023-04-29 14:03:10 ===> Epoch:44 Iter:9 idh_loss: 0.98725
+2023-04-29 14:03:10 ===> Epoch:44 Iter:10 idh_loss: 0.30654
+2023-04-29 14:03:11 ===> Epoch:44 Iter:11 idh_loss: 0.37081
+2023-04-29 14:03:11 ===> Epoch:44 Iter:12 idh_loss: 0.16600
+2023-04-29 14:03:12 ===> Epoch:44 Iter:13 idh_loss: 0.12508
+2023-04-29 14:03:12 ===> Epoch:44 Iter:14 idh_loss: 0.43613
+2023-04-29 14:03:13 ===> Epoch:44 Iter:15 idh_loss: 0.09665
+2023-04-29 14:03:13 ===> Epoch:44 Iter:16 idh_loss: 0.89917
+2023-04-29 14:03:13 ===> Epoch:44 Iter:17 idh_loss: 0.21408
+2023-04-29 14:03:14 ===> Epoch:44 Iter:18 idh_loss: 0.11397
+2023-04-29 14:03:14 ===> Epoch:44 Iter:19 idh_loss: 0.20032
+2023-04-29 14:03:15 ===> Epoch:44 Iter:20 idh_loss: 0.73742
+2023-04-29 14:03:15 ===> Epoch:44 Iter:21 idh_loss: 0.66716
+2023-04-29 14:03:16 ===> Epoch:44 Iter:22 idh_loss: 0.28314
+2023-04-29 14:03:16 ===> Epoch:44 Iter:23 idh_loss: 0.45054
+2023-04-29 14:03:17 ===> Epoch:44 Iter:24 idh_loss: 0.11980
+2023-04-29 14:03:17 ===> Epoch:44 Iter:25 idh_loss: 0.11332
+2023-04-29 14:03:17 ===> Epoch:44 Iter:26 idh_loss: 0.02621
+2023-04-29 14:03:18 ===> Epoch:44 Iter:27 idh_loss: 0.32943
+2023-04-29 14:03:18 ===> Epoch:44 Iter:28 idh_loss: 1.34964
+2023-04-29 14:03:22 ===> Epoch:44[best_epoch:36 | min_total_loss:0.25957 | idh_loss:0.30859 | idh_acc: 0.86667 | idh_auc:0.95833]
+2023-04-29 14:03:22 ===> Current epoch time consumption: 0.29 minutes!
+2023-04-29 14:03:22 ===> Estimated remaining training time: 0.22 hours!
+2023-04-29 14:03:23 ===> Epoch:45 Iter:0 idh_loss: 1.02418
+2023-04-29 14:03:24 ===> Epoch:45 Iter:1 idh_loss: 1.02746
+2023-04-29 14:03:24 ===> Epoch:45 Iter:2 idh_loss: 0.11078
+2023-04-29 14:03:25 ===> Epoch:45 Iter:3 idh_loss: 0.68434
+2023-04-29 14:03:25 ===> Epoch:45 Iter:4 idh_loss: 0.54250
+2023-04-29 14:03:26 ===> Epoch:45 Iter:5 idh_loss: 0.05863
+2023-04-29 14:03:26 ===> Epoch:45 Iter:6 idh_loss: 0.07755
+2023-04-29 14:03:27 ===> Epoch:45 Iter:7 idh_loss: 0.87888
+2023-04-29 14:03:27 ===> Epoch:45 Iter:8 idh_loss: 0.20334
+2023-04-29 14:03:27 ===> Epoch:45 Iter:9 idh_loss: 0.21784
+2023-04-29 14:03:28 ===> Epoch:45 Iter:10 idh_loss: 0.37038
+2023-04-29 14:03:28 ===> Epoch:45 Iter:11 idh_loss: 0.11384
+2023-04-29 14:03:29 ===> Epoch:45 Iter:12 idh_loss: 0.50564
+2023-04-29 14:03:29 ===> Epoch:45 Iter:13 idh_loss: 0.44062
+2023-04-29 14:03:30 ===> Epoch:45 Iter:14 idh_loss: 0.06108
+2023-04-29 14:03:30 ===> Epoch:45 Iter:15 idh_loss: 0.42037
+2023-04-29 14:03:31 ===> Epoch:45 Iter:16 idh_loss: 0.12950
+2023-04-29 14:03:31 ===> Epoch:45 Iter:17 idh_loss: 0.95753
+2023-04-29 14:03:31 ===> Epoch:45 Iter:18 idh_loss: 0.07797
+2023-04-29 14:03:32 ===> Epoch:45 Iter:19 idh_loss: 0.58834
+2023-04-29 14:03:32 ===> Epoch:45 Iter:20 idh_loss: 0.32932
+2023-04-29 14:03:33 ===> Epoch:45 Iter:21 idh_loss: 0.26408
+2023-04-29 14:03:33 ===> Epoch:45 Iter:22 idh_loss: 0.51387
+2023-04-29 14:03:34 ===> Epoch:45 Iter:23 idh_loss: 0.07403
+2023-04-29 14:03:34 ===> Epoch:45 Iter:24 idh_loss: 0.73134
+2023-04-29 14:03:35 ===> Epoch:45 Iter:25 idh_loss: 0.15182
+2023-04-29 14:03:35 ===> Epoch:45 Iter:26 idh_loss: 0.49460
+2023-04-29 14:03:35 ===> Epoch:45 Iter:27 idh_loss: 0.91906
+2023-04-29 14:03:36 ===> Epoch:45 Iter:28 idh_loss: 0.36915
+2023-04-29 14:03:39 ===> Epoch:45[best_epoch:36 | min_total_loss:0.25957 | idh_loss:0.33408 | idh_acc: 0.80000 | idh_auc:0.92593]
+2023-04-29 14:03:39 ===> Current epoch time consumption: 0.29 minutes!
+2023-04-29 14:03:39 ===> Estimated remaining training time: 0.21 hours!
+2023-04-29 14:03:41 ===> Epoch:46 Iter:0 idh_loss: 0.41518
+2023-04-29 14:03:41 ===> Epoch:46 Iter:1 idh_loss: 0.22098
+2023-04-29 14:03:42 ===> Epoch:46 Iter:2 idh_loss: 0.19982
+2023-04-29 14:03:42 ===> Epoch:46 Iter:3 idh_loss: 0.20685
+2023-04-29 14:03:42 ===> Epoch:46 Iter:4 idh_loss: 0.18235
+2023-04-29 14:03:43 ===> Epoch:46 Iter:5 idh_loss: 0.52632
+2023-04-29 14:03:43 ===> Epoch:46 Iter:6 idh_loss: 0.35611
+2023-04-29 14:03:44 ===> Epoch:46 Iter:7 idh_loss: 0.98210
+2023-04-29 14:03:44 ===> Epoch:46 Iter:8 idh_loss: 0.39001
+2023-04-29 14:03:45 ===> Epoch:46 Iter:9 idh_loss: 0.51732
+2023-04-29 14:03:45 ===> Epoch:46 Iter:10 idh_loss: 0.37152
+2023-04-29 14:03:46 ===> Epoch:46 Iter:11 idh_loss: 0.31753
+2023-04-29 14:03:46 ===> Epoch:46 Iter:12 idh_loss: 0.25778
+2023-04-29 14:03:46 ===> Epoch:46 Iter:13 idh_loss: 0.09674
+2023-04-29 14:03:47 ===> Epoch:46 Iter:14 idh_loss: 0.96620
+2023-04-29 14:03:47 ===> Epoch:46 Iter:15 idh_loss: 0.54410
+2023-04-29 14:03:48 ===> Epoch:46 Iter:16 idh_loss: 0.57230
+2023-04-29 14:03:48 ===> Epoch:46 Iter:17 idh_loss: 0.24872
+2023-04-29 14:03:49 ===> Epoch:46 Iter:18 idh_loss: 0.63331
+2023-04-29 14:03:49 ===> Epoch:46 Iter:19 idh_loss: 0.43109
+2023-04-29 14:03:50 ===> Epoch:46 Iter:20 idh_loss: 0.30899
+2023-04-29 14:03:50 ===> Epoch:46 Iter:21 idh_loss: 0.18101
+2023-04-29 14:03:50 ===> Epoch:46 Iter:22 idh_loss: 0.62347
+2023-04-29 14:03:51 ===> Epoch:46 Iter:23 idh_loss: 0.46106
+2023-04-29 14:03:51 ===> Epoch:46 Iter:24 idh_loss: 1.03865
+2023-04-29 14:03:52 ===> Epoch:46 Iter:25 idh_loss: 0.09057
+2023-04-29 14:03:52 ===> Epoch:46 Iter:26 idh_loss: 0.22820
+2023-04-29 14:03:53 ===> Epoch:46 Iter:27 idh_loss: 0.23384
+2023-04-29 14:03:53 ===> Epoch:46 Iter:28 idh_loss: 0.10583
+2023-04-29 14:03:56 ===> Epoch:46[best_epoch:36 | min_total_loss:0.25957 | idh_loss:0.33594 | idh_acc: 0.83333 | idh_auc:0.95833]
+2023-04-29 14:03:56 ===> Current epoch time consumption: 0.29 minutes!
+2023-04-29 14:03:56 ===> Estimated remaining training time: 0.20 hours!
+2023-04-29 14:03:58 ===> Epoch:47 Iter:0 idh_loss: 0.16512
+2023-04-29 14:03:58 ===> Epoch:47 Iter:1 idh_loss: 0.23750
+2023-04-29 14:03:59 ===> Epoch:47 Iter:2 idh_loss: 0.44562
+2023-04-29 14:03:59 ===> Epoch:47 Iter:3 idh_loss: 0.06274
+2023-04-29 14:04:00 ===> Epoch:47 Iter:4 idh_loss: 0.26804
+2023-04-29 14:04:00 ===> Epoch:47 Iter:5 idh_loss: 0.40280
+2023-04-29 14:04:01 ===> Epoch:47 Iter:6 idh_loss: 0.19073
+2023-04-29 14:04:01 ===> Epoch:47 Iter:7 idh_loss: 0.13277
+2023-04-29 14:04:01 ===> Epoch:47 Iter:8 idh_loss: 0.12979
+2023-04-29 14:04:02 ===> Epoch:47 Iter:9 idh_loss: 0.25519
+2023-04-29 14:04:02 ===> Epoch:47 Iter:10 idh_loss: 0.03692
+2023-04-29 14:04:03 ===> Epoch:47 Iter:11 idh_loss: 0.13220
+2023-04-29 14:04:03 ===> Epoch:47 Iter:12 idh_loss: 0.16581
+2023-04-29 14:04:04 ===> Epoch:47 Iter:13 idh_loss: 0.04395
+2023-04-29 14:04:04 ===> Epoch:47 Iter:14 idh_loss: 0.66773
+2023-04-29 14:04:05 ===> Epoch:47 Iter:15 idh_loss: 0.04072
+2023-04-29 14:04:05 ===> Epoch:47 Iter:16 idh_loss: 0.24015
+2023-04-29 14:04:05 ===> Epoch:47 Iter:17 idh_loss: 1.14499
+2023-04-29 14:04:06 ===> Epoch:47 Iter:18 idh_loss: 0.42645
+2023-04-29 14:04:06 ===> Epoch:47 Iter:19 idh_loss: 0.38999
+2023-04-29 14:04:07 ===> Epoch:47 Iter:20 idh_loss: 0.15952
+2023-04-29 14:04:07 ===> Epoch:47 Iter:21 idh_loss: 0.29020
+2023-04-29 14:04:08 ===> Epoch:47 Iter:22 idh_loss: 0.03676
+2023-04-29 14:04:08 ===> Epoch:47 Iter:23 idh_loss: 0.87570
+2023-04-29 14:04:09 ===> Epoch:47 Iter:24 idh_loss: 0.16509
+2023-04-29 14:04:09 ===> Epoch:47 Iter:25 idh_loss: 0.10683
+2023-04-29 14:04:09 ===> Epoch:47 Iter:26 idh_loss: 0.06821
+2023-04-29 14:04:10 ===> Epoch:47 Iter:27 idh_loss: 0.14765
+2023-04-29 14:04:10 ===> Epoch:47 Iter:28 idh_loss: 0.65040
+2023-04-29 14:04:14 ===> there is an improvement that update the metrics and save the best model.
+2023-04-29 14:04:17 ===> Epoch:47[best_epoch:47 | min_total_loss:0.21872 | idh_loss:0.21872 | idh_acc: 0.93333 | idh_auc:0.98148]
+2023-04-29 14:04:17 ===> Current epoch time consumption: 0.34 minutes!
+2023-04-29 14:04:17 ===> Estimated remaining training time: 0.24 hours!
+2023-04-29 14:04:18 ===> Epoch:48 Iter:0 idh_loss: 0.56681
+2023-04-29 14:04:18 ===> Epoch:48 Iter:1 idh_loss: 1.09773
+2023-04-29 14:04:19 ===> Epoch:48 Iter:2 idh_loss: 0.03846
+2023-04-29 14:04:19 ===> Epoch:48 Iter:3 idh_loss: 1.01350
+2023-04-29 14:04:20 ===> Epoch:48 Iter:4 idh_loss: 0.04265
+2023-04-29 14:04:20 ===> Epoch:48 Iter:5 idh_loss: 0.05314
+2023-04-29 14:04:21 ===> Epoch:48 Iter:6 idh_loss: 0.08491
+2023-04-29 14:04:21 ===> Epoch:48 Iter:7 idh_loss: 0.46592
+2023-04-29 14:04:22 ===> Epoch:48 Iter:8 idh_loss: 0.38871
+2023-04-29 14:04:22 ===> Epoch:48 Iter:9 idh_loss: 0.65563
+2023-04-29 14:04:22 ===> Epoch:48 Iter:10 idh_loss: 0.05837
+2023-04-29 14:04:23 ===> Epoch:48 Iter:11 idh_loss: 0.20178
+2023-04-29 14:04:23 ===> Epoch:48 Iter:12 idh_loss: 0.56870
+2023-04-29 14:04:24 ===> Epoch:48 Iter:13 idh_loss: 1.05015
+2023-04-29 14:04:24 ===> Epoch:48 Iter:14 idh_loss: 0.08212
+2023-04-29 14:04:25 ===> Epoch:48 Iter:15 idh_loss: 0.08776
+2023-04-29 14:04:25 ===> Epoch:48 Iter:16 idh_loss: 1.06922
+2023-04-29 14:04:26 ===> Epoch:48 Iter:17 idh_loss: 0.11385
+2023-04-29 14:04:26 ===> Epoch:48 Iter:18 idh_loss: 0.25535
+2023-04-29 14:04:26 ===> Epoch:48 Iter:19 idh_loss: 0.34719
+2023-04-29 14:04:27 ===> Epoch:48 Iter:20 idh_loss: 0.64060
+2023-04-29 14:04:27 ===> Epoch:48 Iter:21 idh_loss: 0.07236
+2023-04-29 14:04:28 ===> Epoch:48 Iter:22 idh_loss: 0.19347
+2023-04-29 14:04:28 ===> Epoch:48 Iter:23 idh_loss: 0.62115
+2023-04-29 14:04:29 ===> Epoch:48 Iter:24 idh_loss: 0.13005
+2023-04-29 14:04:29 ===> Epoch:48 Iter:25 idh_loss: 0.17953
+2023-04-29 14:04:29 ===> Epoch:48 Iter:26 idh_loss: 0.15163
+2023-04-29 14:04:30 ===> Epoch:48 Iter:27 idh_loss: 0.57778
+2023-04-29 14:04:30 ===> Epoch:48 Iter:28 idh_loss: 0.15450
+2023-04-29 14:04:34 ===> Epoch:48[best_epoch:47 | min_total_loss:0.21872 | idh_loss:0.49912 | idh_acc: 0.86667 | idh_auc:0.90741]
+2023-04-29 14:04:34 ===> Current epoch time consumption: 0.28 minutes!
+2023-04-29 14:04:34 ===> Estimated remaining training time: 0.19 hours!
+2023-04-29 14:04:35 ===> Epoch:49 Iter:0 idh_loss: 0.12801
+2023-04-29 14:04:36 ===> Epoch:49 Iter:1 idh_loss: 0.85614
+2023-04-29 14:04:36 ===> Epoch:49 Iter:2 idh_loss: 0.35821
+2023-04-29 14:04:37 ===> Epoch:49 Iter:3 idh_loss: 0.62637
+2023-04-29 14:04:37 ===> Epoch:49 Iter:4 idh_loss: 0.03153
+2023-04-29 14:04:37 ===> Epoch:49 Iter:5 idh_loss: 0.73362
+2023-04-29 14:04:38 ===> Epoch:49 Iter:6 idh_loss: 0.20057
+2023-04-29 14:04:38 ===> Epoch:49 Iter:7 idh_loss: 0.32319
+2023-04-29 14:04:39 ===> Epoch:49 Iter:8 idh_loss: 0.17110
+2023-04-29 14:04:39 ===> Epoch:49 Iter:9 idh_loss: 0.32118
+2023-04-29 14:04:40 ===> Epoch:49 Iter:10 idh_loss: 0.84059
+2023-04-29 14:04:40 ===> Epoch:49 Iter:11 idh_loss: 0.12881
+2023-04-29 14:04:41 ===> Epoch:49 Iter:12 idh_loss: 0.04816
+2023-04-29 14:04:41 ===> Epoch:49 Iter:13 idh_loss: 0.11175
+2023-04-29 14:04:41 ===> Epoch:49 Iter:14 idh_loss: 0.05379
+2023-04-29 14:04:42 ===> Epoch:49 Iter:15 idh_loss: 0.40150
+2023-04-29 14:04:42 ===> Epoch:49 Iter:16 idh_loss: 0.76708
+2023-04-29 14:04:43 ===> Epoch:49 Iter:17 idh_loss: 0.69531
+2023-04-29 14:04:43 ===> Epoch:49 Iter:18 idh_loss: 0.09239
+2023-04-29 14:04:44 ===> Epoch:49 Iter:19 idh_loss: 0.56020
+2023-04-29 14:04:44 ===> Epoch:49 Iter:20 idh_loss: 0.31072
+2023-04-29 14:04:45 ===> Epoch:49 Iter:21 idh_loss: 0.16162
+2023-04-29 14:04:45 ===> Epoch:49 Iter:22 idh_loss: 0.17510
+2023-04-29 14:04:45 ===> Epoch:49 Iter:23 idh_loss: 0.11368
+2023-04-29 14:04:46 ===> Epoch:49 Iter:24 idh_loss: 0.67592
+2023-04-29 14:04:46 ===> Epoch:49 Iter:25 idh_loss: 0.15479
+2023-04-29 14:04:47 ===> Epoch:49 Iter:26 idh_loss: 0.28095
+2023-04-29 14:04:47 ===> Epoch:49 Iter:27 idh_loss: 0.35984
+2023-04-29 14:04:48 ===> Epoch:49 Iter:28 idh_loss: 0.60468
+2023-04-29 14:04:51 ===> Epoch:49[best_epoch:47 | min_total_loss:0.21872 | idh_loss:0.43418 | idh_acc: 0.73333 | idh_auc:0.93981]
+2023-04-29 14:04:51 ===> Current epoch time consumption: 0.29 minutes!
+2023-04-29 14:04:51 ===> Estimated remaining training time: 0.19 hours!
+2023-04-29 14:04:52 ===> Epoch:50 Iter:0 idh_loss: 0.86418
+2023-04-29 14:04:53 ===> Epoch:50 Iter:1 idh_loss: 0.31748
+2023-04-29 14:04:53 ===> Epoch:50 Iter:2 idh_loss: 0.30390
+2023-04-29 14:04:54 ===> Epoch:50 Iter:3 idh_loss: 0.46171
+2023-04-29 14:04:54 ===> Epoch:50 Iter:4 idh_loss: 0.05211
+2023-04-29 14:04:55 ===> Epoch:50 Iter:5 idh_loss: 0.43347
+2023-04-29 14:04:55 ===> Epoch:50 Iter:6 idh_loss: 0.19424
+2023-04-29 14:04:55 ===> Epoch:50 Iter:7 idh_loss: 1.12695
+2023-04-29 14:04:56 ===> Epoch:50 Iter:8 idh_loss: 0.42783
+2023-04-29 14:04:56 ===> Epoch:50 Iter:9 idh_loss: 0.57055
+2023-04-29 14:04:57 ===> Epoch:50 Iter:10 idh_loss: 0.12160
+2023-04-29 14:04:57 ===> Epoch:50 Iter:11 idh_loss: 0.15938
+2023-04-29 14:04:58 ===> Epoch:50 Iter:12 idh_loss: 0.20835
+2023-04-29 14:04:58 ===> Epoch:50 Iter:13 idh_loss: 0.13544
+2023-04-29 14:04:59 ===> Epoch:50 Iter:14 idh_loss: 0.45617
+2023-04-29 14:04:59 ===> Epoch:50 Iter:15 idh_loss: 0.36297
+2023-04-29 14:04:59 ===> Epoch:50 Iter:16 idh_loss: 0.35047
+2023-04-29 14:05:00 ===> Epoch:50 Iter:17 idh_loss: 0.55822
+2023-04-29 14:05:00 ===> Epoch:50 Iter:18 idh_loss: 0.39773
+2023-04-29 14:05:01 ===> Epoch:50 Iter:19 idh_loss: 0.14481
+2023-04-29 14:05:01 ===> Epoch:50 Iter:20 idh_loss: 0.18024
+2023-04-29 14:05:02 ===> Epoch:50 Iter:21 idh_loss: 0.97971
+2023-04-29 14:05:02 ===> Epoch:50 Iter:22 idh_loss: 0.07113
+2023-04-29 14:05:03 ===> Epoch:50 Iter:23 idh_loss: 0.11945
+2023-04-29 14:05:03 ===> Epoch:50 Iter:24 idh_loss: 0.34645
+2023-04-29 14:05:03 ===> Epoch:50 Iter:25 idh_loss: 1.29181
+2023-04-29 14:05:04 ===> Epoch:50 Iter:26 idh_loss: 0.35369
+2023-04-29 14:05:04 ===> Epoch:50 Iter:27 idh_loss: 0.12659
+2023-04-29 14:05:05 ===> Epoch:50 Iter:28 idh_loss: 0.32611
+2023-04-29 14:05:08 ===> Epoch:50[best_epoch:47 | min_total_loss:0.21872 | idh_loss:0.40225 | idh_acc: 0.76667 | idh_auc:0.88889]
+2023-04-29 14:05:08 ===> Current epoch time consumption: 0.29 minutes!
+2023-04-29 14:05:08 ===> Estimated remaining training time: 0.19 hours!
+2023-04-29 14:05:10 ===> Epoch:51 Iter:0 idh_loss: 0.81354
+2023-04-29 14:05:10 ===> Epoch:51 Iter:1 idh_loss: 0.10418
+2023-04-29 14:05:11 ===> Epoch:51 Iter:2 idh_loss: 0.49721
+2023-04-29 14:05:11 ===> Epoch:51 Iter:3 idh_loss: 0.14692
+2023-04-29 14:05:12 ===> Epoch:51 Iter:4 idh_loss: 0.29532
+2023-04-29 14:05:12 ===> Epoch:51 Iter:5 idh_loss: 0.31738
+2023-04-29 14:05:12 ===> Epoch:51 Iter:6 idh_loss: 0.30324
+2023-04-29 14:05:13 ===> Epoch:51 Iter:7 idh_loss: 0.21392
+2023-04-29 14:05:13 ===> Epoch:51 Iter:8 idh_loss: 0.19303
+2023-04-29 14:05:14 ===> Epoch:51 Iter:9 idh_loss: 0.27821
+2023-04-29 14:05:14 ===> Epoch:51 Iter:10 idh_loss: 0.51019
+2023-04-29 14:05:15 ===> Epoch:51 Iter:11 idh_loss: 0.19250
+2023-04-29 14:05:15 ===> Epoch:51 Iter:12 idh_loss: 0.58433
+2023-04-29 14:05:16 ===> Epoch:51 Iter:13 idh_loss: 0.11532
+2023-04-29 14:05:16 ===> Epoch:51 Iter:14 idh_loss: 0.32804
+2023-04-29 14:05:16 ===> Epoch:51 Iter:15 idh_loss: 0.56880
+2023-04-29 14:05:17 ===> Epoch:51 Iter:16 idh_loss: 0.03184
+2023-04-29 14:05:17 ===> Epoch:51 Iter:17 idh_loss: 0.21754
+2023-04-29 14:05:18 ===> Epoch:51 Iter:18 idh_loss: 0.33193
+2023-04-29 14:05:18 ===> Epoch:51 Iter:19 idh_loss: 0.29346
+2023-04-29 14:05:19 ===> Epoch:51 Iter:20 idh_loss: 0.06139
+2023-04-29 14:05:19 ===> Epoch:51 Iter:21 idh_loss: 0.84648
+2023-04-29 14:05:20 ===> Epoch:51 Iter:22 idh_loss: 0.05476
+2023-04-29 14:05:20 ===> Epoch:51 Iter:23 idh_loss: 0.49967
+2023-04-29 14:05:20 ===> Epoch:51 Iter:24 idh_loss: 1.00135
+2023-04-29 14:05:21 ===> Epoch:51 Iter:25 idh_loss: 0.13117
+2023-04-29 14:05:21 ===> Epoch:51 Iter:26 idh_loss: 0.09129
+2023-04-29 14:05:22 ===> Epoch:51 Iter:27 idh_loss: 0.21174
+2023-04-29 14:05:22 ===> Epoch:51 Iter:28 idh_loss: 0.08848
+2023-04-29 14:05:25 ===> Epoch:51[best_epoch:47 | min_total_loss:0.21872 | idh_loss:0.39086 | idh_acc: 0.73333 | idh_auc:0.89352]
+2023-04-29 14:05:25 ===> Current epoch time consumption: 0.29 minutes!
+2023-04-29 14:05:25 ===> Estimated remaining training time: 0.18 hours!
+2023-04-29 14:05:27 ===> Epoch:52 Iter:0 idh_loss: 0.12262
+2023-04-29 14:05:28 ===> Epoch:52 Iter:1 idh_loss: 0.06293
+2023-04-29 14:05:28 ===> Epoch:52 Iter:2 idh_loss: 0.23825
+2023-04-29 14:05:28 ===> Epoch:52 Iter:3 idh_loss: 0.12693
+2023-04-29 14:05:29 ===> Epoch:52 Iter:4 idh_loss: 0.08222
+2023-04-29 14:05:29 ===> Epoch:52 Iter:5 idh_loss: 0.47658
+2023-04-29 14:05:30 ===> Epoch:52 Iter:6 idh_loss: 0.21755
+2023-04-29 14:05:30 ===> Epoch:52 Iter:7 idh_loss: 0.12197
+2023-04-29 14:05:31 ===> Epoch:52 Iter:8 idh_loss: 0.57116
+2023-04-29 14:05:31 ===> Epoch:52 Iter:9 idh_loss: 0.26377
+2023-04-29 14:05:32 ===> Epoch:52 Iter:10 idh_loss: 0.88279
+2023-04-29 14:05:32 ===> Epoch:52 Iter:11 idh_loss: 0.41077
+2023-04-29 14:05:32 ===> Epoch:52 Iter:12 idh_loss: 1.01507
+2023-04-29 14:05:33 ===> Epoch:52 Iter:13 idh_loss: 0.12064
+2023-04-29 14:05:33 ===> Epoch:52 Iter:14 idh_loss: 0.28151
+2023-04-29 14:05:34 ===> Epoch:52 Iter:15 idh_loss: 0.10455
+2023-04-29 14:05:34 ===> Epoch:52 Iter:16 idh_loss: 0.14178
+2023-04-29 14:05:35 ===> Epoch:52 Iter:17 idh_loss: 0.37274
+2023-04-29 14:05:35 ===> Epoch:52 Iter:18 idh_loss: 0.57475
+2023-04-29 14:05:35 ===> Epoch:52 Iter:19 idh_loss: 0.58527
+2023-04-29 14:05:36 ===> Epoch:52 Iter:20 idh_loss: 0.11297
+2023-04-29 14:05:36 ===> Epoch:52 Iter:21 idh_loss: 0.13679
+2023-04-29 14:05:37 ===> Epoch:52 Iter:22 idh_loss: 0.07186
+2023-04-29 14:05:37 ===> Epoch:52 Iter:23 idh_loss: 0.18717
+2023-04-29 14:05:38 ===> Epoch:52 Iter:24 idh_loss: 0.21632
+2023-04-29 14:05:38 ===> Epoch:52 Iter:25 idh_loss: 0.20932
+2023-04-29 14:05:39 ===> Epoch:52 Iter:26 idh_loss: 0.33537
+2023-04-29 14:05:39 ===> Epoch:52 Iter:27 idh_loss: 0.01539
+2023-04-29 14:05:39 ===> Epoch:52 Iter:28 idh_loss: 0.22429
+2023-04-29 14:05:43 ===> Epoch:52[best_epoch:47 | min_total_loss:0.21872 | idh_loss:0.31555 | idh_acc: 0.83333 | idh_auc:0.93981]
+2023-04-29 14:05:43 ===> Current epoch time consumption: 0.29 minutes!
+2023-04-29 14:05:43 ===> Estimated remaining training time: 0.18 hours!
+2023-04-29 14:05:44 ===> Epoch:53 Iter:0 idh_loss: 0.26084
+2023-04-29 14:05:45 ===> Epoch:53 Iter:1 idh_loss: 0.19424
+2023-04-29 14:05:45 ===> Epoch:53 Iter:2 idh_loss: 0.72239
+2023-04-29 14:05:46 ===> Epoch:53 Iter:3 idh_loss: 0.04699
+2023-04-29 14:05:46 ===> Epoch:53 Iter:4 idh_loss: 0.45977
+2023-04-29 14:05:47 ===> Epoch:53 Iter:5 idh_loss: 0.07126
+2023-04-29 14:05:47 ===> Epoch:53 Iter:6 idh_loss: 0.51017
+2023-04-29 14:05:48 ===> Epoch:53 Iter:7 idh_loss: 0.09933
+2023-04-29 14:05:48 ===> Epoch:53 Iter:8 idh_loss: 0.35804
+2023-04-29 14:05:48 ===> Epoch:53 Iter:9 idh_loss: 0.82864
+2023-04-29 14:05:49 ===> Epoch:53 Iter:10 idh_loss: 0.60245
+2023-04-29 14:05:49 ===> Epoch:53 Iter:11 idh_loss: 0.01270
+2023-04-29 14:05:50 ===> Epoch:53 Iter:12 idh_loss: 0.16174
+2023-04-29 14:05:50 ===> Epoch:53 Iter:13 idh_loss: 0.02114
+2023-04-29 14:05:51 ===> Epoch:53 Iter:14 idh_loss: 0.96083
+2023-04-29 14:05:51 ===> Epoch:53 Iter:15 idh_loss: 0.08896
+2023-04-29 14:05:52 ===> Epoch:53 Iter:16 idh_loss: 0.13438
+2023-04-29 14:05:52 ===> Epoch:53 Iter:17 idh_loss: 0.69397
+2023-04-29 14:05:52 ===> Epoch:53 Iter:18 idh_loss: 0.68296
+2023-04-29 14:05:53 ===> Epoch:53 Iter:19 idh_loss: 0.16015
+2023-04-29 14:05:53 ===> Epoch:53 Iter:20 idh_loss: 0.24411
+2023-04-29 14:05:54 ===> Epoch:53 Iter:21 idh_loss: 0.46157
+2023-04-29 14:05:54 ===> Epoch:53 Iter:22 idh_loss: 0.08912
+2023-04-29 14:05:55 ===> Epoch:53 Iter:23 idh_loss: 0.80807
+2023-04-29 14:05:55 ===> Epoch:53 Iter:24 idh_loss: 0.14275
+2023-04-29 14:05:55 ===> Epoch:53 Iter:25 idh_loss: 0.26954
+2023-04-29 14:05:56 ===> Epoch:53 Iter:26 idh_loss: 0.27937
+2023-04-29 14:05:56 ===> Epoch:53 Iter:27 idh_loss: 0.76190
+2023-04-29 14:05:57 ===> Epoch:53 Iter:28 idh_loss: 0.19476
+2023-04-29 14:06:00 ===> Epoch:53[best_epoch:47 | min_total_loss:0.21872 | idh_loss:0.26576 | idh_acc: 0.90000 | idh_auc:0.97685]
+2023-04-29 14:06:00 ===> Current epoch time consumption: 0.29 minutes!
+2023-04-29 14:06:00 ===> Estimated remaining training time: 0.17 hours!
+2023-04-29 14:06:02 ===> Epoch:54 Iter:0 idh_loss: 0.09122
+2023-04-29 14:06:02 ===> Epoch:54 Iter:1 idh_loss: 0.15459
+2023-04-29 14:06:03 ===> Epoch:54 Iter:2 idh_loss: 0.14147
+2023-04-29 14:06:03 ===> Epoch:54 Iter:3 idh_loss: 0.46084
+2023-04-29 14:06:03 ===> Epoch:54 Iter:4 idh_loss: 0.95998
+2023-04-29 14:06:04 ===> Epoch:54 Iter:5 idh_loss: 0.07294
+2023-04-29 14:06:04 ===> Epoch:54 Iter:6 idh_loss: 0.07530
+2023-04-29 14:06:05 ===> Epoch:54 Iter:7 idh_loss: 0.27721
+2023-04-29 14:06:05 ===> Epoch:54 Iter:8 idh_loss: 0.15254
+2023-04-29 14:06:06 ===> Epoch:54 Iter:9 idh_loss: 0.47580
+2023-04-29 14:06:06 ===> Epoch:54 Iter:10 idh_loss: 0.48870
+2023-04-29 14:06:07 ===> Epoch:54 Iter:11 idh_loss: 0.10765
+2023-04-29 14:06:07 ===> Epoch:54 Iter:12 idh_loss: 0.07123
+2023-04-29 14:06:07 ===> Epoch:54 Iter:13 idh_loss: 0.09764
+2023-04-29 14:06:08 ===> Epoch:54 Iter:14 idh_loss: 0.33919
+2023-04-29 14:06:08 ===> Epoch:54 Iter:15 idh_loss: 0.12841
+2023-04-29 14:06:09 ===> Epoch:54 Iter:16 idh_loss: 0.11031
+2023-04-29 14:06:09 ===> Epoch:54 Iter:17 idh_loss: 0.47215
+2023-04-29 14:06:10 ===> Epoch:54 Iter:18 idh_loss: 0.33040
+2023-04-29 14:06:10 ===> Epoch:54 Iter:19 idh_loss: 0.12816
+2023-04-29 14:06:10 ===> Epoch:54 Iter:20 idh_loss: 1.27620
+2023-04-29 14:06:11 ===> Epoch:54 Iter:21 idh_loss: 0.36951
+2023-04-29 14:06:11 ===> Epoch:54 Iter:22 idh_loss: 0.03515
+2023-04-29 14:06:12 ===> Epoch:54 Iter:23 idh_loss: 0.03328
+2023-04-29 14:06:12 ===> Epoch:54 Iter:24 idh_loss: 0.64930
+2023-04-29 14:06:13 ===> Epoch:54 Iter:25 idh_loss: 0.60825
+2023-04-29 14:06:13 ===> Epoch:54 Iter:26 idh_loss: 0.13226
+2023-04-29 14:06:14 ===> Epoch:54 Iter:27 idh_loss: 0.46188
+2023-04-29 14:06:14 ===> Epoch:54 Iter:28 idh_loss: 0.09710
+2023-04-29 14:06:17 ===> Epoch:54[best_epoch:47 | min_total_loss:0.21872 | idh_loss:0.43245 | idh_acc: 0.76667 | idh_auc:0.91204]
+2023-04-29 14:06:17 ===> Current epoch time consumption: 0.29 minutes!
+2023-04-29 14:06:17 ===> Estimated remaining training time: 0.17 hours!
+2023-04-29 14:06:19 ===> Epoch:55 Iter:0 idh_loss: 0.17990
+2023-04-29 14:06:19 ===> Epoch:55 Iter:1 idh_loss: 0.36193
+2023-04-29 14:06:20 ===> Epoch:55 Iter:2 idh_loss: 0.45053
+2023-04-29 14:06:20 ===> Epoch:55 Iter:3 idh_loss: 1.06299
+2023-04-29 14:06:21 ===> Epoch:55 Iter:4 idh_loss: 0.01472
+2023-04-29 14:06:21 ===> Epoch:55 Iter:5 idh_loss: 0.39048
+2023-04-29 14:06:21 ===> Epoch:55 Iter:6 idh_loss: 0.12191
+2023-04-29 14:06:22 ===> Epoch:55 Iter:7 idh_loss: 0.05175
+2023-04-29 14:06:22 ===> Epoch:55 Iter:8 idh_loss: 0.25400
+2023-04-29 14:06:23 ===> Epoch:55 Iter:9 idh_loss: 0.03687
+2023-04-29 14:06:23 ===> Epoch:55 Iter:10 idh_loss: 0.01812
+2023-04-29 14:06:24 ===> Epoch:55 Iter:11 idh_loss: 0.20511
+2023-04-29 14:06:24 ===> Epoch:55 Iter:12 idh_loss: 0.86272
+2023-04-29 14:06:25 ===> Epoch:55 Iter:13 idh_loss: 0.30376
+2023-04-29 14:06:25 ===> Epoch:55 Iter:14 idh_loss: 0.18776
+2023-04-29 14:06:25 ===> Epoch:55 Iter:15 idh_loss: 1.94884
+2023-04-29 14:06:26 ===> Epoch:55 Iter:16 idh_loss: 0.88007
+2023-04-29 14:06:26 ===> Epoch:55 Iter:17 idh_loss: 0.02227
+2023-04-29 14:06:27 ===> Epoch:55 Iter:18 idh_loss: 0.37986
+2023-04-29 14:06:27 ===> Epoch:55 Iter:19 idh_loss: 0.43725
+2023-04-29 14:06:28 ===> Epoch:55 Iter:20 idh_loss: 0.41853
+2023-04-29 14:06:28 ===> Epoch:55 Iter:21 idh_loss: 0.39989
+2023-04-29 14:06:29 ===> Epoch:55 Iter:22 idh_loss: 1.33123
+2023-04-29 14:06:29 ===> Epoch:55 Iter:23 idh_loss: 0.34174
+2023-04-29 14:06:29 ===> Epoch:55 Iter:24 idh_loss: 1.06591
+2023-04-29 14:06:30 ===> Epoch:55 Iter:25 idh_loss: 0.85749
+2023-04-29 14:06:30 ===> Epoch:55 Iter:26 idh_loss: 1.15616
+2023-04-29 14:06:31 ===> Epoch:55 Iter:27 idh_loss: 0.31636
+2023-04-29 14:06:31 ===> Epoch:55 Iter:28 idh_loss: 0.50693
+2023-04-29 14:06:34 ===> Epoch:55[best_epoch:47 | min_total_loss:0.21872 | idh_loss:0.42620 | idh_acc: 0.80000 | idh_auc:0.95370]
+2023-04-29 14:06:34 ===> Current epoch time consumption: 0.29 minutes!
+2023-04-29 14:06:34 ===> Estimated remaining training time: 0.16 hours!
+2023-04-29 14:06:36 ===> Epoch:56 Iter:0 idh_loss: 1.79805
+2023-04-29 14:06:36 ===> Epoch:56 Iter:1 idh_loss: 0.19023
+2023-04-29 14:06:37 ===> Epoch:56 Iter:2 idh_loss: 0.37276
+2023-04-29 14:06:37 ===> Epoch:56 Iter:3 idh_loss: 0.41870
+2023-04-29 14:06:38 ===> Epoch:56 Iter:4 idh_loss: 0.12057
+2023-04-29 14:06:38 ===> Epoch:56 Iter:5 idh_loss: 0.10496
+2023-04-29 14:06:39 ===> Epoch:56 Iter:6 idh_loss: 0.08434
+2023-04-29 14:06:39 ===> Epoch:56 Iter:7 idh_loss: 0.29145
+2023-04-29 14:06:40 ===> Epoch:56 Iter:8 idh_loss: 0.36433
+2023-04-29 14:06:40 ===> Epoch:56 Iter:9 idh_loss: 0.07760
+2023-04-29 14:06:40 ===> Epoch:56 Iter:10 idh_loss: 0.23577
+2023-04-29 14:06:41 ===> Epoch:56 Iter:11 idh_loss: 0.31332
+2023-04-29 14:06:41 ===> Epoch:56 Iter:12 idh_loss: 0.64026
+2023-04-29 14:06:42 ===> Epoch:56 Iter:13 idh_loss: 0.18484
+2023-04-29 14:06:42 ===> Epoch:56 Iter:14 idh_loss: 0.09522
+2023-04-29 14:06:43 ===> Epoch:56 Iter:15 idh_loss: 0.09413
+2023-04-29 14:06:43 ===> Epoch:56 Iter:16 idh_loss: 0.25306
+2023-04-29 14:06:44 ===> Epoch:56 Iter:17 idh_loss: 0.89655
+2023-04-29 14:06:44 ===> Epoch:56 Iter:18 idh_loss: 0.52320
+2023-04-29 14:06:44 ===> Epoch:56 Iter:19 idh_loss: 0.28927
+2023-04-29 14:06:45 ===> Epoch:56 Iter:20 idh_loss: 0.14877
+2023-04-29 14:06:45 ===> Epoch:56 Iter:21 idh_loss: 0.23108
+2023-04-29 14:06:46 ===> Epoch:56 Iter:22 idh_loss: 0.09179
+2023-04-29 14:06:46 ===> Epoch:56 Iter:23 idh_loss: 0.22873
+2023-04-29 14:06:47 ===> Epoch:56 Iter:24 idh_loss: 0.36675
+2023-04-29 14:06:47 ===> Epoch:56 Iter:25 idh_loss: 0.09064
+2023-04-29 14:06:48 ===> Epoch:56 Iter:26 idh_loss: 0.36862
+2023-04-29 14:06:48 ===> Epoch:56 Iter:27 idh_loss: 0.41587
+2023-04-29 14:06:48 ===> Epoch:56 Iter:28 idh_loss: 0.42870
+2023-04-29 14:06:52 ===> Epoch:56[best_epoch:47 | min_total_loss:0.21872 | idh_loss:0.24902 | idh_acc: 0.86667 | idh_auc:0.96759]
+2023-04-29 14:06:52 ===> Current epoch time consumption: 0.29 minutes!
+2023-04-29 14:06:52 ===> Estimated remaining training time: 0.16 hours!
+2023-04-29 14:06:53 ===> Epoch:57 Iter:0 idh_loss: 0.51819
+2023-04-29 14:06:54 ===> Epoch:57 Iter:1 idh_loss: 0.59184
+2023-04-29 14:06:54 ===> Epoch:57 Iter:2 idh_loss: 0.12141
+2023-04-29 14:06:54 ===> Epoch:57 Iter:3 idh_loss: 0.24717
+2023-04-29 14:06:55 ===> Epoch:57 Iter:4 idh_loss: 0.07229
+2023-04-29 14:06:55 ===> Epoch:57 Iter:5 idh_loss: 0.38975
+2023-04-29 14:06:56 ===> Epoch:57 Iter:6 idh_loss: 0.09408
+2023-04-29 14:06:56 ===> Epoch:57 Iter:7 idh_loss: 0.26954
+2023-04-29 14:06:57 ===> Epoch:57 Iter:8 idh_loss: 0.07878
+2023-04-29 14:06:57 ===> Epoch:57 Iter:9 idh_loss: 0.35611
+2023-04-29 14:06:58 ===> Epoch:57 Iter:10 idh_loss: 0.25250
+2023-04-29 14:06:58 ===> Epoch:57 Iter:11 idh_loss: 0.17741
+2023-04-29 14:06:58 ===> Epoch:57 Iter:12 idh_loss: 0.04987
+2023-04-29 14:06:59 ===> Epoch:57 Iter:13 idh_loss: 0.46560
+2023-04-29 14:06:59 ===> Epoch:57 Iter:14 idh_loss: 1.16045
+2023-04-29 14:07:00 ===> Epoch:57 Iter:15 idh_loss: 0.20842
+2023-04-29 14:07:00 ===> Epoch:57 Iter:16 idh_loss: 0.41725
+2023-04-29 14:07:01 ===> Epoch:57 Iter:17 idh_loss: 0.19240
+2023-04-29 14:07:01 ===> Epoch:57 Iter:18 idh_loss: 0.81153
+2023-04-29 14:07:02 ===> Epoch:57 Iter:19 idh_loss: 0.04803
+2023-04-29 14:07:02 ===> Epoch:57 Iter:20 idh_loss: 0.36533
+2023-04-29 14:07:02 ===> Epoch:57 Iter:21 idh_loss: 0.13811
+2023-04-29 14:07:03 ===> Epoch:57 Iter:22 idh_loss: 0.47869
+2023-04-29 14:07:03 ===> Epoch:57 Iter:23 idh_loss: 0.50982
+2023-04-29 14:07:04 ===> Epoch:57 Iter:24 idh_loss: 0.61239
+2023-04-29 14:07:04 ===> Epoch:57 Iter:25 idh_loss: 0.40891
+2023-04-29 14:07:05 ===> Epoch:57 Iter:26 idh_loss: 0.51771
+2023-04-29 14:07:05 ===> Epoch:57 Iter:27 idh_loss: 0.03816
+2023-04-29 14:07:06 ===> Epoch:57 Iter:28 idh_loss: 0.02180
+2023-04-29 14:07:09 ===> Epoch:57[best_epoch:47 | min_total_loss:0.21872 | idh_loss:0.28859 | idh_acc: 0.86667 | idh_auc:0.95370]
+2023-04-29 14:07:09 ===> Current epoch time consumption: 0.29 minutes!
+2023-04-29 14:07:09 ===> Estimated remaining training time: 0.15 hours!
+2023-04-29 14:07:10 ===> Epoch:58 Iter:0 idh_loss: 0.16770
+2023-04-29 14:07:11 ===> Epoch:58 Iter:1 idh_loss: 0.05851
+2023-04-29 14:07:11 ===> Epoch:58 Iter:2 idh_loss: 0.12341
+2023-04-29 14:07:12 ===> Epoch:58 Iter:3 idh_loss: 0.12728
+2023-04-29 14:07:12 ===> Epoch:58 Iter:4 idh_loss: 0.16825
+2023-04-29 14:07:13 ===> Epoch:58 Iter:5 idh_loss: 0.06868
+2023-04-29 14:07:13 ===> Epoch:58 Iter:6 idh_loss: 0.22552
+2023-04-29 14:07:13 ===> Epoch:58 Iter:7 idh_loss: 0.10307
+2023-04-29 14:07:14 ===> Epoch:58 Iter:8 idh_loss: 0.23961
+2023-04-29 14:07:14 ===> Epoch:58 Iter:9 idh_loss: 0.33581
+2023-04-29 14:07:15 ===> Epoch:58 Iter:10 idh_loss: 0.24917
+2023-04-29 14:07:15 ===> Epoch:58 Iter:11 idh_loss: 0.06200
+2023-04-29 14:07:16 ===> Epoch:58 Iter:12 idh_loss: 0.69975
+2023-04-29 14:07:16 ===> Epoch:58 Iter:13 idh_loss: 0.34361
+2023-04-29 14:07:17 ===> Epoch:58 Iter:14 idh_loss: 0.87382
+2023-04-29 14:07:17 ===> Epoch:58 Iter:15 idh_loss: 0.51645
+2023-04-29 14:07:17 ===> Epoch:58 Iter:16 idh_loss: 0.02757
+2023-04-29 14:07:18 ===> Epoch:58 Iter:17 idh_loss: 0.06689
+2023-04-29 14:07:18 ===> Epoch:58 Iter:18 idh_loss: 0.42443
+2023-04-29 14:07:19 ===> Epoch:58 Iter:19 idh_loss: 0.41775
+2023-04-29 14:07:19 ===> Epoch:58 Iter:20 idh_loss: 0.29978
+2023-04-29 14:07:20 ===> Epoch:58 Iter:21 idh_loss: 0.11104
+2023-04-29 14:07:20 ===> Epoch:58 Iter:22 idh_loss: 0.59447
+2023-04-29 14:07:21 ===> Epoch:58 Iter:23 idh_loss: 0.35238
+2023-04-29 14:07:21 ===> Epoch:58 Iter:24 idh_loss: 0.36040
+2023-04-29 14:07:21 ===> Epoch:58 Iter:25 idh_loss: 0.41997
+2023-04-29 14:07:22 ===> Epoch:58 Iter:26 idh_loss: 0.16893
+2023-04-29 14:07:22 ===> Epoch:58 Iter:27 idh_loss: 0.51095
+2023-04-29 14:07:23 ===> Epoch:58 Iter:28 idh_loss: 0.63452
+2023-04-29 14:07:26 ===> Epoch:58[best_epoch:47 | min_total_loss:0.21872 | idh_loss:0.41503 | idh_acc: 0.80000 | idh_auc:0.92130]
+2023-04-29 14:07:26 ===> Current epoch time consumption: 0.29 minutes!
+2023-04-29 14:07:26 ===> Estimated remaining training time: 0.15 hours!
+2023-04-29 14:07:27 ===> Epoch:59 Iter:0 idh_loss: 0.18735
+2023-04-29 14:07:28 ===> Epoch:59 Iter:1 idh_loss: 0.36560
+2023-04-29 14:07:28 ===> Epoch:59 Iter:2 idh_loss: 0.85781
+2023-04-29 14:07:29 ===> Epoch:59 Iter:3 idh_loss: 0.03049
+2023-04-29 14:07:29 ===> Epoch:59 Iter:4 idh_loss: 0.10427
+2023-04-29 14:07:30 ===> Epoch:59 Iter:5 idh_loss: 0.05946
+2023-04-29 14:07:30 ===> Epoch:59 Iter:6 idh_loss: 0.03390
+2023-04-29 14:07:31 ===> Epoch:59 Iter:7 idh_loss: 0.05558
+2023-04-29 14:07:31 ===> Epoch:59 Iter:8 idh_loss: 0.15709
+2023-04-29 14:07:32 ===> Epoch:59 Iter:9 idh_loss: 0.16984
+2023-04-29 14:07:32 ===> Epoch:59 Iter:10 idh_loss: 0.39395
+2023-04-29 14:07:32 ===> Epoch:59 Iter:11 idh_loss: 0.36187
+2023-04-29 14:07:33 ===> Epoch:59 Iter:12 idh_loss: 0.37633
+2023-04-29 14:07:33 ===> Epoch:59 Iter:13 idh_loss: 0.04288
+2023-04-29 14:07:34 ===> Epoch:59 Iter:14 idh_loss: 0.06825
+2023-04-29 14:07:34 ===> Epoch:59 Iter:15 idh_loss: 0.04421
+2023-04-29 14:07:35 ===> Epoch:59 Iter:16 idh_loss: 0.13850
+2023-04-29 14:07:35 ===> Epoch:59 Iter:17 idh_loss: 0.04387
+2023-04-29 14:07:36 ===> Epoch:59 Iter:18 idh_loss: 0.32223
+2023-04-29 14:07:36 ===> Epoch:59 Iter:19 idh_loss: 0.41450
+2023-04-29 14:07:36 ===> Epoch:59 Iter:20 idh_loss: 0.33827
+2023-04-29 14:07:37 ===> Epoch:59 Iter:21 idh_loss: 0.25058
+2023-04-29 14:07:37 ===> Epoch:59 Iter:22 idh_loss: 0.88991
+2023-04-29 14:07:38 ===> Epoch:59 Iter:23 idh_loss: 0.35065
+2023-04-29 14:07:38 ===> Epoch:59 Iter:24 idh_loss: 0.93409
+2023-04-29 14:07:39 ===> Epoch:59 Iter:25 idh_loss: 0.11342
+2023-04-29 14:07:39 ===> Epoch:59 Iter:26 idh_loss: 1.02531
+2023-04-29 14:07:40 ===> Epoch:59 Iter:27 idh_loss: 0.35287
+2023-04-29 14:07:40 ===> Epoch:59 Iter:28 idh_loss: 1.49016
+2023-04-29 14:07:43 ===> Epoch:59[best_epoch:47 | min_total_loss:0.21872 | idh_loss:0.30583 | idh_acc: 0.90000 | idh_auc:0.91667]
+2023-04-29 14:07:44 ===> Current epoch time consumption: 0.29 minutes!
+2023-04-29 14:07:44 ===> Estimated remaining training time: 0.14 hours!
+2023-04-29 14:07:45 ===> Epoch:60 Iter:0 idh_loss: 0.05342
+2023-04-29 14:07:46 ===> Epoch:60 Iter:1 idh_loss: 0.18838
+2023-04-29 14:07:46 ===> Epoch:60 Iter:2 idh_loss: 1.00906
+2023-04-29 14:07:47 ===> Epoch:60 Iter:3 idh_loss: 0.08120
+2023-04-29 14:07:47 ===> Epoch:60 Iter:4 idh_loss: 0.66989
+2023-04-29 14:07:48 ===> Epoch:60 Iter:5 idh_loss: 0.18327
+2023-04-29 14:07:48 ===> Epoch:60 Iter:6 idh_loss: 0.35028
+2023-04-29 14:07:48 ===> Epoch:60 Iter:7 idh_loss: 0.19786
+2023-04-29 14:07:49 ===> Epoch:60 Iter:8 idh_loss: 0.34012
+2023-04-29 14:07:49 ===> Epoch:60 Iter:9 idh_loss: 0.39501
+2023-04-29 14:07:50 ===> Epoch:60 Iter:10 idh_loss: 0.36962
+2023-04-29 14:07:50 ===> Epoch:60 Iter:11 idh_loss: 0.23043
+2023-04-29 14:07:51 ===> Epoch:60 Iter:12 idh_loss: 0.22252
+2023-04-29 14:07:51 ===> Epoch:60 Iter:13 idh_loss: 0.23612
+2023-04-29 14:07:52 ===> Epoch:60 Iter:14 idh_loss: 0.43941
+2023-04-29 14:07:52 ===> Epoch:60 Iter:15 idh_loss: 0.16146
+2023-04-29 14:07:52 ===> Epoch:60 Iter:16 idh_loss: 0.33545
+2023-04-29 14:07:53 ===> Epoch:60 Iter:17 idh_loss: 0.20094
+2023-04-29 14:07:53 ===> Epoch:60 Iter:18 idh_loss: 0.10182
+2023-04-29 14:07:54 ===> Epoch:60 Iter:19 idh_loss: 0.18582
+2023-04-29 14:07:54 ===> Epoch:60 Iter:20 idh_loss: 0.30897
+2023-04-29 14:07:55 ===> Epoch:60 Iter:21 idh_loss: 0.14334
+2023-04-29 14:07:55 ===> Epoch:60 Iter:22 idh_loss: 0.16094
+2023-04-29 14:07:55 ===> Epoch:60 Iter:23 idh_loss: 0.16389
+2023-04-29 14:07:56 ===> Epoch:60 Iter:24 idh_loss: 0.97394
+2023-04-29 14:07:56 ===> Epoch:60 Iter:25 idh_loss: 0.08792
+2023-04-29 14:07:57 ===> Epoch:60 Iter:26 idh_loss: 0.01576
+2023-04-29 14:07:57 ===> Epoch:60 Iter:27 idh_loss: 0.21951
+2023-04-29 14:07:58 ===> Epoch:60 Iter:28 idh_loss: 0.07732
+2023-04-29 14:08:01 ===> Epoch:60[best_epoch:47 | min_total_loss:0.21872 | idh_loss:0.45331 | idh_acc: 0.76667 | idh_auc:0.93056]
+2023-04-29 14:08:01 ===> Current epoch time consumption: 0.29 minutes!
+2023-04-29 14:08:01 ===> Estimated remaining training time: 0.14 hours!
+2023-04-29 14:08:03 ===> Epoch:61 Iter:0 idh_loss: 0.11570
+2023-04-29 14:08:03 ===> Epoch:61 Iter:1 idh_loss: 0.10125
+2023-04-29 14:08:04 ===> Epoch:61 Iter:2 idh_loss: 0.38731
+2023-04-29 14:08:04 ===> Epoch:61 Iter:3 idh_loss: 0.36698
+2023-04-29 14:08:05 ===> Epoch:61 Iter:4 idh_loss: 1.25076
+2023-04-29 14:08:05 ===> Epoch:61 Iter:5 idh_loss: 0.08266
+2023-04-29 14:08:05 ===> Epoch:61 Iter:6 idh_loss: 0.18727
+2023-04-29 14:08:06 ===> Epoch:61 Iter:7 idh_loss: 0.10157
+2023-04-29 14:08:06 ===> Epoch:61 Iter:8 idh_loss: 0.06198
+2023-04-29 14:08:07 ===> Epoch:61 Iter:9 idh_loss: 0.26188
+2023-04-29 14:08:07 ===> Epoch:61 Iter:10 idh_loss: 0.19333
+2023-04-29 14:08:08 ===> Epoch:61 Iter:11 idh_loss: 0.07609
+2023-04-29 14:08:08 ===> Epoch:61 Iter:12 idh_loss: 0.07995
+2023-04-29 14:08:08 ===> Epoch:61 Iter:13 idh_loss: 0.11998
+2023-04-29 14:08:09 ===> Epoch:61 Iter:14 idh_loss: 0.26396
+2023-04-29 14:08:09 ===> Epoch:61 Iter:15 idh_loss: 0.16212
+2023-04-29 14:08:10 ===> Epoch:61 Iter:16 idh_loss: 1.56382
+2023-04-29 14:08:10 ===> Epoch:61 Iter:17 idh_loss: 0.53715
+2023-04-29 14:08:11 ===> Epoch:61 Iter:18 idh_loss: 0.22584
+2023-04-29 14:08:11 ===> Epoch:61 Iter:19 idh_loss: 0.10182
+2023-04-29 14:08:12 ===> Epoch:61 Iter:20 idh_loss: 0.43201
+2023-04-29 14:08:12 ===> Epoch:61 Iter:21 idh_loss: 0.16249
+2023-04-29 14:08:12 ===> Epoch:61 Iter:22 idh_loss: 0.03664
+2023-04-29 14:08:13 ===> Epoch:61 Iter:23 idh_loss: 0.04601
+2023-04-29 14:08:13 ===> Epoch:61 Iter:24 idh_loss: 0.07064
+2023-04-29 14:08:14 ===> Epoch:61 Iter:25 idh_loss: 0.04911
+2023-04-29 14:08:14 ===> Epoch:61 Iter:26 idh_loss: 0.92256
+2023-04-29 14:08:15 ===> Epoch:61 Iter:27 idh_loss: 0.26421
+2023-04-29 14:08:15 ===> Epoch:61 Iter:28 idh_loss: 0.19305
+2023-04-29 14:08:18 ===> Epoch:61[best_epoch:47 | min_total_loss:0.21872 | idh_loss:0.50477 | idh_acc: 0.76667 | idh_auc:0.87500]
+2023-04-29 14:08:18 ===> Current epoch time consumption: 0.29 minutes!
+2023-04-29 14:08:18 ===> Estimated remaining training time: 0.14 hours!
+2023-04-29 14:08:20 ===> Epoch:62 Iter:0 idh_loss: 1.10329
+2023-04-29 14:08:21 ===> Epoch:62 Iter:1 idh_loss: 0.04967
+2023-04-29 14:08:21 ===> Epoch:62 Iter:2 idh_loss: 0.98134
+2023-04-29 14:08:21 ===> Epoch:62 Iter:3 idh_loss: 0.06710
+2023-04-29 14:08:22 ===> Epoch:62 Iter:4 idh_loss: 1.27652
+2023-04-29 14:08:22 ===> Epoch:62 Iter:5 idh_loss: 0.11384
+2023-04-29 14:08:23 ===> Epoch:62 Iter:6 idh_loss: 0.09487
+2023-04-29 14:08:23 ===> Epoch:62 Iter:7 idh_loss: 0.37619
+2023-04-29 14:08:24 ===> Epoch:62 Iter:8 idh_loss: 0.54349
+2023-04-29 14:08:24 ===> Epoch:62 Iter:9 idh_loss: 0.33106
+2023-04-29 14:08:25 ===> Epoch:62 Iter:10 idh_loss: 0.15533
+2023-04-29 14:08:25 ===> Epoch:62 Iter:11 idh_loss: 0.12722
+2023-04-29 14:08:25 ===> Epoch:62 Iter:12 idh_loss: 0.35851
+2023-04-29 14:08:26 ===> Epoch:62 Iter:13 idh_loss: 0.09144
+2023-04-29 14:08:26 ===> Epoch:62 Iter:14 idh_loss: 0.09450
+2023-04-29 14:08:27 ===> Epoch:62 Iter:15 idh_loss: 0.15006
+2023-04-29 14:08:27 ===> Epoch:62 Iter:16 idh_loss: 0.47807
+2023-04-29 14:08:28 ===> Epoch:62 Iter:17 idh_loss: 0.28711
+2023-04-29 14:08:28 ===> Epoch:62 Iter:18 idh_loss: 0.09699
+2023-04-29 14:08:29 ===> Epoch:62 Iter:19 idh_loss: 0.17787
+2023-04-29 14:08:29 ===> Epoch:62 Iter:20 idh_loss: 0.04203
+2023-04-29 14:08:29 ===> Epoch:62 Iter:21 idh_loss: 0.08347
+2023-04-29 14:08:30 ===> Epoch:62 Iter:22 idh_loss: 0.10750
+2023-04-29 14:08:30 ===> Epoch:62 Iter:23 idh_loss: 0.06578
+2023-04-29 14:08:31 ===> Epoch:62 Iter:24 idh_loss: 0.05851
+2023-04-29 14:08:31 ===> Epoch:62 Iter:25 idh_loss: 0.07222
+2023-04-29 14:08:32 ===> Epoch:62 Iter:26 idh_loss: 0.08688
+2023-04-29 14:08:32 ===> Epoch:62 Iter:27 idh_loss: 0.18883
+2023-04-29 14:08:33 ===> Epoch:62 Iter:28 idh_loss: 0.24160
+2023-04-29 14:08:36 ===> Epoch:62[best_epoch:47 | min_total_loss:0.21872 | idh_loss:0.58024 | idh_acc: 0.80000 | idh_auc:0.85185]
+2023-04-29 14:08:36 ===> Current epoch time consumption: 0.29 minutes!
+2023-04-29 14:08:36 ===> Estimated remaining training time: 0.13 hours!
+2023-04-29 14:08:37 ===> Epoch:63 Iter:0 idh_loss: 0.05021
+2023-04-29 14:08:38 ===> Epoch:63 Iter:1 idh_loss: 0.04142
+2023-04-29 14:08:38 ===> Epoch:63 Iter:2 idh_loss: 0.12270
+2023-04-29 14:08:39 ===> Epoch:63 Iter:3 idh_loss: 0.46636
+2023-04-29 14:08:39 ===> Epoch:63 Iter:4 idh_loss: 1.45414
+2023-04-29 14:08:40 ===> Epoch:63 Iter:5 idh_loss: 0.12366
+2023-04-29 14:08:40 ===> Epoch:63 Iter:6 idh_loss: 0.57174
+2023-04-29 14:08:41 ===> Epoch:63 Iter:7 idh_loss: 0.58037
+2023-04-29 14:08:41 ===> Epoch:63 Iter:8 idh_loss: 0.38068
+2023-04-29 14:08:41 ===> Epoch:63 Iter:9 idh_loss: 0.09353
+2023-04-29 14:08:42 ===> Epoch:63 Iter:10 idh_loss: 0.15828
+2023-04-29 14:08:42 ===> Epoch:63 Iter:11 idh_loss: 0.08299
+2023-04-29 14:08:43 ===> Epoch:63 Iter:12 idh_loss: 0.28554
+2023-04-29 14:08:43 ===> Epoch:63 Iter:13 idh_loss: 0.75460
+2023-04-29 14:08:44 ===> Epoch:63 Iter:14 idh_loss: 0.33572
+2023-04-29 14:08:44 ===> Epoch:63 Iter:15 idh_loss: 0.04704
+2023-04-29 14:08:45 ===> Epoch:63 Iter:16 idh_loss: 0.28403
+2023-04-29 14:08:45 ===> Epoch:63 Iter:17 idh_loss: 0.07268
+2023-04-29 14:08:45 ===> Epoch:63 Iter:18 idh_loss: 0.20435
+2023-04-29 14:08:46 ===> Epoch:63 Iter:19 idh_loss: 0.47803
+2023-04-29 14:08:46 ===> Epoch:63 Iter:20 idh_loss: 0.01526
+2023-04-29 14:08:47 ===> Epoch:63 Iter:21 idh_loss: 0.08715
+2023-04-29 14:08:47 ===> Epoch:63 Iter:22 idh_loss: 0.35800
+2023-04-29 14:08:48 ===> Epoch:63 Iter:23 idh_loss: 0.13065
+2023-04-29 14:08:48 ===> Epoch:63 Iter:24 idh_loss: 0.05771
+2023-04-29 14:08:49 ===> Epoch:63 Iter:25 idh_loss: 0.24517
+2023-04-29 14:08:49 ===> Epoch:63 Iter:26 idh_loss: 1.20943
+2023-04-29 14:08:49 ===> Epoch:63 Iter:27 idh_loss: 0.19468
+2023-04-29 14:08:50 ===> Epoch:63 Iter:28 idh_loss: 0.73001
+2023-04-29 14:08:53 ===> Epoch:63[best_epoch:47 | min_total_loss:0.21872 | idh_loss:0.56977 | idh_acc: 0.73333 | idh_auc:0.84259]
+2023-04-29 14:08:53 ===> Current epoch time consumption: 0.29 minutes!
+2023-04-29 14:08:53 ===> Estimated remaining training time: 0.12 hours!
+2023-04-29 14:08:55 ===> Epoch:64 Iter:0 idh_loss: 1.65708
+2023-04-29 14:08:55 ===> Epoch:64 Iter:1 idh_loss: 0.32716
+2023-04-29 14:08:56 ===> Epoch:64 Iter:2 idh_loss: 0.06014
+2023-04-29 14:08:56 ===> Epoch:64 Iter:3 idh_loss: 0.03202
+2023-04-29 14:08:56 ===> Epoch:64 Iter:4 idh_loss: 0.04772
+2023-04-29 14:08:57 ===> Epoch:64 Iter:5 idh_loss: 0.22852
+2023-04-29 14:08:57 ===> Epoch:64 Iter:6 idh_loss: 0.29045
+2023-04-29 14:08:58 ===> Epoch:64 Iter:7 idh_loss: 0.92282
+2023-04-29 14:08:58 ===> Epoch:64 Iter:8 idh_loss: 1.29520
+2023-04-29 14:08:59 ===> Epoch:64 Iter:9 idh_loss: 0.11497
+2023-04-29 14:08:59 ===> Epoch:64 Iter:10 idh_loss: 0.93435
+2023-04-29 14:08:59 ===> Epoch:64 Iter:11 idh_loss: 0.17808
+2023-04-29 14:09:00 ===> Epoch:64 Iter:12 idh_loss: 0.17166
+2023-04-29 14:09:00 ===> Epoch:64 Iter:13 idh_loss: 0.22559
+2023-04-29 14:09:01 ===> Epoch:64 Iter:14 idh_loss: 0.80771
+2023-04-29 14:09:01 ===> Epoch:64 Iter:15 idh_loss: 0.16248
+2023-04-29 14:09:02 ===> Epoch:64 Iter:16 idh_loss: 0.48520
+2023-04-29 14:09:02 ===> Epoch:64 Iter:17 idh_loss: 0.07715
+2023-04-29 14:09:03 ===> Epoch:64 Iter:18 idh_loss: 0.49428
+2023-04-29 14:09:03 ===> Epoch:64 Iter:19 idh_loss: 0.05641
+2023-04-29 14:09:03 ===> Epoch:64 Iter:20 idh_loss: 0.19993
+2023-04-29 14:09:04 ===> Epoch:64 Iter:21 idh_loss: 0.77373
+2023-04-29 14:09:04 ===> Epoch:64 Iter:22 idh_loss: 0.14199
+2023-04-29 14:09:05 ===> Epoch:64 Iter:23 idh_loss: 0.33578
+2023-04-29 14:09:05 ===> Epoch:64 Iter:24 idh_loss: 0.37180
+2023-04-29 14:09:06 ===> Epoch:64 Iter:25 idh_loss: 0.10533
+2023-04-29 14:09:06 ===> Epoch:64 Iter:26 idh_loss: 0.41538
+2023-04-29 14:09:07 ===> Epoch:64 Iter:27 idh_loss: 0.14393
+2023-04-29 14:09:07 ===> Epoch:64 Iter:28 idh_loss: 0.21004
+2023-04-29 14:09:10 ===> Epoch:64[best_epoch:47 | min_total_loss:0.21872 | idh_loss:0.32521 | idh_acc: 0.86667 | idh_auc:0.94444]
+2023-04-29 14:09:10 ===> Current epoch time consumption: 0.29 minutes!
+2023-04-29 14:09:10 ===> Estimated remaining training time: 0.12 hours!
+2023-04-29 14:09:12 ===> Epoch:65 Iter:0 idh_loss: 0.21375
+2023-04-29 14:09:12 ===> Epoch:65 Iter:1 idh_loss: 0.99364
+2023-04-29 14:09:13 ===> Epoch:65 Iter:2 idh_loss: 0.05083
+2023-04-29 14:09:13 ===> Epoch:65 Iter:3 idh_loss: 0.31908
+2023-04-29 14:09:13 ===> Epoch:65 Iter:4 idh_loss: 0.21535
+2023-04-29 14:09:14 ===> Epoch:65 Iter:5 idh_loss: 0.83098
+2023-04-29 14:09:14 ===> Epoch:65 Iter:6 idh_loss: 0.10174
+2023-04-29 14:09:15 ===> Epoch:65 Iter:7 idh_loss: 0.62320
+2023-04-29 14:09:15 ===> Epoch:65 Iter:8 idh_loss: 0.06695
+2023-04-29 14:09:16 ===> Epoch:65 Iter:9 idh_loss: 0.13361
+2023-04-29 14:09:16 ===> Epoch:65 Iter:10 idh_loss: 0.12792
+2023-04-29 14:09:17 ===> Epoch:65 Iter:11 idh_loss: 0.11100
+2023-04-29 14:09:17 ===> Epoch:65 Iter:12 idh_loss: 0.10516
+2023-04-29 14:09:18 ===> Epoch:65 Iter:13 idh_loss: 0.16353
+2023-04-29 14:09:18 ===> Epoch:65 Iter:14 idh_loss: 0.33037
+2023-04-29 14:09:18 ===> Epoch:65 Iter:15 idh_loss: 0.07781
+2023-04-29 14:09:19 ===> Epoch:65 Iter:16 idh_loss: 0.10182
+2023-04-29 14:09:19 ===> Epoch:65 Iter:17 idh_loss: 0.50011
+2023-04-29 14:09:20 ===> Epoch:65 Iter:18 idh_loss: 0.19974
+2023-04-29 14:09:20 ===> Epoch:65 Iter:19 idh_loss: 0.10870
+2023-04-29 14:09:21 ===> Epoch:65 Iter:20 idh_loss: 0.54023
+2023-04-29 14:09:21 ===> Epoch:65 Iter:21 idh_loss: 0.54773
+2023-04-29 14:09:21 ===> Epoch:65 Iter:22 idh_loss: 0.66463
+2023-04-29 14:09:22 ===> Epoch:65 Iter:23 idh_loss: 0.08821
+2023-04-29 14:09:22 ===> Epoch:65 Iter:24 idh_loss: 0.61006
+2023-04-29 14:09:23 ===> Epoch:65 Iter:25 idh_loss: 0.21508
+2023-04-29 14:09:23 ===> Epoch:65 Iter:26 idh_loss: 0.54166
+2023-04-29 14:09:24 ===> Epoch:65 Iter:27 idh_loss: 0.57957
+2023-04-29 14:09:24 ===> Epoch:65 Iter:28 idh_loss: 0.23038
+2023-04-29 14:09:27 ===> Epoch:65[best_epoch:47 | min_total_loss:0.21872 | idh_loss:0.34229 | idh_acc: 0.80000 | idh_auc:0.93981]
+2023-04-29 14:09:27 ===> Current epoch time consumption: 0.29 minutes!
+2023-04-29 14:09:27 ===> Estimated remaining training time: 0.11 hours!
+2023-04-29 14:09:29 ===> Epoch:66 Iter:0 idh_loss: 0.10837
+2023-04-29 14:09:29 ===> Epoch:66 Iter:1 idh_loss: 0.22888
+2023-04-29 14:09:30 ===> Epoch:66 Iter:2 idh_loss: 0.19292
+2023-04-29 14:09:30 ===> Epoch:66 Iter:3 idh_loss: 0.02862
+2023-04-29 14:09:31 ===> Epoch:66 Iter:4 idh_loss: 0.36540
+2023-04-29 14:09:31 ===> Epoch:66 Iter:5 idh_loss: 0.51911
+2023-04-29 14:09:32 ===> Epoch:66 Iter:6 idh_loss: 0.32244
+2023-04-29 14:09:32 ===> Epoch:66 Iter:7 idh_loss: 0.83961
+2023-04-29 14:09:33 ===> Epoch:66 Iter:8 idh_loss: 0.28919
+2023-04-29 14:09:33 ===> Epoch:66 Iter:9 idh_loss: 0.03791
+2023-04-29 14:09:33 ===> Epoch:66 Iter:10 idh_loss: 0.07222
+2023-04-29 14:09:34 ===> Epoch:66 Iter:11 idh_loss: 0.52752
+2023-04-29 14:09:34 ===> Epoch:66 Iter:12 idh_loss: 0.01818
+2023-04-29 14:09:35 ===> Epoch:66 Iter:13 idh_loss: 0.07484
+2023-04-29 14:09:35 ===> Epoch:66 Iter:14 idh_loss: 0.19160
+2023-04-29 14:09:36 ===> Epoch:66 Iter:15 idh_loss: 0.10855
+2023-04-29 14:09:36 ===> Epoch:66 Iter:16 idh_loss: 0.07730
+2023-04-29 14:09:36 ===> Epoch:66 Iter:17 idh_loss: 0.37951
+2023-04-29 14:09:37 ===> Epoch:66 Iter:18 idh_loss: 0.11136
+2023-04-29 14:09:37 ===> Epoch:66 Iter:19 idh_loss: 0.42584
+2023-04-29 14:09:38 ===> Epoch:66 Iter:20 idh_loss: 0.12479
+2023-04-29 14:09:38 ===> Epoch:66 Iter:21 idh_loss: 0.05136
+2023-04-29 14:09:39 ===> Epoch:66 Iter:22 idh_loss: 0.34929
+2023-04-29 14:09:39 ===> Epoch:66 Iter:23 idh_loss: 0.15841
+2023-04-29 14:09:40 ===> Epoch:66 Iter:24 idh_loss: 0.37851
+2023-04-29 14:09:40 ===> Epoch:66 Iter:25 idh_loss: 0.46493
+2023-04-29 14:09:40 ===> Epoch:66 Iter:26 idh_loss: 0.08053
+2023-04-29 14:09:41 ===> Epoch:66 Iter:27 idh_loss: 0.06925
+2023-04-29 14:09:41 ===> Epoch:66 Iter:28 idh_loss: 0.30551
+2023-04-29 14:09:45 ===> Epoch:66[best_epoch:47 | min_total_loss:0.21872 | idh_loss:0.53242 | idh_acc: 0.80000 | idh_auc:0.87963]
+2023-04-29 14:09:45 ===> Current epoch time consumption: 0.29 minutes!
+2023-04-29 14:09:45 ===> Estimated remaining training time: 0.11 hours!
+2023-04-29 14:09:46 ===> Epoch:67 Iter:0 idh_loss: 0.51159
+2023-04-29 14:09:47 ===> Epoch:67 Iter:1 idh_loss: 0.27295
+2023-04-29 14:09:47 ===> Epoch:67 Iter:2 idh_loss: 0.05303
+2023-04-29 14:09:48 ===> Epoch:67 Iter:3 idh_loss: 0.21026
+2023-04-29 14:09:48 ===> Epoch:67 Iter:4 idh_loss: 0.36598
+2023-04-29 14:09:49 ===> Epoch:67 Iter:5 idh_loss: 0.74205
+2023-04-29 14:09:49 ===> Epoch:67 Iter:6 idh_loss: 0.41772
+2023-04-29 14:09:50 ===> Epoch:67 Iter:7 idh_loss: 0.27842
+2023-04-29 14:09:50 ===> Epoch:67 Iter:8 idh_loss: 0.49182
+2023-04-29 14:09:50 ===> Epoch:67 Iter:9 idh_loss: 0.45694
+2023-04-29 14:09:51 ===> Epoch:67 Iter:10 idh_loss: 0.17993
+2023-04-29 14:09:51 ===> Epoch:67 Iter:11 idh_loss: 0.49555
+2023-04-29 14:09:52 ===> Epoch:67 Iter:12 idh_loss: 0.22364
+2023-04-29 14:09:52 ===> Epoch:67 Iter:13 idh_loss: 0.03953
+2023-04-29 14:09:53 ===> Epoch:67 Iter:14 idh_loss: 0.04077
+2023-04-29 14:09:53 ===> Epoch:67 Iter:15 idh_loss: 0.56733
+2023-04-29 14:09:54 ===> Epoch:67 Iter:16 idh_loss: 0.09301
+2023-04-29 14:09:54 ===> Epoch:67 Iter:17 idh_loss: 0.54940
+2023-04-29 14:09:54 ===> Epoch:67 Iter:18 idh_loss: 0.20350
+2023-04-29 14:09:55 ===> Epoch:67 Iter:19 idh_loss: 0.04089
+2023-04-29 14:09:55 ===> Epoch:67 Iter:20 idh_loss: 0.09150
+2023-04-29 14:09:56 ===> Epoch:67 Iter:21 idh_loss: 0.11779
+2023-04-29 14:09:56 ===> Epoch:67 Iter:22 idh_loss: 0.13353
+2023-04-29 14:09:57 ===> Epoch:67 Iter:23 idh_loss: 0.04110
+2023-04-29 14:09:57 ===> Epoch:67 Iter:24 idh_loss: 0.37834
+2023-04-29 14:09:58 ===> Epoch:67 Iter:25 idh_loss: 0.10108
+2023-04-29 14:09:58 ===> Epoch:67 Iter:26 idh_loss: 1.54362
+2023-04-29 14:09:58 ===> Epoch:67 Iter:27 idh_loss: 1.02173
+2023-04-29 14:09:59 ===> Epoch:67 Iter:28 idh_loss: 0.36056
+2023-04-29 14:10:02 ===> Epoch:67[best_epoch:47 | min_total_loss:0.21872 | idh_loss:0.39261 | idh_acc: 0.80000 | idh_auc:0.91204]
+2023-04-29 14:10:02 ===> Current epoch time consumption: 0.29 minutes!
+2023-04-29 14:10:02 ===> Estimated remaining training time: 0.11 hours!
+2023-04-29 14:10:04 ===> Epoch:68 Iter:0 idh_loss: 0.02787
+2023-04-29 14:10:04 ===> Epoch:68 Iter:1 idh_loss: 0.19097
+2023-04-29 14:10:05 ===> Epoch:68 Iter:2 idh_loss: 0.59077
+2023-04-29 14:10:05 ===> Epoch:68 Iter:3 idh_loss: 0.45439
+2023-04-29 14:10:06 ===> Epoch:68 Iter:4 idh_loss: 0.21864
+2023-04-29 14:10:06 ===> Epoch:68 Iter:5 idh_loss: 0.15100
+2023-04-29 14:10:06 ===> Epoch:68 Iter:6 idh_loss: 0.17674
+2023-04-29 14:10:07 ===> Epoch:68 Iter:7 idh_loss: 0.24878
+2023-04-29 14:10:07 ===> Epoch:68 Iter:8 idh_loss: 0.45817
+2023-04-29 14:10:08 ===> Epoch:68 Iter:9 idh_loss: 0.62638
+2023-04-29 14:10:08 ===> Epoch:68 Iter:10 idh_loss: 0.61738
+2023-04-29 14:10:09 ===> Epoch:68 Iter:11 idh_loss: 0.40527
+2023-04-29 14:10:09 ===> Epoch:68 Iter:12 idh_loss: 0.25101
+2023-04-29 14:10:10 ===> Epoch:68 Iter:13 idh_loss: 0.18970
+2023-04-29 14:10:10 ===> Epoch:68 Iter:14 idh_loss: 0.14252
+2023-04-29 14:10:10 ===> Epoch:68 Iter:15 idh_loss: 1.09964
+2023-04-29 14:10:11 ===> Epoch:68 Iter:16 idh_loss: 0.23212
+2023-04-29 14:10:11 ===> Epoch:68 Iter:17 idh_loss: 0.73603
+2023-04-29 14:10:12 ===> Epoch:68 Iter:18 idh_loss: 0.04240
+2023-04-29 14:10:12 ===> Epoch:68 Iter:19 idh_loss: 0.09117
+2023-04-29 14:10:13 ===> Epoch:68 Iter:20 idh_loss: 0.12810
+2023-04-29 14:10:13 ===> Epoch:68 Iter:21 idh_loss: 0.40101
+2023-04-29 14:10:14 ===> Epoch:68 Iter:22 idh_loss: 0.49753
+2023-04-29 14:10:14 ===> Epoch:68 Iter:23 idh_loss: 0.09168
+2023-04-29 14:10:14 ===> Epoch:68 Iter:24 idh_loss: 0.20063
+2023-04-29 14:10:15 ===> Epoch:68 Iter:25 idh_loss: 0.10325
+2023-04-29 14:10:15 ===> Epoch:68 Iter:26 idh_loss: 0.23012
+2023-04-29 14:10:16 ===> Epoch:68 Iter:27 idh_loss: 0.04420
+2023-04-29 14:10:16 ===> Epoch:68 Iter:28 idh_loss: 0.49031
+2023-04-29 14:10:19 ===> Epoch:68[best_epoch:47 | min_total_loss:0.21872 | idh_loss:0.44074 | idh_acc: 0.73333 | idh_auc:0.87500]
+2023-04-29 14:10:19 ===> Current epoch time consumption: 0.29 minutes!
+2023-04-29 14:10:19 ===> Estimated remaining training time: 0.10 hours!
+2023-04-29 14:10:21 ===> Epoch:69 Iter:0 idh_loss: 0.13282
+2023-04-29 14:10:21 ===> Epoch:69 Iter:1 idh_loss: 0.12155
+2023-04-29 14:10:22 ===> Epoch:69 Iter:2 idh_loss: 0.13566
+2023-04-29 14:10:22 ===> Epoch:69 Iter:3 idh_loss: 0.25379
+2023-04-29 14:10:23 ===> Epoch:69 Iter:4 idh_loss: 0.03528
+2023-04-29 14:10:23 ===> Epoch:69 Iter:5 idh_loss: 0.19064
+2023-04-29 14:10:24 ===> Epoch:69 Iter:6 idh_loss: 0.06775
+2023-04-29 14:10:24 ===> Epoch:69 Iter:7 idh_loss: 0.15444
+2023-04-29 14:10:25 ===> Epoch:69 Iter:8 idh_loss: 0.13032
+2023-04-29 14:10:25 ===> Epoch:69 Iter:9 idh_loss: 0.22666
+2023-04-29 14:10:25 ===> Epoch:69 Iter:10 idh_loss: 0.11428
+2023-04-29 14:10:26 ===> Epoch:69 Iter:11 idh_loss: 0.12062
+2023-04-29 14:10:26 ===> Epoch:69 Iter:12 idh_loss: 0.03964
+2023-04-29 14:10:27 ===> Epoch:69 Iter:13 idh_loss: 0.24643
+2023-04-29 14:10:27 ===> Epoch:69 Iter:14 idh_loss: 0.08576
+2023-04-29 14:10:28 ===> Epoch:69 Iter:15 idh_loss: 0.22678
+2023-04-29 14:10:28 ===> Epoch:69 Iter:16 idh_loss: 0.09381
+2023-04-29 14:10:29 ===> Epoch:69 Iter:17 idh_loss: 0.55750
+2023-04-29 14:10:29 ===> Epoch:69 Iter:18 idh_loss: 0.87190
+2023-04-29 14:10:29 ===> Epoch:69 Iter:19 idh_loss: 0.03500
+2023-04-29 14:10:30 ===> Epoch:69 Iter:20 idh_loss: 0.30034
+2023-04-29 14:10:30 ===> Epoch:69 Iter:21 idh_loss: 0.06024
+2023-04-29 14:10:31 ===> Epoch:69 Iter:22 idh_loss: 0.27787
+2023-04-29 14:10:31 ===> Epoch:69 Iter:23 idh_loss: 0.15242
+2023-04-29 14:10:32 ===> Epoch:69 Iter:24 idh_loss: 0.42695
+2023-04-29 14:10:32 ===> Epoch:69 Iter:25 idh_loss: 0.42016
+2023-04-29 14:10:33 ===> Epoch:69 Iter:26 idh_loss: 0.21902
+2023-04-29 14:10:33 ===> Epoch:69 Iter:27 idh_loss: 0.19733
+2023-04-29 14:10:33 ===> Epoch:69 Iter:28 idh_loss: 0.34432
+2023-04-29 14:10:37 ===> Epoch:69[best_epoch:47 | min_total_loss:0.21872 | idh_loss:0.36276 | idh_acc: 0.83333 | idh_auc:0.93056]
+2023-04-29 14:10:37 ===> Current epoch time consumption: 0.29 minutes!
+2023-04-29 14:10:37 ===> Estimated remaining training time: 0.10 hours!
+2023-04-29 14:10:38 ===> Epoch:70 Iter:0 idh_loss: 0.09722
+2023-04-29 14:10:39 ===> Epoch:70 Iter:1 idh_loss: 0.03615
+2023-04-29 14:10:39 ===> Epoch:70 Iter:2 idh_loss: 0.04583
+2023-04-29 14:10:40 ===> Epoch:70 Iter:3 idh_loss: 0.06623
+2023-04-29 14:10:40 ===> Epoch:70 Iter:4 idh_loss: 0.45526
+2023-04-29 14:10:41 ===> Epoch:70 Iter:5 idh_loss: 0.05171
+2023-04-29 14:10:41 ===> Epoch:70 Iter:6 idh_loss: 0.02253
+2023-04-29 14:10:41 ===> Epoch:70 Iter:7 idh_loss: 0.07350
+2023-04-29 14:10:42 ===> Epoch:70 Iter:8 idh_loss: 0.02013
+2023-04-29 14:10:42 ===> Epoch:70 Iter:9 idh_loss: 0.31828
+2023-04-29 14:10:43 ===> Epoch:70 Iter:10 idh_loss: 0.77181
+2023-04-29 14:10:43 ===> Epoch:70 Iter:11 idh_loss: 0.73408
+2023-04-29 14:10:44 ===> Epoch:70 Iter:12 idh_loss: 0.14015
+2023-04-29 14:10:44 ===> Epoch:70 Iter:13 idh_loss: 1.03002
+2023-04-29 14:10:45 ===> Epoch:70 Iter:14 idh_loss: 0.24506
+2023-04-29 14:10:45 ===> Epoch:70 Iter:15 idh_loss: 0.70849
+2023-04-29 14:10:45 ===> Epoch:70 Iter:16 idh_loss: 0.05690
+2023-04-29 14:10:46 ===> Epoch:70 Iter:17 idh_loss: 0.26702
+2023-04-29 14:10:46 ===> Epoch:70 Iter:18 idh_loss: 0.01553
+2023-04-29 14:10:47 ===> Epoch:70 Iter:19 idh_loss: 0.05735
+2023-04-29 14:10:47 ===> Epoch:70 Iter:20 idh_loss: 0.04310
+2023-04-29 14:10:48 ===> Epoch:70 Iter:21 idh_loss: 0.04378
+2023-04-29 14:10:48 ===> Epoch:70 Iter:22 idh_loss: 0.58684
+2023-04-29 14:10:48 ===> Epoch:70 Iter:23 idh_loss: 0.03453
+2023-04-29 14:10:49 ===> Epoch:70 Iter:24 idh_loss: 0.30058
+2023-04-29 14:10:49 ===> Epoch:70 Iter:25 idh_loss: 0.40273
+2023-04-29 14:10:50 ===> Epoch:70 Iter:26 idh_loss: 0.36600
+2023-04-29 14:10:50 ===> Epoch:70 Iter:27 idh_loss: 0.27404
+2023-04-29 14:10:51 ===> Epoch:70 Iter:28 idh_loss: 0.05039
+2023-04-29 14:10:54 ===> Epoch:70[best_epoch:47 | min_total_loss:0.21872 | idh_loss:0.31671 | idh_acc: 0.83333 | idh_auc:0.96759]
+2023-04-29 14:10:54 ===> Current epoch time consumption: 0.29 minutes!
+2023-04-29 14:10:54 ===> Estimated remaining training time: 0.09 hours!
+2023-04-29 14:10:56 ===> Epoch:71 Iter:0 idh_loss: 0.03577
+2023-04-29 14:10:56 ===> Epoch:71 Iter:1 idh_loss: 0.78804
+2023-04-29 14:10:57 ===> Epoch:71 Iter:2 idh_loss: 0.62658
+2023-04-29 14:10:57 ===> Epoch:71 Iter:3 idh_loss: 0.09089
+2023-04-29 14:10:57 ===> Epoch:71 Iter:4 idh_loss: 0.04728
+2023-04-29 14:10:58 ===> Epoch:71 Iter:5 idh_loss: 0.04985
+2023-04-29 14:10:58 ===> Epoch:71 Iter:6 idh_loss: 0.30467
+2023-04-29 14:10:59 ===> Epoch:71 Iter:7 idh_loss: 0.01133
+2023-04-29 14:10:59 ===> Epoch:71 Iter:8 idh_loss: 0.59889
+2023-04-29 14:11:00 ===> Epoch:71 Iter:9 idh_loss: 0.05901
+2023-04-29 14:11:00 ===> Epoch:71 Iter:10 idh_loss: 0.55585
+2023-04-29 14:11:01 ===> Epoch:71 Iter:11 idh_loss: 0.24757
+2023-04-29 14:11:01 ===> Epoch:71 Iter:12 idh_loss: 0.06280
+2023-04-29 14:11:01 ===> Epoch:71 Iter:13 idh_loss: 0.01386
+2023-04-29 14:11:02 ===> Epoch:71 Iter:14 idh_loss: 0.51777
+2023-04-29 14:11:02 ===> Epoch:71 Iter:15 idh_loss: 0.18340
+2023-04-29 14:11:03 ===> Epoch:71 Iter:16 idh_loss: 0.20399
+2023-04-29 14:11:03 ===> Epoch:71 Iter:17 idh_loss: 0.09128
+2023-04-29 14:11:04 ===> Epoch:71 Iter:18 idh_loss: 0.14126
+2023-04-29 14:11:04 ===> Epoch:71 Iter:19 idh_loss: 0.07903
+2023-04-29 14:11:05 ===> Epoch:71 Iter:20 idh_loss: 0.67219
+2023-04-29 14:11:05 ===> Epoch:71 Iter:21 idh_loss: 0.11701
+2023-04-29 14:11:05 ===> Epoch:71 Iter:22 idh_loss: 0.04283
+2023-04-29 14:11:06 ===> Epoch:71 Iter:23 idh_loss: 0.21064
+2023-04-29 14:11:06 ===> Epoch:71 Iter:24 idh_loss: 0.32269
+2023-04-29 14:11:07 ===> Epoch:71 Iter:25 idh_loss: 1.30748
+2023-04-29 14:11:07 ===> Epoch:71 Iter:26 idh_loss: 0.41338
+2023-04-29 14:11:08 ===> Epoch:71 Iter:27 idh_loss: 0.03069
+2023-04-29 14:11:08 ===> Epoch:71 Iter:28 idh_loss: 0.08309
+2023-04-29 14:11:11 ===> Epoch:71[best_epoch:47 | min_total_loss:0.21872 | idh_loss:0.40736 | idh_acc: 0.80000 | idh_auc:0.89815]
+2023-04-29 14:11:11 ===> Current epoch time consumption: 0.29 minutes!
+2023-04-29 14:11:11 ===> Estimated remaining training time: 0.09 hours!
+2023-04-29 14:11:13 ===> Epoch:72 Iter:0 idh_loss: 0.47376
+2023-04-29 14:11:13 ===> Epoch:72 Iter:1 idh_loss: 0.01396
+2023-04-29 14:11:14 ===> Epoch:72 Iter:2 idh_loss: 0.05474
+2023-04-29 14:11:14 ===> Epoch:72 Iter:3 idh_loss: 0.07810
+2023-04-29 14:11:15 ===> Epoch:72 Iter:4 idh_loss: 0.90763
+2023-04-29 14:11:15 ===> Epoch:72 Iter:5 idh_loss: 0.05659
+2023-04-29 14:11:16 ===> Epoch:72 Iter:6 idh_loss: 0.08098
+2023-04-29 14:11:16 ===> Epoch:72 Iter:7 idh_loss: 1.37955
+2023-04-29 14:11:16 ===> Epoch:72 Iter:8 idh_loss: 0.06481
+2023-04-29 14:11:17 ===> Epoch:72 Iter:9 idh_loss: 0.16581
+2023-04-29 14:11:17 ===> Epoch:72 Iter:10 idh_loss: 0.56567
+2023-04-29 14:11:18 ===> Epoch:72 Iter:11 idh_loss: 0.04347
+2023-04-29 14:11:18 ===> Epoch:72 Iter:12 idh_loss: 0.06639
+2023-04-29 14:11:19 ===> Epoch:72 Iter:13 idh_loss: 0.70035
+2023-04-29 14:11:19 ===> Epoch:72 Iter:14 idh_loss: 0.59514
+2023-04-29 14:11:20 ===> Epoch:72 Iter:15 idh_loss: 0.05060
+2023-04-29 14:11:20 ===> Epoch:72 Iter:16 idh_loss: 0.21518
+2023-04-29 14:11:20 ===> Epoch:72 Iter:17 idh_loss: 0.25723
+2023-04-29 14:11:21 ===> Epoch:72 Iter:18 idh_loss: 0.24171
+2023-04-29 14:11:21 ===> Epoch:72 Iter:19 idh_loss: 0.17685
+2023-04-29 14:11:22 ===> Epoch:72 Iter:20 idh_loss: 0.04479
+2023-04-29 14:11:22 ===> Epoch:72 Iter:21 idh_loss: 0.61280
+2023-04-29 14:11:23 ===> Epoch:72 Iter:22 idh_loss: 0.10539
+2023-04-29 14:11:23 ===> Epoch:72 Iter:23 idh_loss: 0.03198
+2023-04-29 14:11:24 ===> Epoch:72 Iter:24 idh_loss: 0.11976
+2023-04-29 14:11:24 ===> Epoch:72 Iter:25 idh_loss: 0.03028
+2023-04-29 14:11:24 ===> Epoch:72 Iter:26 idh_loss: 0.20159
+2023-04-29 14:11:25 ===> Epoch:72 Iter:27 idh_loss: 0.67318
+2023-04-29 14:11:25 ===> Epoch:72 Iter:28 idh_loss: 0.16451
+2023-04-29 14:11:29 ===> Epoch:72[best_epoch:47 | min_total_loss:0.21872 | idh_loss:0.62979 | idh_acc: 0.73333 | idh_auc:0.83333]
+2023-04-29 14:11:29 ===> Current epoch time consumption: 0.29 minutes!
+2023-04-29 14:11:29 ===> Estimated remaining training time: 0.08 hours!
+2023-04-29 14:11:30 ===> Epoch:73 Iter:0 idh_loss: 0.60555
+2023-04-29 14:11:31 ===> Epoch:73 Iter:1 idh_loss: 0.64054
+2023-04-29 14:11:31 ===> Epoch:73 Iter:2 idh_loss: 0.25947
+2023-04-29 14:11:32 ===> Epoch:73 Iter:3 idh_loss: 0.24919
+2023-04-29 14:11:32 ===> Epoch:73 Iter:4 idh_loss: 0.81814
+2023-04-29 14:11:32 ===> Epoch:73 Iter:5 idh_loss: 0.27726
+2023-04-29 14:11:33 ===> Epoch:73 Iter:6 idh_loss: 0.58635
+2023-04-29 14:11:33 ===> Epoch:73 Iter:7 idh_loss: 0.20642
+2023-04-29 14:11:34 ===> Epoch:73 Iter:8 idh_loss: 0.74359
+2023-04-29 14:11:34 ===> Epoch:73 Iter:9 idh_loss: 0.08293
+2023-04-29 14:11:35 ===> Epoch:73 Iter:10 idh_loss: 0.23778
+2023-04-29 14:11:35 ===> Epoch:73 Iter:11 idh_loss: 0.96420
+2023-04-29 14:11:36 ===> Epoch:73 Iter:12 idh_loss: 0.39765
+2023-04-29 14:11:36 ===> Epoch:73 Iter:13 idh_loss: 0.14489
+2023-04-29 14:11:36 ===> Epoch:73 Iter:14 idh_loss: 0.07898
+2023-04-29 14:11:37 ===> Epoch:73 Iter:15 idh_loss: 0.07559
+2023-04-29 14:11:37 ===> Epoch:73 Iter:16 idh_loss: 0.25313
+2023-04-29 14:11:38 ===> Epoch:73 Iter:17 idh_loss: 0.14922
+2023-04-29 14:11:38 ===> Epoch:73 Iter:18 idh_loss: 0.06370
+2023-04-29 14:11:39 ===> Epoch:73 Iter:19 idh_loss: 0.16512
+2023-04-29 14:11:39 ===> Epoch:73 Iter:20 idh_loss: 0.49613
+2023-04-29 14:11:40 ===> Epoch:73 Iter:21 idh_loss: 0.02839
+2023-04-29 14:11:40 ===> Epoch:73 Iter:22 idh_loss: 0.14955
+2023-04-29 14:11:40 ===> Epoch:73 Iter:23 idh_loss: 0.10574
+2023-04-29 14:11:41 ===> Epoch:73 Iter:24 idh_loss: 0.17600
+2023-04-29 14:11:41 ===> Epoch:73 Iter:25 idh_loss: 0.02894
+2023-04-29 14:11:42 ===> Epoch:73 Iter:26 idh_loss: 0.49231
+2023-04-29 14:11:42 ===> Epoch:73 Iter:27 idh_loss: 0.48328
+2023-04-29 14:11:43 ===> Epoch:73 Iter:28 idh_loss: 0.04440
+2023-04-29 14:11:46 ===> Epoch:73[best_epoch:47 | min_total_loss:0.21872 | idh_loss:0.27374 | idh_acc: 0.86667 | idh_auc:0.96759]
+2023-04-29 14:11:46 ===> Current epoch time consumption: 0.29 minutes!
+2023-04-29 14:11:46 ===> Estimated remaining training time: 0.08 hours!
+2023-04-29 14:11:47 ===> Epoch:74 Iter:0 idh_loss: 0.02264
+2023-04-29 14:11:48 ===> Epoch:74 Iter:1 idh_loss: 0.26285
+2023-04-29 14:11:48 ===> Epoch:74 Iter:2 idh_loss: 0.20777
+2023-04-29 14:11:49 ===> Epoch:74 Iter:3 idh_loss: 0.73896
+2023-04-29 14:11:49 ===> Epoch:74 Iter:4 idh_loss: 0.25566
+2023-04-29 14:11:50 ===> Epoch:74 Iter:5 idh_loss: 0.06672
+2023-04-29 14:11:50 ===> Epoch:74 Iter:6 idh_loss: 0.27927
+2023-04-29 14:11:51 ===> Epoch:74 Iter:7 idh_loss: 0.15825
+2023-04-29 14:11:51 ===> Epoch:74 Iter:8 idh_loss: 0.17813
+2023-04-29 14:11:51 ===> Epoch:74 Iter:9 idh_loss: 0.12828
+2023-04-29 14:11:52 ===> Epoch:74 Iter:10 idh_loss: 0.39562
+2023-04-29 14:11:52 ===> Epoch:74 Iter:11 idh_loss: 0.64340
+2023-04-29 14:11:53 ===> Epoch:74 Iter:12 idh_loss: 0.21624
+2023-04-29 14:11:53 ===> Epoch:74 Iter:13 idh_loss: 0.72202
+2023-04-29 14:11:54 ===> Epoch:74 Iter:14 idh_loss: 0.07632
+2023-04-29 14:11:54 ===> Epoch:74 Iter:15 idh_loss: 0.06673
+2023-04-29 14:11:55 ===> Epoch:74 Iter:16 idh_loss: 0.43435
+2023-04-29 14:11:55 ===> Epoch:74 Iter:17 idh_loss: 0.35532
+2023-04-29 14:11:55 ===> Epoch:74 Iter:18 idh_loss: 0.06376
+2023-04-29 14:11:56 ===> Epoch:74 Iter:19 idh_loss: 0.37329
+2023-04-29 14:11:56 ===> Epoch:74 Iter:20 idh_loss: 0.40752
+2023-04-29 14:11:57 ===> Epoch:74 Iter:21 idh_loss: 0.18320
+2023-04-29 14:11:57 ===> Epoch:74 Iter:22 idh_loss: 0.41173
+2023-04-29 14:11:58 ===> Epoch:74 Iter:23 idh_loss: 0.11217
+2023-04-29 14:11:58 ===> Epoch:74 Iter:24 idh_loss: 0.21461
+2023-04-29 14:11:59 ===> Epoch:74 Iter:25 idh_loss: 0.49615
+2023-04-29 14:11:59 ===> Epoch:74 Iter:26 idh_loss: 0.10130
+2023-04-29 14:11:59 ===> Epoch:74 Iter:27 idh_loss: 0.06414
+2023-04-29 14:12:00 ===> Epoch:74 Iter:28 idh_loss: 0.45945
+2023-04-29 14:12:03 ===> Epoch:74[best_epoch:47 | min_total_loss:0.21872 | idh_loss:0.39198 | idh_acc: 0.76667 | idh_auc:0.90278]
+2023-04-29 14:12:03 ===> Current epoch time consumption: 0.29 minutes!
+2023-04-29 14:12:03 ===> Estimated remaining training time: 0.07 hours!
+2023-04-29 14:12:05 ===> Epoch:75 Iter:0 idh_loss: 0.04793
+2023-04-29 14:12:05 ===> Epoch:75 Iter:1 idh_loss: 0.45985
+2023-04-29 14:12:06 ===> Epoch:75 Iter:2 idh_loss: 0.24346
+2023-04-29 14:12:06 ===> Epoch:75 Iter:3 idh_loss: 0.03830
+2023-04-29 14:12:07 ===> Epoch:75 Iter:4 idh_loss: 0.08918
+2023-04-29 14:12:07 ===> Epoch:75 Iter:5 idh_loss: 0.30244
+2023-04-29 14:12:08 ===> Epoch:75 Iter:6 idh_loss: 0.09158
+2023-04-29 14:12:08 ===> Epoch:75 Iter:7 idh_loss: 0.09093
+2023-04-29 14:12:08 ===> Epoch:75 Iter:8 idh_loss: 0.09878
+2023-04-29 14:12:09 ===> Epoch:75 Iter:9 idh_loss: 0.10779
+2023-04-29 14:12:09 ===> Epoch:75 Iter:10 idh_loss: 0.46441
+2023-04-29 14:12:10 ===> Epoch:75 Iter:11 idh_loss: 0.14216
+2023-04-29 14:12:10 ===> Epoch:75 Iter:12 idh_loss: 0.08566
+2023-04-29 14:12:11 ===> Epoch:75 Iter:13 idh_loss: 0.26103
+2023-04-29 14:12:11 ===> Epoch:75 Iter:14 idh_loss: 0.06294
+2023-04-29 14:12:12 ===> Epoch:75 Iter:15 idh_loss: 0.01340
+2023-04-29 14:12:12 ===> Epoch:75 Iter:16 idh_loss: 0.12100
+2023-04-29 14:12:12 ===> Epoch:75 Iter:17 idh_loss: 0.33390
+2023-04-29 14:12:13 ===> Epoch:75 Iter:18 idh_loss: 0.27750
+2023-04-29 14:12:13 ===> Epoch:75 Iter:19 idh_loss: 0.46014
+2023-04-29 14:12:14 ===> Epoch:75 Iter:20 idh_loss: 0.22309
+2023-04-29 14:12:14 ===> Epoch:75 Iter:21 idh_loss: 0.84854
+2023-04-29 14:12:15 ===> Epoch:75 Iter:22 idh_loss: 0.02284
+2023-04-29 14:12:15 ===> Epoch:75 Iter:23 idh_loss: 0.58755
+2023-04-29 14:12:16 ===> Epoch:75 Iter:24 idh_loss: 0.03262
+2023-04-29 14:12:16 ===> Epoch:75 Iter:25 idh_loss: 0.09256
+2023-04-29 14:12:16 ===> Epoch:75 Iter:26 idh_loss: 0.62232
+2023-04-29 14:12:17 ===> Epoch:75 Iter:27 idh_loss: 0.73254
+2023-04-29 14:12:17 ===> Epoch:75 Iter:28 idh_loss: 0.06254
+2023-04-29 14:12:21 ===> Epoch:75[best_epoch:47 | min_total_loss:0.21872 | idh_loss:0.47006 | idh_acc: 0.76667 | idh_auc:0.90278]
+2023-04-29 14:12:21 ===> Current epoch time consumption: 0.29 minutes!
+2023-04-29 14:12:21 ===> Estimated remaining training time: 0.07 hours!
+2023-04-29 14:12:22 ===> Epoch:76 Iter:0 idh_loss: 0.92080
+2023-04-29 14:12:23 ===> Epoch:76 Iter:1 idh_loss: 0.00888
+2023-04-29 14:12:23 ===> Epoch:76 Iter:2 idh_loss: 0.26271
+2023-04-29 14:12:24 ===> Epoch:76 Iter:3 idh_loss: 0.06910
+2023-04-29 14:12:24 ===> Epoch:76 Iter:4 idh_loss: 0.29972
+2023-04-29 14:12:25 ===> Epoch:76 Iter:5 idh_loss: 0.01516
+2023-04-29 14:12:25 ===> Epoch:76 Iter:6 idh_loss: 0.37798
+2023-04-29 14:12:26 ===> Epoch:76 Iter:7 idh_loss: 0.42151
+2023-04-29 14:12:26 ===> Epoch:76 Iter:8 idh_loss: 0.06796
+2023-04-29 14:12:26 ===> Epoch:76 Iter:9 idh_loss: 0.07941
+2023-04-29 14:12:27 ===> Epoch:76 Iter:10 idh_loss: 0.30614
+2023-04-29 14:12:27 ===> Epoch:76 Iter:11 idh_loss: 0.19150
+2023-04-29 14:12:28 ===> Epoch:76 Iter:12 idh_loss: 0.21569
+2023-04-29 14:12:28 ===> Epoch:76 Iter:13 idh_loss: 0.05765
+2023-04-29 14:12:29 ===> Epoch:76 Iter:14 idh_loss: 0.01796
+2023-04-29 14:12:29 ===> Epoch:76 Iter:15 idh_loss: 0.10855
+2023-04-29 14:12:29 ===> Epoch:76 Iter:16 idh_loss: 0.26776
+2023-04-29 14:12:30 ===> Epoch:76 Iter:17 idh_loss: 0.96310
+2023-04-29 14:12:30 ===> Epoch:76 Iter:18 idh_loss: 0.06091
+2023-04-29 14:12:31 ===> Epoch:76 Iter:19 idh_loss: 0.04943
+2023-04-29 14:12:31 ===> Epoch:76 Iter:20 idh_loss: 0.32363
+2023-04-29 14:12:32 ===> Epoch:76 Iter:21 idh_loss: 0.27358
+2023-04-29 14:12:32 ===> Epoch:76 Iter:22 idh_loss: 0.35236
+2023-04-29 14:12:33 ===> Epoch:76 Iter:23 idh_loss: 0.04937
+2023-04-29 14:12:33 ===> Epoch:76 Iter:24 idh_loss: 0.12807
+2023-04-29 14:12:33 ===> Epoch:76 Iter:25 idh_loss: 0.42989
+2023-04-29 14:12:34 ===> Epoch:76 Iter:26 idh_loss: 0.11855
+2023-04-29 14:12:34 ===> Epoch:76 Iter:27 idh_loss: 0.05627
+2023-04-29 14:12:35 ===> Epoch:76 Iter:28 idh_loss: 0.92817
+2023-04-29 14:12:38 ===> Epoch:76[best_epoch:47 | min_total_loss:0.21872 | idh_loss:0.45821 | idh_acc: 0.80000 | idh_auc:0.89815]
+2023-04-29 14:12:38 ===> Current epoch time consumption: 0.29 minutes!
+2023-04-29 14:12:38 ===> Estimated remaining training time: 0.06 hours!
+2023-04-29 14:12:40 ===> Epoch:77 Iter:0 idh_loss: 0.09854
+2023-04-29 14:12:40 ===> Epoch:77 Iter:1 idh_loss: 0.44115
+2023-04-29 14:12:41 ===> Epoch:77 Iter:2 idh_loss: 0.03910
+2023-04-29 14:12:41 ===> Epoch:77 Iter:3 idh_loss: 0.02706
+2023-04-29 14:12:41 ===> Epoch:77 Iter:4 idh_loss: 1.15819
+2023-04-29 14:12:42 ===> Epoch:77 Iter:5 idh_loss: 0.25972
+2023-04-29 14:12:42 ===> Epoch:77 Iter:6 idh_loss: 0.10376
+2023-04-29 14:12:43 ===> Epoch:77 Iter:7 idh_loss: 0.05962
+2023-04-29 14:12:43 ===> Epoch:77 Iter:8 idh_loss: 0.06684
+2023-04-29 14:12:44 ===> Epoch:77 Iter:9 idh_loss: 0.19393
+2023-04-29 14:12:44 ===> Epoch:77 Iter:10 idh_loss: 0.06478
+2023-04-29 14:12:45 ===> Epoch:77 Iter:11 idh_loss: 0.02135
+2023-04-29 14:12:45 ===> Epoch:77 Iter:12 idh_loss: 0.06974
+2023-04-29 14:12:46 ===> Epoch:77 Iter:13 idh_loss: 0.03039
+2023-04-29 14:12:46 ===> Epoch:77 Iter:14 idh_loss: 0.22166
+2023-04-29 14:12:46 ===> Epoch:77 Iter:15 idh_loss: 0.14983
+2023-04-29 14:12:47 ===> Epoch:77 Iter:16 idh_loss: 0.84803
+2023-04-29 14:12:47 ===> Epoch:77 Iter:17 idh_loss: 0.32116
+2023-04-29 14:12:48 ===> Epoch:77 Iter:18 idh_loss: 0.03171
+2023-04-29 14:12:48 ===> Epoch:77 Iter:19 idh_loss: 0.01902
+2023-04-29 14:12:49 ===> Epoch:77 Iter:20 idh_loss: 0.06645
+2023-04-29 14:12:49 ===> Epoch:77 Iter:21 idh_loss: 0.07818
+2023-04-29 14:12:49 ===> Epoch:77 Iter:22 idh_loss: 0.29929
+2023-04-29 14:12:50 ===> Epoch:77 Iter:23 idh_loss: 0.06561
+2023-04-29 14:12:50 ===> Epoch:77 Iter:24 idh_loss: 0.07685
+2023-04-29 14:12:51 ===> Epoch:77 Iter:25 idh_loss: 0.02311
+2023-04-29 14:12:51 ===> Epoch:77 Iter:26 idh_loss: 0.02601
+2023-04-29 14:12:52 ===> Epoch:77 Iter:27 idh_loss: 0.74986
+2023-04-29 14:12:52 ===> Epoch:77 Iter:28 idh_loss: 0.36721
+2023-04-29 14:12:55 ===> Epoch:77[best_epoch:47 | min_total_loss:0.21872 | idh_loss:0.49959 | idh_acc: 0.80000 | idh_auc:0.89815]
+2023-04-29 14:12:55 ===> Current epoch time consumption: 0.29 minutes!
+2023-04-29 14:12:55 ===> Estimated remaining training time: 0.06 hours!
+2023-04-29 14:12:57 ===> Epoch:78 Iter:0 idh_loss: 0.07546
+2023-04-29 14:12:57 ===> Epoch:78 Iter:1 idh_loss: 0.32395
+2023-04-29 14:12:58 ===> Epoch:78 Iter:2 idh_loss: 0.20800
+2023-04-29 14:12:58 ===> Epoch:78 Iter:3 idh_loss: 0.19634
+2023-04-29 14:12:59 ===> Epoch:78 Iter:4 idh_loss: 0.01257
+2023-04-29 14:12:59 ===> Epoch:78 Iter:5 idh_loss: 0.81022
+2023-04-29 14:13:00 ===> Epoch:78 Iter:6 idh_loss: 0.65393
+2023-04-29 14:13:00 ===> Epoch:78 Iter:7 idh_loss: 0.26715
+2023-04-29 14:13:01 ===> Epoch:78 Iter:8 idh_loss: 0.09046
+2023-04-29 14:13:01 ===> Epoch:78 Iter:9 idh_loss: 0.06030
+2023-04-29 14:13:01 ===> Epoch:78 Iter:10 idh_loss: 0.03959
+2023-04-29 14:13:02 ===> Epoch:78 Iter:11 idh_loss: 0.41050
+2023-04-29 14:13:02 ===> Epoch:78 Iter:12 idh_loss: 0.01530
+2023-04-29 14:13:03 ===> Epoch:78 Iter:13 idh_loss: 0.07380
+2023-04-29 14:13:03 ===> Epoch:78 Iter:14 idh_loss: 0.14548
+2023-04-29 14:13:04 ===> Epoch:78 Iter:15 idh_loss: 0.36868
+2023-04-29 14:13:04 ===> Epoch:78 Iter:16 idh_loss: 0.61669
+2023-04-29 14:13:05 ===> Epoch:78 Iter:17 idh_loss: 0.35920
+2023-04-29 14:13:05 ===> Epoch:78 Iter:18 idh_loss: 0.05794
+2023-04-29 14:13:05 ===> Epoch:78 Iter:19 idh_loss: 0.34335
+2023-04-29 14:13:06 ===> Epoch:78 Iter:20 idh_loss: 0.00970
+2023-04-29 14:13:06 ===> Epoch:78 Iter:21 idh_loss: 0.07060
+2023-04-29 14:13:07 ===> Epoch:78 Iter:22 idh_loss: 0.05473
+2023-04-29 14:13:07 ===> Epoch:78 Iter:23 idh_loss: 0.04968
+2023-04-29 14:13:08 ===> Epoch:78 Iter:24 idh_loss: 0.19480
+2023-04-29 14:13:08 ===> Epoch:78 Iter:25 idh_loss: 0.53864
+2023-04-29 14:13:08 ===> Epoch:78 Iter:26 idh_loss: 0.27788
+2023-04-29 14:13:09 ===> Epoch:78 Iter:27 idh_loss: 0.44998
+2023-04-29 14:13:09 ===> Epoch:78 Iter:28 idh_loss: 0.15950
+2023-04-29 14:13:13 ===> Epoch:78[best_epoch:47 | min_total_loss:0.21872 | idh_loss:0.54914 | idh_acc: 0.83333 | idh_auc:0.87037]
+2023-04-29 14:13:13 ===> Current epoch time consumption: 0.29 minutes!
+2023-04-29 14:13:13 ===> Estimated remaining training time: 0.05 hours!
+2023-04-29 14:13:14 ===> Epoch:79 Iter:0 idh_loss: 0.04688
+2023-04-29 14:13:15 ===> Epoch:79 Iter:1 idh_loss: 0.14171
+2023-04-29 14:13:15 ===> Epoch:79 Iter:2 idh_loss: 0.01504
+2023-04-29 14:13:16 ===> Epoch:79 Iter:3 idh_loss: 0.08621
+2023-04-29 14:13:16 ===> Epoch:79 Iter:4 idh_loss: 0.03669
+2023-04-29 14:13:17 ===> Epoch:79 Iter:5 idh_loss: 0.10608
+2023-04-29 14:13:17 ===> Epoch:79 Iter:6 idh_loss: 0.01088
+2023-04-29 14:13:17 ===> Epoch:79 Iter:7 idh_loss: 0.13310
+2023-04-29 14:13:18 ===> Epoch:79 Iter:8 idh_loss: 0.50400
+2023-04-29 14:13:18 ===> Epoch:79 Iter:9 idh_loss: 0.37315
+2023-04-29 14:13:19 ===> Epoch:79 Iter:10 idh_loss: 0.22913
+2023-04-29 14:13:19 ===> Epoch:79 Iter:11 idh_loss: 0.04440
+2023-04-29 14:13:20 ===> Epoch:79 Iter:12 idh_loss: 0.05131
+2023-04-29 14:13:20 ===> Epoch:79 Iter:13 idh_loss: 0.12061
+2023-04-29 14:13:21 ===> Epoch:79 Iter:14 idh_loss: 0.02193
+2023-04-29 14:13:21 ===> Epoch:79 Iter:15 idh_loss: 0.08744
+2023-04-29 14:13:21 ===> Epoch:79 Iter:16 idh_loss: 0.30852
+2023-04-29 14:13:22 ===> Epoch:79 Iter:17 idh_loss: 0.49248
+2023-04-29 14:13:22 ===> Epoch:79 Iter:18 idh_loss: 0.17910
+2023-04-29 14:13:23 ===> Epoch:79 Iter:19 idh_loss: 0.34485
+2023-04-29 14:13:23 ===> Epoch:79 Iter:20 idh_loss: 0.31770
+2023-04-29 14:13:24 ===> Epoch:79 Iter:21 idh_loss: 0.20987
+2023-04-29 14:13:24 ===> Epoch:79 Iter:22 idh_loss: 0.51320
+2023-04-29 14:13:25 ===> Epoch:79 Iter:23 idh_loss: 0.03996
+2023-04-29 14:13:25 ===> Epoch:79 Iter:24 idh_loss: 0.22032
+2023-04-29 14:13:25 ===> Epoch:79 Iter:25 idh_loss: 0.04630
+2023-04-29 14:13:26 ===> Epoch:79 Iter:26 idh_loss: 0.14515
+2023-04-29 14:13:26 ===> Epoch:79 Iter:27 idh_loss: 0.36379
+2023-04-29 14:13:27 ===> Epoch:79 Iter:28 idh_loss: 0.06261
+2023-04-29 14:13:30 ===> Epoch:79[best_epoch:47 | min_total_loss:0.21872 | idh_loss:0.53258 | idh_acc: 0.80000 | idh_auc:0.90741]
+2023-04-29 14:13:31 ===> Current epoch time consumption: 0.29 minutes!
+2023-04-29 14:13:31 ===> Estimated remaining training time: 0.05 hours!
+2023-04-29 14:13:32 ===> Epoch:80 Iter:0 idh_loss: 0.08055
+2023-04-29 14:13:33 ===> Epoch:80 Iter:1 idh_loss: 0.38073
+2023-04-29 14:13:33 ===> Epoch:80 Iter:2 idh_loss: 0.06267
+2023-04-29 14:13:34 ===> Epoch:80 Iter:3 idh_loss: 0.81241
+2023-04-29 14:13:34 ===> Epoch:80 Iter:4 idh_loss: 0.09533
+2023-04-29 14:13:35 ===> Epoch:80 Iter:5 idh_loss: 0.09514
+2023-04-29 14:13:35 ===> Epoch:80 Iter:6 idh_loss: 0.07143
+2023-04-29 14:13:35 ===> Epoch:80 Iter:7 idh_loss: 0.04236
+2023-04-29 14:13:36 ===> Epoch:80 Iter:8 idh_loss: 0.27724
+2023-04-29 14:13:36 ===> Epoch:80 Iter:9 idh_loss: 0.10929
+2023-04-29 14:13:37 ===> Epoch:80 Iter:10 idh_loss: 0.01406
+2023-04-29 14:13:37 ===> Epoch:80 Iter:11 idh_loss: 0.16426
+2023-04-29 14:13:38 ===> Epoch:80 Iter:12 idh_loss: 0.21989
+2023-04-29 14:13:38 ===> Epoch:80 Iter:13 idh_loss: 0.23980
+2023-04-29 14:13:39 ===> Epoch:80 Iter:14 idh_loss: 0.01794
+2023-04-29 14:13:39 ===> Epoch:80 Iter:15 idh_loss: 0.25604
+2023-04-29 14:13:39 ===> Epoch:80 Iter:16 idh_loss: 0.19953
+2023-04-29 14:13:40 ===> Epoch:80 Iter:17 idh_loss: 0.32936
+2023-04-29 14:13:40 ===> Epoch:80 Iter:18 idh_loss: 0.01889
+2023-04-29 14:13:41 ===> Epoch:80 Iter:19 idh_loss: 0.09808
+2023-04-29 14:13:41 ===> Epoch:80 Iter:20 idh_loss: 0.17623
+2023-04-29 14:13:42 ===> Epoch:80 Iter:21 idh_loss: 0.19615
+2023-04-29 14:13:42 ===> Epoch:80 Iter:22 idh_loss: 0.03411
+2023-04-29 14:13:43 ===> Epoch:80 Iter:23 idh_loss: 0.14364
+2023-04-29 14:13:43 ===> Epoch:80 Iter:24 idh_loss: 0.00515
+2023-04-29 14:13:43 ===> Epoch:80 Iter:25 idh_loss: 0.02497
+2023-04-29 14:13:44 ===> Epoch:80 Iter:26 idh_loss: 0.39569
+2023-04-29 14:13:44 ===> Epoch:80 Iter:27 idh_loss: 0.09453
+2023-04-29 14:13:45 ===> Epoch:80 Iter:28 idh_loss: 0.04272
+2023-04-29 14:13:48 ===> Epoch:80[best_epoch:47 | min_total_loss:0.21872 | idh_loss:0.61467 | idh_acc: 0.76667 | idh_auc:0.88889]
+2023-04-29 14:13:48 ===> Current epoch time consumption: 0.29 minutes!
+2023-04-29 14:13:48 ===> Estimated remaining training time: 0.04 hours!
+2023-04-29 14:13:50 ===> Epoch:81 Iter:0 idh_loss: 0.30476
+2023-04-29 14:13:50 ===> Epoch:81 Iter:1 idh_loss: 0.61470
+2023-04-29 14:13:50 ===> Epoch:81 Iter:2 idh_loss: 0.02938
+2023-04-29 14:13:51 ===> Epoch:81 Iter:3 idh_loss: 0.03915
+2023-04-29 14:13:51 ===> Epoch:81 Iter:4 idh_loss: 0.06755
+2023-04-29 14:13:52 ===> Epoch:81 Iter:5 idh_loss: 0.10946
+2023-04-29 14:13:52 ===> Epoch:81 Iter:6 idh_loss: 0.05854
+2023-04-29 14:13:53 ===> Epoch:81 Iter:7 idh_loss: 0.10686
+2023-04-29 14:13:53 ===> Epoch:81 Iter:8 idh_loss: 0.09980
+2023-04-29 14:13:54 ===> Epoch:81 Iter:9 idh_loss: 0.16198
+2023-04-29 14:13:54 ===> Epoch:81 Iter:10 idh_loss: 0.10306
+2023-04-29 14:13:54 ===> Epoch:81 Iter:11 idh_loss: 0.09588
+2023-04-29 14:13:55 ===> Epoch:81 Iter:12 idh_loss: 0.03190
+2023-04-29 14:13:55 ===> Epoch:81 Iter:13 idh_loss: 0.01492
+2023-04-29 14:13:56 ===> Epoch:81 Iter:14 idh_loss: 0.09602
+2023-04-29 14:13:56 ===> Epoch:81 Iter:15 idh_loss: 0.42582
+2023-04-29 14:13:57 ===> Epoch:81 Iter:16 idh_loss: 0.00665
+2023-04-29 14:13:57 ===> Epoch:81 Iter:17 idh_loss: 0.75208
+2023-04-29 14:13:58 ===> Epoch:81 Iter:18 idh_loss: 0.39031
+2023-04-29 14:13:58 ===> Epoch:81 Iter:19 idh_loss: 0.26901
+2023-04-29 14:13:58 ===> Epoch:81 Iter:20 idh_loss: 0.03578
+2023-04-29 14:13:59 ===> Epoch:81 Iter:21 idh_loss: 0.28102
+2023-04-29 14:13:59 ===> Epoch:81 Iter:22 idh_loss: 0.15029
+2023-04-29 14:14:00 ===> Epoch:81 Iter:23 idh_loss: 0.07914
+2023-04-29 14:14:00 ===> Epoch:81 Iter:24 idh_loss: 0.58762
+2023-04-29 14:14:01 ===> Epoch:81 Iter:25 idh_loss: 0.04149
+2023-04-29 14:14:01 ===> Epoch:81 Iter:26 idh_loss: 0.17462
+2023-04-29 14:14:02 ===> Epoch:81 Iter:27 idh_loss: 0.05048
+2023-04-29 14:14:02 ===> Epoch:81 Iter:28 idh_loss: 0.04058
+2023-04-29 14:14:05 ===> Epoch:81[best_epoch:47 | min_total_loss:0.21872 | idh_loss:0.65034 | idh_acc: 0.80000 | idh_auc:0.87963]
+2023-04-29 14:14:05 ===> Current epoch time consumption: 0.29 minutes!
+2023-04-29 14:14:05 ===> Estimated remaining training time: 0.04 hours!
+2023-04-29 14:14:07 ===> Epoch:82 Iter:0 idh_loss: 0.06338
+2023-04-29 14:14:07 ===> Epoch:82 Iter:1 idh_loss: 0.01167
+2023-04-29 14:14:08 ===> Epoch:82 Iter:2 idh_loss: 0.03005
+2023-04-29 14:14:08 ===> Epoch:82 Iter:3 idh_loss: 0.57169
+2023-04-29 14:14:09 ===> Epoch:82 Iter:4 idh_loss: 0.01887
+2023-04-29 14:14:09 ===> Epoch:82 Iter:5 idh_loss: 0.19788
+2023-04-29 14:14:10 ===> Epoch:82 Iter:6 idh_loss: 0.00425
+2023-04-29 14:14:10 ===> Epoch:82 Iter:7 idh_loss: 0.16702
+2023-04-29 14:14:10 ===> Epoch:82 Iter:8 idh_loss: 0.00493
+2023-04-29 14:14:11 ===> Epoch:82 Iter:9 idh_loss: 0.06032
+2023-04-29 14:14:11 ===> Epoch:82 Iter:10 idh_loss: 0.01510
+2023-04-29 14:14:12 ===> Epoch:82 Iter:11 idh_loss: 0.02697
+2023-04-29 14:14:12 ===> Epoch:82 Iter:12 idh_loss: 0.05393
+2023-04-29 14:14:13 ===> Epoch:82 Iter:13 idh_loss: 0.00623
+2023-04-29 14:14:13 ===> Epoch:82 Iter:14 idh_loss: 0.09100
+2023-04-29 14:14:14 ===> Epoch:82 Iter:15 idh_loss: 0.00592
+2023-04-29 14:14:14 ===> Epoch:82 Iter:16 idh_loss: 0.19076
+2023-04-29 14:14:14 ===> Epoch:82 Iter:17 idh_loss: 0.25992
+2023-04-29 14:14:15 ===> Epoch:82 Iter:18 idh_loss: 0.03125
+2023-04-29 14:14:15 ===> Epoch:82 Iter:19 idh_loss: 0.45824
+2023-04-29 14:14:16 ===> Epoch:82 Iter:20 idh_loss: 0.08333
+2023-04-29 14:14:16 ===> Epoch:82 Iter:21 idh_loss: 0.10301
+2023-04-29 14:14:17 ===> Epoch:82 Iter:22 idh_loss: 0.64305
+2023-04-29 14:14:17 ===> Epoch:82 Iter:23 idh_loss: 0.44693
+2023-04-29 14:14:17 ===> Epoch:82 Iter:24 idh_loss: 0.20584
+2023-04-29 14:14:18 ===> Epoch:82 Iter:25 idh_loss: 0.63224
+2023-04-29 14:14:18 ===> Epoch:82 Iter:26 idh_loss: 0.01789
+2023-04-29 14:14:19 ===> Epoch:82 Iter:27 idh_loss: 0.15652
+2023-04-29 14:14:19 ===> Epoch:82 Iter:28 idh_loss: 0.01828
+2023-04-29 14:14:23 ===> Epoch:82[best_epoch:47 | min_total_loss:0.21872 | idh_loss:0.52915 | idh_acc: 0.80000 | idh_auc:0.88889]
+2023-04-29 14:14:23 ===> Current epoch time consumption: 0.29 minutes!
+2023-04-29 14:14:23 ===> Estimated remaining training time: 0.03 hours!
+2023-04-29 14:14:24 ===> Epoch:83 Iter:0 idh_loss: 0.00752
+2023-04-29 14:14:25 ===> Epoch:83 Iter:1 idh_loss: 0.06918
+2023-04-29 14:14:25 ===> Epoch:83 Iter:2 idh_loss: 0.00725
+2023-04-29 14:14:26 ===> Epoch:83 Iter:3 idh_loss: 0.07162
+2023-04-29 14:14:26 ===> Epoch:83 Iter:4 idh_loss: 0.02682
+2023-04-29 14:14:26 ===> Epoch:83 Iter:5 idh_loss: 0.35431
+2023-04-29 14:14:27 ===> Epoch:83 Iter:6 idh_loss: 0.14429
+2023-04-29 14:14:27 ===> Epoch:83 Iter:7 idh_loss: 0.00967
+2023-04-29 14:14:28 ===> Epoch:83 Iter:8 idh_loss: 0.04550
+2023-04-29 14:14:28 ===> Epoch:83 Iter:9 idh_loss: 0.20422
+2023-04-29 14:14:29 ===> Epoch:83 Iter:10 idh_loss: 0.04822
+2023-04-29 14:14:29 ===> Epoch:83 Iter:11 idh_loss: 0.10842
+2023-04-29 14:14:30 ===> Epoch:83 Iter:12 idh_loss: 0.04832
+2023-04-29 14:14:30 ===> Epoch:83 Iter:13 idh_loss: 0.17149
+2023-04-29 14:14:30 ===> Epoch:83 Iter:14 idh_loss: 0.01693
+2023-04-29 14:14:31 ===> Epoch:83 Iter:15 idh_loss: 0.03162
+2023-04-29 14:14:31 ===> Epoch:83 Iter:16 idh_loss: 0.39582
+2023-04-29 14:14:32 ===> Epoch:83 Iter:17 idh_loss: 0.43325
+2023-04-29 14:14:32 ===> Epoch:83 Iter:18 idh_loss: 0.03013
+2023-04-29 14:14:33 ===> Epoch:83 Iter:19 idh_loss: 0.09179
+2023-04-29 14:14:33 ===> Epoch:83 Iter:20 idh_loss: 0.75423
+2023-04-29 14:14:34 ===> Epoch:83 Iter:21 idh_loss: 0.08681
+2023-04-29 14:14:34 ===> Epoch:83 Iter:22 idh_loss: 0.03149
+2023-04-29 14:14:34 ===> Epoch:83 Iter:23 idh_loss: 0.25254
+2023-04-29 14:14:35 ===> Epoch:83 Iter:24 idh_loss: 0.09072
+2023-04-29 14:14:35 ===> Epoch:83 Iter:25 idh_loss: 0.36518
+2023-04-29 14:14:36 ===> Epoch:83 Iter:26 idh_loss: 0.00715
+2023-04-29 14:14:36 ===> Epoch:83 Iter:27 idh_loss: 0.11418
+2023-04-29 14:14:37 ===> Epoch:83 Iter:28 idh_loss: 0.54284
+2023-04-29 14:14:40 ===> Epoch:83[best_epoch:47 | min_total_loss:0.21872 | idh_loss:0.79479 | idh_acc: 0.80000 | idh_auc:0.84722]
+2023-04-29 14:14:40 ===> Current epoch time consumption: 0.29 minutes!
+2023-04-29 14:14:40 ===> Estimated remaining training time: 0.03 hours!
+2023-04-29 14:14:42 ===> Epoch:84 Iter:0 idh_loss: 1.45480
+2023-04-29 14:14:42 ===> Epoch:84 Iter:1 idh_loss: 0.39141
+2023-04-29 14:14:43 ===> Epoch:84 Iter:2 idh_loss: 0.37835
+2023-04-29 14:14:43 ===> Epoch:84 Iter:3 idh_loss: 0.02281
+2023-04-29 14:14:43 ===> Epoch:84 Iter:4 idh_loss: 0.07522
+2023-04-29 14:14:44 ===> Epoch:84 Iter:5 idh_loss: 0.46544
+2023-04-29 14:14:44 ===> Epoch:84 Iter:6 idh_loss: 0.02122
+2023-04-29 14:14:45 ===> Epoch:84 Iter:7 idh_loss: 0.11318
+2023-04-29 14:14:45 ===> Epoch:84 Iter:8 idh_loss: 0.00853
+2023-04-29 14:14:46 ===> Epoch:84 Iter:9 idh_loss: 0.42314
+2023-04-29 14:14:46 ===> Epoch:84 Iter:10 idh_loss: 0.00685
+2023-04-29 14:14:47 ===> Epoch:84 Iter:11 idh_loss: 0.30495
+2023-04-29 14:14:47 ===> Epoch:84 Iter:12 idh_loss: 0.03127
+2023-04-29 14:14:47 ===> Epoch:84 Iter:13 idh_loss: 0.19208
+2023-04-29 14:14:48 ===> Epoch:84 Iter:14 idh_loss: 0.85219
+2023-04-29 14:14:48 ===> Epoch:84 Iter:15 idh_loss: 0.16372
+2023-04-29 14:14:49 ===> Epoch:84 Iter:16 idh_loss: 0.05142
+2023-04-29 14:14:49 ===> Epoch:84 Iter:17 idh_loss: 1.12764
+2023-04-29 14:14:50 ===> Epoch:84 Iter:18 idh_loss: 0.37373
+2023-04-29 14:14:50 ===> Epoch:84 Iter:19 idh_loss: 0.05576
+2023-04-29 14:14:51 ===> Epoch:84 Iter:20 idh_loss: 0.07146
+2023-04-29 14:14:51 ===> Epoch:84 Iter:21 idh_loss: 0.63724
+2023-04-29 14:14:52 ===> Epoch:84 Iter:22 idh_loss: 0.04879
+2023-04-29 14:14:52 ===> Epoch:84 Iter:23 idh_loss: 0.03192
+2023-04-29 14:14:52 ===> Epoch:84 Iter:24 idh_loss: 0.05761
+2023-04-29 14:14:53 ===> Epoch:84 Iter:25 idh_loss: 1.38699
+2023-04-29 14:14:53 ===> Epoch:84 Iter:26 idh_loss: 0.02752
+2023-04-29 14:14:54 ===> Epoch:84 Iter:27 idh_loss: 0.64845
+2023-04-29 14:14:54 ===> Epoch:84 Iter:28 idh_loss: 0.05659
+2023-04-29 14:14:57 ===> Epoch:84[best_epoch:47 | min_total_loss:0.21872 | idh_loss:0.46384 | idh_acc: 0.83333 | idh_auc:0.90741]
+2023-04-29 14:14:57 ===> Current epoch time consumption: 0.29 minutes!
+2023-04-29 14:14:57 ===> Estimated remaining training time: 0.02 hours!
+2023-04-29 14:14:59 ===> Epoch:85 Iter:0 idh_loss: 0.61228
+2023-04-29 14:14:59 ===> Epoch:85 Iter:1 idh_loss: 0.03016
+2023-04-29 14:15:00 ===> Epoch:85 Iter:2 idh_loss: 0.02400
+2023-04-29 14:15:00 ===> Epoch:85 Iter:3 idh_loss: 0.02886
+2023-04-29 14:15:01 ===> Epoch:85 Iter:4 idh_loss: 0.00553
+2023-04-29 14:15:01 ===> Epoch:85 Iter:5 idh_loss: 0.06145
+2023-04-29 14:15:02 ===> Epoch:85 Iter:6 idh_loss: 0.05959
+2023-04-29 14:15:02 ===> Epoch:85 Iter:7 idh_loss: 0.00566
+2023-04-29 14:15:03 ===> Epoch:85 Iter:8 idh_loss: 0.20635
+2023-04-29 14:15:03 ===> Epoch:85 Iter:9 idh_loss: 0.07989
+2023-04-29 14:15:03 ===> Epoch:85 Iter:10 idh_loss: 1.05973
+2023-04-29 14:15:04 ===> Epoch:85 Iter:11 idh_loss: 0.26641
+2023-04-29 14:15:04 ===> Epoch:85 Iter:12 idh_loss: 0.08717
+2023-04-29 14:15:05 ===> Epoch:85 Iter:13 idh_loss: 0.02668
+2023-04-29 14:15:05 ===> Epoch:85 Iter:14 idh_loss: 0.45004
+2023-04-29 14:15:06 ===> Epoch:85 Iter:15 idh_loss: 0.20909
+2023-04-29 14:15:06 ===> Epoch:85 Iter:16 idh_loss: 0.03675
+2023-04-29 14:15:07 ===> Epoch:85 Iter:17 idh_loss: 0.01942
+2023-04-29 14:15:07 ===> Epoch:85 Iter:18 idh_loss: 0.59122
+2023-04-29 14:15:07 ===> Epoch:85 Iter:19 idh_loss: 0.09466
+2023-04-29 14:15:08 ===> Epoch:85 Iter:20 idh_loss: 0.04789
+2023-04-29 14:15:08 ===> Epoch:85 Iter:21 idh_loss: 0.07965
+2023-04-29 14:15:09 ===> Epoch:85 Iter:22 idh_loss: 0.24012
+2023-04-29 14:15:09 ===> Epoch:85 Iter:23 idh_loss: 0.06028
+2023-04-29 14:15:10 ===> Epoch:85 Iter:24 idh_loss: 0.03134
+2023-04-29 14:15:10 ===> Epoch:85 Iter:25 idh_loss: 0.10077
+2023-04-29 14:15:11 ===> Epoch:85 Iter:26 idh_loss: 0.12059
+2023-04-29 14:15:11 ===> Epoch:85 Iter:27 idh_loss: 0.10514
+2023-04-29 14:15:11 ===> Epoch:85 Iter:28 idh_loss: 0.02165
+2023-04-29 14:15:15 ===> Epoch:85[best_epoch:47 | min_total_loss:0.21872 | idh_loss:0.62220 | idh_acc: 0.76667 | idh_auc:0.91204]
+2023-04-29 14:15:15 ===> Current epoch time consumption: 0.29 minutes!
+2023-04-29 14:15:15 ===> Estimated remaining training time: 0.02 hours!
+2023-04-29 14:15:16 ===> Epoch:86 Iter:0 idh_loss: 0.02999
+2023-04-29 14:15:17 ===> Epoch:86 Iter:1 idh_loss: 0.07609
+2023-04-29 14:15:17 ===> Epoch:86 Iter:2 idh_loss: 0.49376
+2023-04-29 14:15:18 ===> Epoch:86 Iter:3 idh_loss: 0.46589
+2023-04-29 14:15:18 ===> Epoch:86 Iter:4 idh_loss: 0.01391
+2023-04-29 14:15:19 ===> Epoch:86 Iter:5 idh_loss: 0.13887
+2023-04-29 14:15:19 ===> Epoch:86 Iter:6 idh_loss: 0.03307
+2023-04-29 14:15:20 ===> Epoch:86 Iter:7 idh_loss: 0.53906
+2023-04-29 14:15:20 ===> Epoch:86 Iter:8 idh_loss: 0.11647
+2023-04-29 14:15:20 ===> Epoch:86 Iter:9 idh_loss: 0.66988
+2023-04-29 14:15:21 ===> Epoch:86 Iter:10 idh_loss: 0.24340
+2023-04-29 14:15:21 ===> Epoch:86 Iter:11 idh_loss: 0.02323
+2023-04-29 14:15:22 ===> Epoch:86 Iter:12 idh_loss: 0.22474
+2023-04-29 14:15:22 ===> Epoch:86 Iter:13 idh_loss: 0.01281
+2023-04-29 14:15:23 ===> Epoch:86 Iter:14 idh_loss: 0.01109
+2023-04-29 14:15:23 ===> Epoch:86 Iter:15 idh_loss: 0.43493
+2023-04-29 14:15:24 ===> Epoch:86 Iter:16 idh_loss: 0.39018
+2023-04-29 14:15:24 ===> Epoch:86 Iter:17 idh_loss: 0.69622
+2023-04-29 14:15:24 ===> Epoch:86 Iter:18 idh_loss: 0.61670
+2023-04-29 14:15:25 ===> Epoch:86 Iter:19 idh_loss: 0.23268
+2023-04-29 14:15:25 ===> Epoch:86 Iter:20 idh_loss: 0.02100
+2023-04-29 14:15:26 ===> Epoch:86 Iter:21 idh_loss: 0.01010
+2023-04-29 14:15:26 ===> Epoch:86 Iter:22 idh_loss: 0.21177
+2023-04-29 14:15:27 ===> Epoch:86 Iter:23 idh_loss: 0.42658
+2023-04-29 14:15:27 ===> Epoch:86 Iter:24 idh_loss: 1.21077
+2023-04-29 14:15:28 ===> Epoch:86 Iter:25 idh_loss: 0.35117
+2023-04-29 14:15:28 ===> Epoch:86 Iter:26 idh_loss: 0.10601
+2023-04-29 14:15:28 ===> Epoch:86 Iter:27 idh_loss: 0.51547
+2023-04-29 14:15:29 ===> Epoch:86 Iter:28 idh_loss: 0.53315
+2023-04-29 14:15:32 ===> Epoch:86[best_epoch:47 | min_total_loss:0.21872 | idh_loss:0.69665 | idh_acc: 0.73333 | idh_auc:0.90278]
+2023-04-29 14:15:33 ===> Current epoch time consumption: 0.29 minutes!
+2023-04-29 14:15:33 ===> Estimated remaining training time: 0.01 hours!
+2023-04-29 14:15:34 ===> Epoch:87 Iter:0 idh_loss: 0.00451
+2023-04-29 14:15:35 ===> Epoch:87 Iter:1 idh_loss: 0.02577
+2023-04-29 14:15:35 ===> Epoch:87 Iter:2 idh_loss: 0.48550
+2023-04-29 14:15:36 ===> Epoch:87 Iter:3 idh_loss: 0.13012
+2023-04-29 14:15:36 ===> Epoch:87 Iter:4 idh_loss: 0.10429
+2023-04-29 14:15:37 ===> Epoch:87 Iter:5 idh_loss: 0.06247
+2023-04-29 14:15:37 ===> Epoch:87 Iter:6 idh_loss: 0.37474
+2023-04-29 14:15:37 ===> Epoch:87 Iter:7 idh_loss: 0.08749
+2023-04-29 14:15:38 ===> Epoch:87 Iter:8 idh_loss: 0.28385
+2023-04-29 14:15:38 ===> Epoch:87 Iter:9 idh_loss: 0.04873
+2023-04-29 14:15:39 ===> Epoch:87 Iter:10 idh_loss: 0.02632
+2023-04-29 14:15:39 ===> Epoch:87 Iter:11 idh_loss: 0.02027
+2023-04-29 14:15:40 ===> Epoch:87 Iter:12 idh_loss: 0.35163
+2023-04-29 14:15:40 ===> Epoch:87 Iter:13 idh_loss: 0.15687
+2023-04-29 14:15:41 ===> Epoch:87 Iter:14 idh_loss: 0.06675
+2023-04-29 14:15:41 ===> Epoch:87 Iter:15 idh_loss: 0.12650
+2023-04-29 14:15:41 ===> Epoch:87 Iter:16 idh_loss: 0.05619
+2023-04-29 14:15:42 ===> Epoch:87 Iter:17 idh_loss: 0.17239
+2023-04-29 14:15:42 ===> Epoch:87 Iter:18 idh_loss: 0.02606
+2023-04-29 14:15:43 ===> Epoch:87 Iter:19 idh_loss: 0.12907
+2023-04-29 14:15:43 ===> Epoch:87 Iter:20 idh_loss: 0.45617
+2023-04-29 14:15:44 ===> Epoch:87 Iter:21 idh_loss: 0.08179
+2023-04-29 14:15:44 ===> Epoch:87 Iter:22 idh_loss: 0.38312
+2023-04-29 14:15:45 ===> Epoch:87 Iter:23 idh_loss: 0.33031
+2023-04-29 14:15:45 ===> Epoch:87 Iter:24 idh_loss: 0.08414
+2023-04-29 14:15:45 ===> Epoch:87 Iter:25 idh_loss: 0.00508
+2023-04-29 14:15:46 ===> Epoch:87 Iter:26 idh_loss: 0.14205
+2023-04-29 14:15:46 ===> Epoch:87 Iter:27 idh_loss: 0.60330
+2023-04-29 14:15:47 ===> Epoch:87 Iter:28 idh_loss: 0.04699
+2023-04-29 14:15:50 ===> Epoch:87[best_epoch:47 | min_total_loss:0.21872 | idh_loss:0.42992 | idh_acc: 0.83333 | idh_auc:0.92593]
+2023-04-29 14:15:51 ===> Current epoch time consumption: 0.28 minutes!
+2023-04-29 14:15:51 ===> Estimated remaining training time: 0.01 hours!
+2023-04-29 14:15:52 ===> Epoch:88 Iter:0 idh_loss: 0.36948
+2023-04-29 14:15:53 ===> Epoch:88 Iter:1 idh_loss: 0.07111
+2023-04-29 14:15:53 ===> Epoch:88 Iter:2 idh_loss: 0.10554
+2023-04-29 14:15:54 ===> Epoch:88 Iter:3 idh_loss: 0.00668
+2023-04-29 14:15:54 ===> Epoch:88 Iter:4 idh_loss: 0.35887
+2023-04-29 14:15:55 ===> Epoch:88 Iter:5 idh_loss: 0.04066
+2023-04-29 14:15:55 ===> Epoch:88 Iter:6 idh_loss: 0.01370
+2023-04-29 14:15:55 ===> Epoch:88 Iter:7 idh_loss: 0.00651
+2023-04-29 14:15:56 ===> Epoch:88 Iter:8 idh_loss: 0.02429
+2023-04-29 14:15:56 ===> Epoch:88 Iter:9 idh_loss: 0.08455
+2023-04-29 14:15:57 ===> Epoch:88 Iter:10 idh_loss: 0.01874
+2023-04-29 14:15:57 ===> Epoch:88 Iter:11 idh_loss: 0.00563
+2023-04-29 14:15:58 ===> Epoch:88 Iter:12 idh_loss: 0.26611
+2023-04-29 14:15:58 ===> Epoch:88 Iter:13 idh_loss: 0.05691
+2023-04-29 14:15:59 ===> Epoch:88 Iter:14 idh_loss: 0.09183
+2023-04-29 14:15:59 ===> Epoch:88 Iter:15 idh_loss: 0.15451
+2023-04-29 14:15:59 ===> Epoch:88 Iter:16 idh_loss: 0.14512
+2023-04-29 14:16:00 ===> Epoch:88 Iter:17 idh_loss: 0.26828
+2023-04-29 14:16:00 ===> Epoch:88 Iter:18 idh_loss: 0.09501
+2023-04-29 14:16:01 ===> Epoch:88 Iter:19 idh_loss: 0.04116
+2023-04-29 14:16:01 ===> Epoch:88 Iter:20 idh_loss: 0.74567
+2023-04-29 14:16:02 ===> Epoch:88 Iter:21 idh_loss: 0.12230
+2023-04-29 14:16:02 ===> Epoch:88 Iter:22 idh_loss: 0.11408
+2023-04-29 14:16:02 ===> Epoch:88 Iter:23 idh_loss: 0.15989
+2023-04-29 14:16:03 ===> Epoch:88 Iter:24 idh_loss: 0.02359
+2023-04-29 14:16:03 ===> Epoch:88 Iter:25 idh_loss: 0.08445
+2023-04-29 14:16:04 ===> Epoch:88 Iter:26 idh_loss: 0.01147
+2023-04-29 14:16:04 ===> Epoch:88 Iter:27 idh_loss: 0.30346
+2023-04-29 14:16:05 ===> Epoch:88 Iter:28 idh_loss: 0.47028
+2023-04-29 14:16:08 ===> Epoch:88[best_epoch:47 | min_total_loss:0.21872 | idh_loss:0.52182 | idh_acc: 0.83333 | idh_auc:0.90741]
+2023-04-29 14:16:09 ===> Current epoch time consumption: 0.29 minutes!
+2023-04-29 14:16:09 ===> Estimated remaining training time: 0.00 hours!
+2023-04-29 14:16:10 ===> Epoch:89 Iter:0 idh_loss: 0.03609
+2023-04-29 14:16:11 ===> Epoch:89 Iter:1 idh_loss: 0.05982
+2023-04-29 14:16:11 ===> Epoch:89 Iter:2 idh_loss: 1.25828
+2023-04-29 14:16:11 ===> Epoch:89 Iter:3 idh_loss: 0.13586
+2023-04-29 14:16:12 ===> Epoch:89 Iter:4 idh_loss: 0.70747
+2023-04-29 14:16:12 ===> Epoch:89 Iter:5 idh_loss: 0.02606
+2023-04-29 14:16:13 ===> Epoch:89 Iter:6 idh_loss: 0.00486
+2023-04-29 14:16:13 ===> Epoch:89 Iter:7 idh_loss: 0.03079
+2023-04-29 14:16:14 ===> Epoch:89 Iter:8 idh_loss: 0.19798
+2023-04-29 14:16:14 ===> Epoch:89 Iter:9 idh_loss: 0.03181
+2023-04-29 14:16:14 ===> Epoch:89 Iter:10 idh_loss: 0.10433
+2023-04-29 14:16:15 ===> Epoch:89 Iter:11 idh_loss: 0.01429
+2023-04-29 14:16:15 ===> Epoch:89 Iter:12 idh_loss: 0.00548
+2023-04-29 14:16:16 ===> Epoch:89 Iter:13 idh_loss: 0.04172
+2023-04-29 14:16:16 ===> Epoch:89 Iter:14 idh_loss: 0.00394
+2023-04-29 14:16:17 ===> Epoch:89 Iter:15 idh_loss: 0.27173
+2023-04-29 14:16:17 ===> Epoch:89 Iter:16 idh_loss: 0.20987
+2023-04-29 14:16:18 ===> Epoch:89 Iter:17 idh_loss: 0.05179
+2023-04-29 14:16:18 ===> Epoch:89 Iter:18 idh_loss: 0.46542
+2023-04-29 14:16:18 ===> Epoch:89 Iter:19 idh_loss: 0.05791
+2023-04-29 14:16:19 ===> Epoch:89 Iter:20 idh_loss: 0.14908
+2023-04-29 14:16:19 ===> Epoch:89 Iter:21 idh_loss: 0.00435
+2023-04-29 14:16:20 ===> Epoch:89 Iter:22 idh_loss: 0.61103
+2023-04-29 14:16:20 ===> Epoch:89 Iter:23 idh_loss: 0.07677
+2023-04-29 14:16:21 ===> Epoch:89 Iter:24 idh_loss: 0.13445
+2023-04-29 14:16:21 ===> Epoch:89 Iter:25 idh_loss: 0.07803
+2023-04-29 14:16:22 ===> Epoch:89 Iter:26 idh_loss: 0.05026
+2023-04-29 14:16:22 ===> Epoch:89 Iter:27 idh_loss: 0.30373
+2023-04-29 14:16:22 ===> Epoch:89 Iter:28 idh_loss: 0.17909
+2023-04-29 14:16:26 ===> Epoch:89[best_epoch:47 | min_total_loss:0.21872 | idh_loss:0.68403 | idh_acc: 0.73333 | idh_auc:0.87037]
+2023-04-29 14:16:26 ===> Current epoch time consumption: 0.29 minutes!
+2023-04-29 14:16:26 ===> Estimated remaining training time: 0.00 hours!
+2023-04-29 14:16:27 ===> The total training time is 0.44 hours
+2023-04-29 14:16:27 ===> ----------------------------------The training process finished!-----------------------------------

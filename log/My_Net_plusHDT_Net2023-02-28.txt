@@ -1,0 +1,46 @@
+2023-02-28 15:45:17 ===> --------------------------------------This is all argsurations----------------------------------
+2023-02-28 15:45:17 ===> user=cyx
+2023-02-28 15:45:17 ===> experiment=My_Net_plus
+2023-02-28 15:45:17 ===> date=2023-02-28
+2023-02-28 15:45:17 ===> description=HDT_net,training on train.txt!
+2023-02-28 15:45:17 ===> root=/home/cyx/Datasets/BraData/
+2023-02-28 15:45:17 ===> train_dir=Train
+2023-02-28 15:45:17 ===> valid_dir=Train
+2023-02-28 15:45:17 ===> test_dir=Val
+2023-02-28 15:45:17 ===> mode=train
+2023-02-28 15:45:17 ===> train_file=IDH_train_1.txt
+2023-02-28 15:45:17 ===> valid_file=IDH_valid_1.txt
+2023-02-28 15:45:17 ===> test_file=IDH_test.txt
+2023-02-28 15:45:17 ===> dataset=brats_IDH
+2023-02-28 15:45:17 ===> model_name=HDT_Net
+2023-02-28 15:45:17 ===> input_C=4
+2023-02-28 15:45:17 ===> input_H=240
+2023-02-28 15:45:17 ===> input_W=240
+2023-02-28 15:45:17 ===> input_D=155
+2023-02-28 15:45:17 ===> crop_H=128
+2023-02-28 15:45:17 ===> crop_W=128
+2023-02-28 15:45:17 ===> crop_D=128
+2023-02-28 15:45:17 ===> output_D=155
+2023-02-28 15:45:17 ===> lr=0.0002
+2023-02-28 15:45:17 ===> weight_decay=1e-05
+2023-02-28 15:45:17 ===> amsgrad=True
+2023-02-28 15:45:17 ===> criterion=softmax_dice
+2023-02-28 15:45:17 ===> num_class=4
+2023-02-28 15:45:17 ===> seed=1234
+2023-02-28 15:45:17 ===> no_cuda=False
+2023-02-28 15:45:17 ===> gpu=0,1
+2023-02-28 15:45:17 ===> num_workers=8
+2023-02-28 15:45:17 ===> batch_size=4
+2023-02-28 15:45:17 ===> start_epoch=0
+2023-02-28 15:45:17 ===> end_epoch=100
+2023-02-28 15:45:17 ===> save_freq=50
+2023-02-28 15:45:17 ===> resume=
+2023-02-28 15:45:17 ===> load=True
+2023-02-28 15:45:17 ===> local_rank=0
+2023-02-28 15:45:17 ===> ----------------------------------------This is a halving line----------------------------------
+2023-02-28 15:45:17 ===> HDT_net,training on train.txt!
+2023-02-28 15:45:17 ===> Added key: store_based_barrier_key:1 to store for rank: 0
+2023-02-28 15:45:17 ===> Rank 0: Completed store-based barrier for key:store_based_barrier_key:1 with 2 nodes.
+2023-02-28 15:45:19 ===> re-training!!!
+2023-02-28 15:45:19 ===> Samples for train = 118
+2023-02-28 15:45:19 ===> Samples for valid = 30
