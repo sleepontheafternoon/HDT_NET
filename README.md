@@ -11,3 +11,5 @@
 <div align=center><img src="src/四个模态图片.png"></div><br>
 &emsp;&emsp;最终的数据集包括148名BraTS2021训练数据集中含IDH突变状态的受试者作为训练和验证数据，BraTS2021验证数据集中70名含IDH突变状态的受试者作为测试数据。下图详细说明了本研究所用数据信息。
 <div align=center><img src="src/image.png"></div>
+## 实验结果
+
